@@ -14,6 +14,8 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --site-announcement-bar-stripe-color1: #5377f8;
+  --site-announcement-bar-stripe-color2: hsla(227, 75%, 66%, 0);
 }
 
 .docusaurus-highlight-code-line {
