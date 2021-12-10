@@ -76,6 +76,7 @@ const config = {
             {
                 hashed: true,
                 docsDir: 'notes',
+                blogDir: 'false',
                 docsRouteBasePath: '/',
                 indexDocs: true,
                 indexPages: false,
