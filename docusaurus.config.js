@@ -64,6 +64,10 @@ const config = {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
             },
+            announcementBar: {
+                id: 'announcementBar-2', // Increment on change
+                content: `This website is still under development <a target="_blank" rel="noopener noreferrer" href="https://notes.nayanpatel.net">Stable Version</a>`,
+              },
         }),
 
     plugins: [
