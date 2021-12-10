@@ -37,20 +37,7 @@ a.theme-edit-this-page {
 }
 
 div[class^='announcementBar_'] {
-  --site-announcement-bar-stripe-color1: hsl(
-    var(--site-primary-hue-saturation),
-    85%
-  );
-  --site-announcement-bar-stripe-color2: hsl(
-    var(--site-primary-hue-saturation),
-    95%
-  );
-  background: repeating-linear-gradient(
-    35deg,
-    var(--site-announcement-bar-stripe-color1),
-    var(--site-announcement-bar-stripe-color1) 20px,
-    var(--site-announcement-bar-stripe-color2) 10px,
-    var(--site-announcement-bar-stripe-color2) 40px
-  );
   font-weight: bold;
+  background-image: linear-gradient(45deg, #5377f8a8 25%, #ffffff 25%, #ffffff 50%, #5377f8a8 50%, #5377f8a8 75%, #ffffff 75%, #ffffff 100%);
+background-size: 56.57px 56.57px;
 }
