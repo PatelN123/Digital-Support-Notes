@@ -5,7 +5,7 @@
   --ifm-link-hover-decoration: none;
   padding: 8px;
   border-radius: 10px;
-  background-color: var(--ifm-card-background-color);
+  background-color: #00000008;
 
   /* box-shadow: var(--ifm-global-shadow-lw); */
   box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.15);
