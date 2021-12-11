@@ -32,6 +32,7 @@ const config = {
                         linebreakPlugins,
                     ]
                 },
+                blog: false,
                 theme: {
                     customCss: [
                         require.resolve('inter-ui/inter.css'),
