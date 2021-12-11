@@ -5,6 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const linebreakPlugins = require("./src/plugins/linebreakPlugin");
+const pageRef = require('./src/plugins/pageRef');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -28,6 +29,9 @@ const config = {
                     editUrl: 'https://github.com/PatelN123/Nayan-Notes-New-main/edit/main/',
                     path: 'notes',
                     routeBasePath: '/notes',
+                    beforeDefaultRemarkPlugins: [
+                        pageRef,
+                    ],
                     remarkPlugins: [
                         linebreakPlugins,
                     ]
@@ -77,9 +81,9 @@ const config = {
             {
                 hashed: true,
                 docsDir: 'notes',
-                blogDir: 'false',
                 docsRouteBasePath: '/',
                 indexDocs: true,
+                indexBlog: false,
                 indexPages: false,
                 highlightSearchTermsOnTargetPage: false
             }
