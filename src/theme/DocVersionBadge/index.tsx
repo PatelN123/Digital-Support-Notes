@@ -9,7 +9,6 @@ import {
 function useBreadCrumbs(): string[] {
   const sidebar = useDocsSidebar();
   const {pathname} = useLocation();
-  console.log(pathname);
   const breadCrumbs: string[] = [];
   function find(sidebar: PropSidebar) {
     for (const item of sidebar) {
