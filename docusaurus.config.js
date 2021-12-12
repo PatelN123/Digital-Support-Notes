@@ -10,7 +10,7 @@ const pageRef = require('./src/plugins/pageRef');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Digital Support Services Notes',
-    tagline: 'All my notes for Digital Support Services! By Nayan',
+    tagline: 'All notes for Digital Support Services! By Nayan',
     url: 'https://newnotes.nayanpatel.net',
     baseUrl: '/',
     onBrokenLinks: 'throw',
