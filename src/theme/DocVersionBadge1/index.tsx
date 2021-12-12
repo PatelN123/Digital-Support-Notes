@@ -31,7 +31,7 @@ function useBreadCrumbs(): string[] {
   return breadCrumbs;
 }
 
-export default function DocVersionBadge({className}) {
+export default function DocVersionBadge1({className}) {
   const breadCrumbs = useBreadCrumbs();
   if (!breadCrumbs.length) {
     return null;
@@ -40,7 +40,7 @@ export default function DocVersionBadge({className}) {
     <span
       className={clsx(
         className,
-        ThemeClassNames.docs.docVersionBadge,
+        ThemeClassNames.docs.docVersionBadge1,
         'badge badge--secondary',
       )}>
       {breadCrumbs[0]}
