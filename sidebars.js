@@ -26,7 +26,7 @@ const sidebars = {
         description: 'Test',
         slug: '/notes/Business Context',
       },
-      items: ['Organsations'],
+      items: ['Organisations'],
     },
   ],
 };
