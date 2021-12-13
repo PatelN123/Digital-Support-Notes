@@ -10,7 +10,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   docs: [
-    'introduction',
+    'Business Context',
     {
       type: 'category',
       label: 'Getting Started',
@@ -19,7 +19,7 @@ const sidebars = {
       },
       collapsed: false,
       items: [
-        'Organisations',
+        'Business Context/Organisations',
       ],
     },
   ],
