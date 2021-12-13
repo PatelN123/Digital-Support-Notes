@@ -7,11 +7,11 @@ import {
 } from '@docusaurus/plugin-content-docs';
 
 function useBreadCrumbs(): string[] {
-  const sidebar = useDocsSidebar();
+  const sidebar1 = useDocsSidebar();
   const {pathname} = useLocation();
   const breadCrumbs: string[] = [];
-  function find(sidebar: PropSidebar) {
-    for (const item of sidebar) {
+  function find(sidebar1: PropSidebar1) {
+    for (const item of sidebar1) {
       if (item.type === 'title') {
         breadCrumbs.push(item.label);
         const res = find(item.items);
@@ -27,7 +27,7 @@ function useBreadCrumbs(): string[] {
     }
     return false;
   }
-  find(sidebar);
+  find(sidebar1);
   return breadCrumbs;
 }
 
