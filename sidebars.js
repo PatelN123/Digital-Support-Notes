@@ -10,7 +10,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   notes: [
-    'introduction',
+    'Business Context',
     {
       type: 'category',
       label: 'test',
