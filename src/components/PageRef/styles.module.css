@@ -1,11 +1,14 @@
 .link {
-  color: var(--ifm-color-emphasis-800);
   --ifm-link-color: var(--ifm-color-emphasis-800);
   --ifm-link-hover-color: var(--ifm-color-emphasis-800);
   --ifm-link-hover-decoration: none;
-  padding: 8px;
-  border-radius: 10px;
-  background-color: #00000008;
+  background-color: #dadae0;
+  border-radius: 100px;
+  box-shadow: 0 1.5px 3px 0 rgba(0,0,0,.15);
+  color: var(--ifm-color-emphasis-800);
+  padding: .05rem .4rem;
+  transition: box-shadow var(--ifm-transition-fast) ease,background-color var(--ifm-transition-fast) ease;
+  font-weight: 600;
 
   /* box-shadow: var(--ifm-global-shadow-lw); */
   box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.15);
