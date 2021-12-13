@@ -24,7 +24,7 @@ const sidebars = {
         type: 'generated-index',
         title: 'Test',
         description: 'Test',
-        slug: '@site/notes/Business Context',
+        slug: '/notes/Business Context',
       },
       items: ['Business Context/Organisations'],
     },
