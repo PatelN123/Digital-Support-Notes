@@ -16,7 +16,7 @@ const sidebars = {
 
   // But you can create a sidebar manually
   
-  module.exports = {
+  tutorialSidebar = {
     docs: [
       {
         type: 'category',
