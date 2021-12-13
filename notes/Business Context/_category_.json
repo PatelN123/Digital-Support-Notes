@@ -1,5 +1,9 @@
 {
   "label": "Business Context",
-  "position": 2,
-  "collapsed": true
+  "position": 1,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Business context"
+  }
 }
