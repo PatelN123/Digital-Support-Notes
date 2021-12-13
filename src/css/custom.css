@@ -11,7 +11,7 @@
 /* Website font */
 @import url('poppins.css');
 
-/* You can override the default Infima variables here. */
+/* You can override the default Infimma variables here. */
 :root {
   --ifm-leading-desktop: 1.75;
   --ifm-list-margin: 2rem;
@@ -281,7 +281,7 @@ html[data-theme="dark"] .medium-zoom-overlay {
 }
 
 .header-nanos-link:before {
-  background: no-repeat center 60%/22px url("/img/nanos.svg");
+  background: no-repeat center 60%/22px url("/img/logo.svg");
 }
 
 .header-github-link:before {
