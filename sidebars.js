@@ -28,4 +28,20 @@ const sidebars = {
    */
 };
 
+module.exports = {
+  docs: [
+    {
+      type: 'category',
+      label: 'Test',
+      link: {
+        type: 'generated-index',
+        title: 'Test Categ',
+        description: 'Test Cat',
+        slug: '/notes/business-context',
+      },
+      items: ['pages', 'docs', 'notes', 'search'],
+    },
+  ],
+};
+
 module.exports = sidebars;
