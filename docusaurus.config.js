@@ -78,6 +78,7 @@ const config = {
                 darkIconStyle: {
                   marginLeft: '2px',
                 },
+            }
         }),
 
     plugins: [
