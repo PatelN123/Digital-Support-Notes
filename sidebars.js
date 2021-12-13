@@ -30,7 +30,7 @@ const sidebars = {
         items: ['pages', 'docs', 'blog', 'search'],
       },
     ],
-  };
+  }
 
 };
 
