@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Tutorial',
-      items: ['hello'],
+      items: ['Organisations'],
     },
   ],
    */
@@ -37,9 +37,9 @@ module.exports = {
         type: 'generated-index',
         title: 'Test Categ',
         description: 'Test Cat',
-        slug: '/notes/business-context',
+        slug: '/notes/business context',
       },
-      items: ['pages', 'docs', 'notes', 'search'],
+      items: ['Organisations'],
     },
   ],
 };
