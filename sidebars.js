@@ -22,22 +22,6 @@ const sidebars = {
         'Organisations',
       ],
     },
-    {
-      type: 'category',
-      label: 'Advanced Guides',
-      items: ['using-plugins', 'using-themes', 'presets'],
-    },
-    {
-      type: 'category',
-      label: 'Migrating from v1 to v2',
-      items: [
-        'migration/migration-overview',
-        'migration/migration-automated',
-        'migration/migration-manual',
-        'migration/migration-versioned-sites',
-        'migration/migration-translated-sites',
-      ],
-    },
   ],
 };
 
