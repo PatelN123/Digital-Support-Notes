@@ -1,7 +1,6 @@
 {
   "label": "Business Context",
   "position": 1,
-  "className": "red",
   "link": {
     "type": "generated-index",
     "title": "Business context"
