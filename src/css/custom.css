@@ -5,6 +5,13 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* SVG font */
+@import url('m-plus-rounded-1c.css');
+
+/* Website font */
+@import url('poppins.css');
+
 :root {
   --ifm-color-primary: #5377f8;
   --ifm-color-primary-dark: rgb(33, 175, 144);
