@@ -1,10 +1,9 @@
 .link {
-    background-color: #dadae0;
-    align-items: center;
-    border-radius: 100px;
-    display: flex;
-    padding: .05rem .4rem;
-}
+  background-color: #dadae0;
+  align-items: center;
+  border-radius: 100px;
+  display: flex;
+  padding: .05rem .4rem;
 
   /* box-shadow: var(--ifm-global-shadow-lw); */
   box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.15);
