@@ -1,0 +1,33 @@
+import CodeBlock from '@theme/CodeBlock';
+import { AuthorityType } from '@site/docs/components/_nanos.mdx';
+
+<div>
+	<h3>
+		{/* <a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_node_modules-@docusaurus-theme-classic-lib-next-theme-Heading-styles-module" id="applydamage"></a> */}
+		{
+			props.authority == "server-only" ? <AuthorityType.ServerOnly /> :
+			props.authority == "client-only" ? <AuthorityType.ClientOnly /> :
+			props.authority == "authority-only" ? <AuthorityType.AuthorityOnly /> : null
+		}
+		<code>{props.name}</code>
+		{/* <a class="hash-link" href={`#applydamage`} title="Direct link to heading">#</a> */}
+	</h3>
+	<blockquote>
+		{props.description}
+	</blockquote>
+	<CodeBlock className="language-lua">
+		{props.example}
+	</CodeBlock>
+	<details>
+		<summary>
+			Parameter Details
+		</summary>
+| Type | Parameter | Default Value | Description |
+| :--- | :--- | :--- | :--- |
+| <BasicType.Number /> | **`damage`** |  |  |
+| <BasicType.String /> | **`bone_name`** | \`\` |  |
+| DamageType | **`damage_type`** | `DamageType.Shot` |  |
+| <Structs.Vector /> | **`from_direction`** | `Vector()` |  |
+| <Classes.Player /> | **`instigator`** | `nil` |  |
+	</details>
+</div>
