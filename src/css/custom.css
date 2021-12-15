@@ -41,6 +41,14 @@ li.theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-1.menu__list-it
   display: none;
 }
 
+article .badge.badge--secondary, table {
+  background-size: 42.43px 42.43px;
+  -webkit-box-shadow: 7px 8px 21px -11px rgba(0,0,0,.45);
+  font-weight: 599;
+  outline: #ebedf0;
+  outline-style: solid;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-leading-desktop: 1.75;
