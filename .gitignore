@@ -4,6 +4,9 @@
 # Production
 /build
 
+# i18n
+i18n
+
 # Generated files
 .docusaurus
 .cache-loader
@@ -18,5 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-.idea/
+node_modules
