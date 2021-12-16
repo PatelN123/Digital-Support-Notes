@@ -49,6 +49,13 @@ article .badge.badge--secondary, table {
   outline-style: solid;
 }
 
+.pagination-nav__label {
+  font-size: var(--ifm-h4-font-size);
+  font-weight: var(--ifm-heading-font-weight);
+  word-break: break-word;
+  font-weight: 599;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-leading-desktop: 1.75;
