@@ -2,7 +2,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Digital Support Notes',
+  title: 'Digital Support Services Notes',
   tagline: 'nayans notes',
   url: 'https://new-pateln123.vercel.app',
   baseUrl: '/',
@@ -16,13 +16,13 @@ module.exports = {
      announcementBar: {
        id: 'beta', // Any value that will identify this message.
        content:
-         '🚧 <strong>This website is still under development.</strong><a target="_blank" rel="noopener noreferrer" href="https://notes.nayanpatel.net"><strong>Stable version</strong></a>',
+         '🚧 <strong>This website is still under development.  </strong><a target="_blank" rel="noopener noreferrer" href="https://notes.nayanpatel.net"><strong>Stable version</strong></a>',
        backgroundColor: '#fafbfc', // Defaults to `#fff`.
        textColor: '#091E42', // Defaults to `#000`.
        isCloseable: true, // Defaults to `true`.
      },
     navbar: {
-      title: 'Digital Support Notes',
+      title: 'Digital Support Services Notes',
       logo: {
         alt: 'nayan notes',
         src: 'img/logo.png',
@@ -34,10 +34,6 @@ module.exports = {
           docId: 'welcome',
           position: 'left',
           label: 'Notes',
-        },
-        {
-          type: 'search',
-          position: 'right',
         },
       ],
     },
@@ -60,10 +56,9 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/nanos-world/docs/edit/master/',
-          blogTitle: 'nanos world news!',
-          blogDescription: 'All official news from nanos world!',
-          blogSidebarTitle: 'nanos world news',
+          blogTitle: 'Nayan Notes Blog!',
+          blogDescription: 'All official news from Nayan notes!',
+          blogSidebarTitle: 'Nayan Notes news',
           blogSidebarCount: 'ALL',
         },
         theme: {
@@ -81,7 +76,7 @@ module.exports = {
             docsRouteBasePath: '/',
             indexDocs: true,
             indexBlog: false,
-            indexPages: false,
+            indexPages: true,
             highlightSearchTermsOnTargetPage: false
         }
     ]
