@@ -22,7 +22,7 @@ module.exports = {
        isCloseable: true, // Defaults to `true`.
      },
     navbar: {
-      title: 'Digital Support Notes',
+      title: 'Digital Support Services Notes',
       logo: {
         alt: 'nayan notes',
         src: 'img/logo.png',
