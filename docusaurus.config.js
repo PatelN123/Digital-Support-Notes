@@ -16,7 +16,7 @@ module.exports = {
      announcementBar: {
        id: 'beta', // Any value that will identify this message.
        content:
-         '🚧 <strong>This website is still under development.</strong><a target="_blank" rel="noopener noreferrer" href="https://notes.nayanpatel.net"><strong>Stable version</strong></a>',
+         '🚧 <strong>This website is still under development.  </strong><a target="_blank" rel="noopener noreferrer" href="https://notes.nayanpatel.net"><strong>Stable version</strong></a>',
        backgroundColor: '#fafbfc', // Defaults to `#fff`.
        textColor: '#091E42', // Defaults to `#000`.
        isCloseable: true, // Defaults to `true`.
