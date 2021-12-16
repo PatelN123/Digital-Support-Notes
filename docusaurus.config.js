@@ -2,7 +2,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Digital Support Notes',
+  title: 'Digital Support Services Notes',
   tagline: 'nayans notes',
   url: 'https://new-pateln123.vercel.app',
   baseUrl: '/',
@@ -35,10 +35,6 @@ module.exports = {
           position: 'left',
           label: 'Notes',
         },
-        {
-          type: 'search',
-          position: 'right',
-        },
       ],
     },
     prism: {
@@ -60,10 +56,9 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/nanos-world/docs/edit/master/',
-          blogTitle: 'nanos world news!',
-          blogDescription: 'All official news from nanos world!',
-          blogSidebarTitle: 'nanos world news',
+          blogTitle: 'Nayan Notes Blog!',
+          blogDescription: 'All official news from Nayan notes!',
+          blogSidebarTitle: 'Nayan Notes news',
           blogSidebarCount: 'ALL',
         },
         theme: {
@@ -81,7 +76,7 @@ module.exports = {
             docsRouteBasePath: '/',
             indexDocs: true,
             indexBlog: false,
-            indexPages: false,
+            indexPages: true,
             highlightSearchTermsOnTargetPage: false
         }
     ]
