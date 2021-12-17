@@ -35,7 +35,54 @@ module.exports = {
           position: 'left',
           label: 'Notes',
         },
+        {
+          href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Sites',
+          items: [
+            {
+              label: 'Notes',
+              to: 'docs',
+            },
+            {
+              label: 'Main Site',
+              href: 'https://nayanpatel.net',
+            },
+            
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              html: `
+              <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
+                <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          title: 'Code of Conduct',
+          items: [
+            {
+              label: 'Code of Conduct',
+              href: 'https://github.com/Nayan-Web/Digital-Support-Notes/blob/main/Code%20of%20Conduct.md',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Nayan Web`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
