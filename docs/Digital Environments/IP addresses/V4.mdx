@@ -1,0 +1,39 @@
+---
+id: ip addresses v4
+description: What are IP addresses v4?
+slug: /ip-addresses/v4
+---
+
+# 4️⃣ IP addresses V4
+
+import { ReferenceLink } from '@site/docs/components/_nanos.mdx';
+
+The fourth version of the Internet Protocol (IP)
+
+IP v4 addresses use the format **`xxx.xxx.xxx.xxx`** <br />
+Four sets of three digits ranging between 0-255 separated by a full stop. The number 0 and 255 are not usually used for IP addresses.
+Each set of digits is called an `octet` <br />
+
+Typically, addresses appear as: <br />
+`192.168.1.1`  -  IP Address <br />
+`255.255.255.0`  -  Subnet Mask <br />
+
+Part of the IP address relates to a network address and part to a node address. (Submet mask)
+
+---
+**IP Address Classes**
+
+The first octet of an IP address specifies which class an address belongs to. 
+
+For each class of addresses a default subnet mask exists.
+
+![](img/Subnet-Mask.PNG)
+
+![](img/Special-IP-Addresses.PNG)
+
+:::tip APIPA
+**Automatic Private IP Addressing**
+A feature available in Windows that caters for DHCP issues. If there are problems with the DHCP server and an IP Address cannot be obtained dynamically then a special class B address in the range of `169.254.*.*` will be issued that given limited network functionality.
+:::
+
+<ReferenceLink href="https://cdn.nayan.gq/notion/ipv4.html">🧠 Test your knowledge!</ReferenceLink>
