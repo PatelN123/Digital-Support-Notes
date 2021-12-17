@@ -41,6 +41,13 @@ li.theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-1.menu__list-it
   display: none;
 }
 
+.announcementBar_3WsW, .announcementBar_axC9 {
+  height: var(--docusaurus-announcement-bar-height);
+  background-image: linear-gradient(45deg,#94aaf7 25%,#c2cfff 0,#c2cfff 50%,#94aaf7 0,#94aaf7 75%,#c2cfff 0,#c2cfff);
+  background-size: 56.57px 56.57px;
+  font-weight: 550;
+}
+
 article .badge.badge--secondary, table {
   background-size: 42.43px 42.43px;
   -webkit-box-shadow: 7px 8px 21px -11px rgba(0,0,0,.45);
