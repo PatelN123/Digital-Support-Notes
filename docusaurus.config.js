@@ -54,9 +54,10 @@ module.exports = {
               to: 'docs',
             },
             {
-              label: 'Main SIte',
+              label: 'Main Site',
               href: 'https://nayanpatel.net',
             },
+            
           ],
         },
         {
@@ -68,6 +69,14 @@ module.exports = {
                 <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
               </a>
             `,
+            },
+          ],
+        },
+        {
+          title: 'Code of Conduct',
+          items: [
+            {
+              href: "https://github.com/Nayan-Web/Digital-Support-Notes/blob/main/Code%20of%20Conduct.md",
             },
           ],
         },
