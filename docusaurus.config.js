@@ -76,8 +76,8 @@ module.exports = {
           title: 'Code of Conduct',
           items: [
             {
-              label: "Code of Conduct"
-              href: "https://github.com/Nayan-Web/Digital-Support-Notes/blob/main/Code%20of%20Conduct.md",
+              label: 'Code of Conduct',
+              href: 'https://github.com/Nayan-Web/Digital-Support-Notes/blob/main/Code%20of%20Conduct.md',
             },
           ],
         },
