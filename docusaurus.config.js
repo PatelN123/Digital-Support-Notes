@@ -2,7 +2,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Digital Support Services Notes',
+  title: 'Digital Support Services T-Level Notes',
   tagline: 'nayans notes',
   url: 'https://notes.nayanpatel.net',
   baseUrl: '/',
@@ -21,6 +21,7 @@ module.exports = {
        textColor: '#091E42', // Defaults to `#000`.
        isCloseable: true, // Defaults to `true`.
      },
+     metadata: [{name: 'Digital Support Services T-Level Notes', content: 'notes, docs'}],
     navbar: {
       title: 'Digital Support Services Notes',
       logo: {
