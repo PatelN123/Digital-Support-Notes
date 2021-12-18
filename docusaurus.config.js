@@ -4,7 +4,7 @@ const isDev = process.env.NODE_ENV === 'development';
 module.exports = {
   title: 'Digital Support Services Notes',
   tagline: 'nayans notes',
-  url: 'https://new-pateln123.vercel.app',
+  url: 'https://notes.nayanpatel.net',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
