@@ -101,6 +101,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -127,14 +129,6 @@ module.exports = {
             indexPages: true,
             highlightSearchTermsOnTargetPage: false
         }
-    ],
-    [
-      'content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      ({
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
-      }),
     ],
 ],
 };
