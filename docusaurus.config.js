@@ -127,6 +127,14 @@ module.exports = {
             indexPages: true,
             highlightSearchTermsOnTargetPage: false
         }
-    ]
+    ],
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      }),
+    ],
 ],
 };
