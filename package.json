@@ -19,6 +19,7 @@
     "@crowdin/cli": "^3.6.5",
     "@docusaurus/core": "0.0.0-4332",
     "@docusaurus/plugin-client-redirects": "0.0.0-4332",
+    "@docusaurus/plugin-pwa": "0.0.0-4332",
     "@docusaurus/preset-classic": "0.0.0-4332",
     "@easyops-cn/docusaurus-search-local": "^0.21.3",
     "@mdx-js/react": "^1.6.21",
