@@ -1,0 +1,6 @@
+header+p:after {
+    display: block;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    display: none
+}
