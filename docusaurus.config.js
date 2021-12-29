@@ -27,7 +27,7 @@ module.exports = {
       logo: {
         alt: 'nayan notes',
         src: 'img/logo.png',
-        href: '/docs'
+        href: '/'
       },
       items: [
         {
