@@ -6,11 +6,8 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import useThemeContext from "@theme/hooks/useThemeContext"; //docs: https://v2.docusaurus.io/docs/2.0.0-alpha.69/theme-classic#usethemecontext
 
-import { AiFillBuild } from "react-icons/ai";
-import { HiLightningBolt, HiOutlineLightBulb } from "react-icons/hi";
-import { IoColorPaletteSharp, IoAccessibility, IoMoon } from "react-icons/io5";
+import { HiOutlineLightBulb } from "react-icons/hi";
 import { BiMessageSquareDetail, BiPaint } from "react-icons/bi";
-import { BsPencilSquare } from "react-icons/bs";
 
 function HomepageHeader() {
   const { isDarkTheme } = useThemeContext();
