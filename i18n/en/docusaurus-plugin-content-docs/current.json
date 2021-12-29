@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.main.category.📌 Welcome": {
+    "message": "📌 Welcome",
+    "description": "The label for category 📌 Welcome in sidebar main"
+  },
+  "sidebar.main.category.💼 Business Context": {
+    "message": "💼 Business Context",
+    "description": "The label for category 💼 Business Context in sidebar main"
+  },
+  "sidebar.main.category.💻 Digital Environments": {
+    "message": "💻 Digital Environments",
+    "description": "The label for category 💻 Digital Environments in sidebar main"
+  },
+  "sidebar.main.category.☁️ Cloud Computing": {
+    "message": "☁️ Cloud Computing",
+    "description": "The label for category ☁️ Cloud Computing in sidebar main"
+  },
+  "sidebar.main.category.📍 IP addresses": {
+    "message": "📍 IP addresses",
+    "description": "The label for category 📍 IP addresses in sidebar main"
+  },
+  "sidebar.main.category.📅 Planning": {
+    "message": "📅 Planning",
+    "description": "The label for category 📅 Planning in sidebar main"
+  },
+  "sidebar.main.category.👨‍💻 Website Planning Task": {
+    "message": "👨‍💻 Website Planning Task",
+    "description": "The label for category 👨‍💻 Website Planning Task in sidebar main"
+  },
+  "sidebar.main.category.📊 Data": {
+    "message": "📊 Data",
+    "description": "The label for category 📊 Data in sidebar main"
+  },
+  "sidebar.main.category.👆 Types": {
+    "message": "👆 Types",
+    "description": "The label for category 👆 Types in sidebar main"
+  },
+  "sidebar.main.category.👊 Diversity and Inclusion": {
+    "message": "👊 Diversity and Inclusion",
+    "description": "The label for category 👊 Diversity and Inclusion in sidebar main"
+  },
+  "sidebar.main.category.📜 Legislation": {
+    "message": "📜 Legislation",
+    "description": "The label for category 📜 Legislation in sidebar main"
+  }
+}

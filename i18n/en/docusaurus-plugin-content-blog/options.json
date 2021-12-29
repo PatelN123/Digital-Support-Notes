@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Nayan Notes Blog!",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "All official news from Nayan notes!",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Nayan Notes news",
+    "description": "The label for the left sidebar"
+  }
+}
