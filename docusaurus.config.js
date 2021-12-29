@@ -104,6 +104,7 @@ module.exports = {
 
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          editUrl: "https://github.com/pateln123/Digital-Support-Notes/edit/main/"
         },
         blog: {
           showReadingTime: true,
