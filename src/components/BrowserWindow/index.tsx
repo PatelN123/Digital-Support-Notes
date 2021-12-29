@@ -7,7 +7,7 @@
 
  import React, {ReactNode} from 'react';
 
- import styles from '@site/src/components/BrowserWindow/styles.modules.css';
+ import styles from './styles.module.css';
  
  interface Props {
    children: ReactNode;
@@ -15,11 +15,7 @@
    url: string;
  }
  
- function BrowserWindow({
-   children,
-   minHeight,
-   url = 'http://localhost:3000',
- }: Props): JSX.Element {
+ function BrowserWindow({children, minHeight, url}: Props): JSX.Element {
    return (
      <div className={styles.browserWindow} style={{minHeight}}>
        <div className={styles.browserWindowHeader}>
