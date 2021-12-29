@@ -20,7 +20,7 @@ function HomepageHeader() {
           <span style={{ color: "var(--ifm-color-primary)" }}>
             Digital Support Services
           </span>{""}
-          . 
+          .
         </h1>
         <p className={styles.heroDescription}>
           All notes for <strong>Digital Support Services</strong>. Either start reading the notes, by clicking the button below, or contribute and help improve the notes!
