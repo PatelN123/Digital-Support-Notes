@@ -1314,6 +1314,17 @@
     url-loader "^4.1.1"
     webpack "^5.61.0"
 
+"@docusaurus/module-type-aliases@^2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-beta.14.tgz#8a11f9c4a408d8e8cc4cb59ba81a28ecc629256a"
+  integrity sha512-jlSwYoRVeNxvmjbVil35mRVSXZdOmEM95Sph7NxC6IE/ceT1a8s4tpzI2xUMsGgSfLBldqhkXe+WSOYqUL7x3w==
+  dependencies:
+    "@docusaurus/types" "2.0.0-beta.14"
+    "@types/react" "*"
+    "@types/react-helmet" "*"
+    "@types/react-router-config" "*"
+    "@types/react-router-dom" "*"
+
 "@docusaurus/plugin-client-redirects@0.0.0-4332":
   version "0.0.0-4332"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-client-redirects/-/plugin-client-redirects-0.0.0-4332.tgz#596a6cd17cc966fc01da03ab567531e98529ab8e"
@@ -1548,6 +1559,18 @@
   dependencies:
     fs-extra "^10.0.0"
     tslib "^2.3.1"
+
+"@docusaurus/types@2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-beta.14.tgz#d9e1bae14a16ad96c51caaea3c5049eedbaed869"
+  integrity sha512-1mVrVI0crwZrnjJJeUJUfBrwKdPJVsvh3E0I4pRG9Bo9dfeT8j3bj/GgjaKX4VYRFkDfsVPEpMfrVWujiWr4qQ==
+  dependencies:
+    commander "^5.1.0"
+    joi "^17.4.2"
+    querystring "0.2.0"
+    utility-types "^3.10.0"
+    webpack "^5.61.0"
+    webpack-merge "^5.8.0"
 
 "@docusaurus/utils-common@0.0.0-4332":
   version "0.0.0-4332"
@@ -1924,6 +1947,11 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
+"@tsconfig/docusaurus@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@tsconfig/docusaurus/-/docusaurus-1.0.4.tgz#fc40f87a672568678d83533dd4031a09d75877ca"
+  integrity sha512-I6sziQAzLrrqj9r6S26c7aOAjfGVXIE7gWdNONPwnpDcHiMRMQut1s1YCi/APem3dOy23tAb2rvHfNtGCaWuUQ==
+
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.2.tgz#aea2059e28b7658639081347ac4fab3de166e6f0"
@@ -2013,6 +2041,11 @@
   dependencies:
     "@types/unist" "*"
 
+"@types/history@*":
+  version "4.7.9"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.9.tgz#1cfb6d60ef3822c589f18e70f8b12f9a28ce8724"
+  integrity sha512-MUc6zSmU3tEVnkQ78q0peeEjKWPUADMlC/t++2bI8WnAG2tvYRPIgHG8lWkXwqc8MsUF6Z2MOf+Mh5sazOmhiQ==
+
 "@types/html-minifier-terser@^6.0.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-6.1.0.tgz#4fc33a00c1d0c16987b1a20cf92d20614c55ac35"
@@ -2076,6 +2109,39 @@
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
+
+"@types/react-helmet@*":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-6.1.5.tgz#35f89a6b1646ee2bc342a33a9a6c8777933f9083"
+  integrity sha512-/ICuy7OHZxR0YCAZLNg9r7I9aijWUWvxaPR6uTuyxe8tAj5RL4Sw1+R6NhXUtOsarkGYPmaHdBDvuXh2DIN/uA==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-router-config@*":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@types/react-router-config/-/react-router-config-5.0.4.tgz#fea3b063ed6b6b24f64efce323e5afba4b9b6e96"
+  integrity sha512-wJIRO2JcR/prphs4h7Fadx48vlqC3qMyTImqOLHkpwWCYBq9SnC+UAOBVZM4pCrzdIvUoXQy3b18+J6LXEKVpw==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router-dom@*":
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.2.tgz#ebd8e145cf056db5c66eb1dac63c72f52e8542ee"
+  integrity sha512-ELEYRUie2czuJzaZ5+ziIp9Hhw+juEw8b7C11YNA4QdLCVbQ3qLi2l4aq8XnlqM7V31LZX8dxUuFUCrzHm6sqQ==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router@*":
+  version "5.1.17"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-5.1.17.tgz#087091006213b11042f39570e5cd414863693968"
+  integrity sha512-RNSXOyb3VyRs/EOGmjBhhGKTbnN6fHWvy5FNLzWfOWOGjgVUKqJZXfpKzLmgoU8h6Hj8mpALj/mbXQASOb92wQ==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
 
 "@types/react@*":
   version "17.0.37"
@@ -7639,6 +7705,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript@^4.5.4:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
+  integrity sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==
 
 ua-parser-js@^0.7.30:
   version "0.7.31"
