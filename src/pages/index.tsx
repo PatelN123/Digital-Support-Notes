@@ -33,7 +33,7 @@ function HomepageHeader() {
           to="/docs/"
           style={{ marginRight: 10 }}
         >
-          Get Started
+          See the notes
         </Link>
 
         <a
