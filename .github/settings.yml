@@ -1,0 +1,15 @@
+##### TO BE PUT as .github/settings.yml in REPO's DEFAULT BRANCH
+
+# Set to true to add assignees to pull requests
+addAssignees: true
+
+addReviewers: true
+
+# A list of reviewers to be added to pull requests (GitHub user name)
+# a floating reviewer needs a weight, by default its 1
+# if the PR author is in fixed they will not come in review
+# Reviewers already selected before the PR creation will still be added also respecting total count
+reviewers:
+    total: 2  
+    fixed:
+        - PatelN123
