@@ -31,10 +31,9 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'welcome',
-          position: 'left',
+          to: '/docs',
           label: 'Notes',
+          position: 'left',
         },
         {
           href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
