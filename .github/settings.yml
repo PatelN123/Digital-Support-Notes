@@ -10,6 +10,6 @@ addReviewers: true
 # if the PR author is in fixed they will not come in review
 # Reviewers already selected before the PR creation will still be added also respecting total count
 reviewers:
-    total: 2  
+    total: 1  
     fixed:
         - PatelN123
