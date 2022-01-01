@@ -491,3 +491,13 @@ a.card-link:hover img {
 .hash-link, .authority-availability {
   user-select: none;
 }
+
+code {
+  background-color: #e4e4e49e;
+  border: none;
+  border-radius: var(--ifm-code-border-radius);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: var(--ifm-code-font-size);
+  padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
+  color: #4d85d6;
+}
