@@ -390,6 +390,16 @@ a.reference-link {
   position: relative;
 }
 
+code {
+  background-color: #e4e4e49e;
+  border: none;
+  border-radius: var(--ifm-code-border-radius);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: var(--ifm-code-font-size);
+  padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
+  color: #4d85d6;
+}
+
 a.reference-link:hover {
   border-color: var(--ifm-color-emphasis-300);
   transition: border-color .15s cubic-bezier(.4,0,.2,1);
@@ -491,3 +501,5 @@ a.card-link:hover img {
 .hash-link, .authority-availability {
   user-select: none;
 }
+
+
