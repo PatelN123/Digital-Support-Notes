@@ -45,5 +45,5 @@ export default function DocVersionBadge({className}) {
       )}>
       {breadCrumbs[0]}
     </span>
-  );  
+  );
 }
