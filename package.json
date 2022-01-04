@@ -13,7 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "crowdin": "crowdin",
-    "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download"
+    "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download",
+    "go": "yarn run build && npm run serve"
   },
   "dependencies": {
     "@crowdin/cli": "^3.6.5",
