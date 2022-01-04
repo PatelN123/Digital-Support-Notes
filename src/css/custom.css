@@ -232,13 +232,7 @@ svg[class^='iconLanguage'] {
 }
 
 /* Main content */
-@media screen and (min-width: 1600px) {
-  /* Center page TODO: only fullscreen */
-  .navbar__inner, .docs-wrapper {
-    width: 80%;
-    margin: 0 auto;
-  }
-}
+
 
 article,
 .pagination-nav,
