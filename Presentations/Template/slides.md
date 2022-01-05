@@ -63,18 +63,14 @@ h1 {
 
 ---
 
-# Navigation
+# Threats to systems and data
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+If a user falls for a malicious trick, there are many security vulnerabilities that could be at risk.
 
-### Keyboard Shortcuts
+### Some system and data threats...
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+text...
+
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 <img
