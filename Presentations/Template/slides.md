@@ -185,7 +185,7 @@ Step by step guide on how to respond to phishing.
 
 Here are some general best practices to avoid cyber attack:
 
-
+<div>
 
 <div v-click>
 
@@ -219,7 +219,7 @@ Here are some general best practices to avoid cyber attack:
 ### ⌨️ Secure passwords
 
 - Ensure you use long passwords and include special characters. 
-- Don't write your password down, or store it anywhere insecure.
+- Don't write your password down, or store it anywhere insecure. 
 
 </div>
 </div></div>
