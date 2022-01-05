@@ -5,8 +5,8 @@
 
 # Customize each tool. If analyses fail, try adjusting each option referencing the following example.
 linter:
-  root_dir: /docs
   misspell:
+    root_dir: /docs
     locale: UK
 
 #   # ESLint example. See https://help.sider.review/tools/javascript/eslint
