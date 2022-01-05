@@ -244,10 +244,10 @@ Here are some general best practices to avoid cyber attack:
     -webkit-transition-duration: .1s;
     -o-transition-duration: .1s;
     transition-duration: .1s;
-    box-shadow: rgb(236 72 153 / 34%) 0px 0px 0px 3px;
+    box-shadow: #5690d957 0px 0px 0px 3px;
     border-radius: 10px;
     padding: 10px;
-    background-color: #5690d957;
+    background-color: #1b1b1b;
     width: max-content;
   }
 
