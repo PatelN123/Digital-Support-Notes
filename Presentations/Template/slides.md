@@ -82,6 +82,7 @@ Some system and data threats...
 </div>
 
 <div v-click>
+
 ### 🦠 Virus
 
 - Designed to copy and attach itself to applications on your computer and spread through server files onto other workstations within the workplace. 
@@ -100,6 +101,10 @@ Some system and data threats...
 - They contain a suspicious link and when clicked, it'll prompt your for information, however, the site may look somewhat realistic.
 - This can also result in a loss of data and denied access to systems.
 
+</div>
+
+<div v-click>
+
 ### 🕵️ Spyware
 
 - Usually comes in the form of a popup and prompts you to install applications or download files
@@ -107,11 +112,6 @@ Some system and data threats...
 
 </div>
 </div></div>
-
-## 💬 Many more
-
-There are many other threats to data, these are just some of 
-
 
 ---
 
