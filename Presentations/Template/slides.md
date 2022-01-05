@@ -127,8 +127,19 @@ Step by step guide on how to respond to phishing.
 <div v-click>
 
 #### Step 1
-##### Identification
-- text
+##### **Identification**
+- The first step in responding to a phishing attack is to identify the sender. 
+  - Check the email address of the sender against the intended sender.
+- Check the email for suspicious files. 
+
+</div>
+
+<div v-click>
+
+#### Step 2
+##### **Triage**
+- If step one passes, and you discover that this could be an actual phishing attack:
+  - 
 
 </div>
 
