@@ -83,8 +83,6 @@ h1 {
 
 </div><div>
 
-# text
-
 <div v-click>
 
 ### text
