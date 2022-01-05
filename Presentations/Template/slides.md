@@ -71,8 +71,6 @@ Here are some system and data threats...
 
 <div class="grid grid-cols-2 gap-x-2"><div>
 
-
-
 <div v-click>
 
 ### 👷 Social Engineering
@@ -98,8 +96,7 @@ Here are some system and data threats...
 
 ### 🪱 Worms
 
-- Comes in the form of an email, text, message...
-- They contain a suspicious link and when clicked, it'll prompt your for information, however, the site may look somewhat realistic.
+- Comes in the form of an email, text, message, they usually contain a suspicious link and when clicked, it'll prompt your for information.
 - This can also result in a loss of data and denied access to systems.
 
 </div>
