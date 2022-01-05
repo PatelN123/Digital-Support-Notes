@@ -134,6 +134,9 @@ Step by step guide on how to respond to phishing.
 
 </div>
 
+<br>
+<br>
+
 <div v-click>
 
 #### Step 2
@@ -142,6 +145,9 @@ Step by step guide on how to respond to phishing.
   - Try to determine the severity of this attack, then notify the IT department of this. 
 
 </div>
+
+<br>
+<br>
 
 <div v-click>
 
