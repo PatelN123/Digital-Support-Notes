@@ -66,18 +66,23 @@ h1 {
 
 <div class="grid grid-cols-2 gap-x-4"><div>
 
-# text
+# Threats to systems and data
+
+If a user falls for a malicious trick, there are many security vulnerabilities that could be at risk. <br>
+
+Some system and data threats...
 
 <div v-click>
 
-### text
+### 👷 Social Engineering
 
-- text
-- text
+- Occurs when an employee inside the company is tricked into revealing information. Employees would be manipulated to give out passwords or other confidential information. 
+- Can take the form of attackers impersonating friends or other trusted sources. 
 
-### text
+### 🦠 Virus
 
-- text
+- Designed to copy and attach itself to applications on your computer and spread through server files onto other workstations within the workplace. 
+- This can result in a loss of company data. 
 
 </div>
 
@@ -85,17 +90,23 @@ h1 {
 
 <div v-click>
 
-### text
+### 🪱 Worms
 
-- text
+- Comes in the form of an email, text, message...
+- They contain a suspicious link and when clicked, it'll prompt your for information, however, the site may look somewhat realistic.
+- This can also result in a loss of data and denied access to systems.
 
-### text
+### 🕵️ Spyware
 
-- text
+- Usually comes in the form of a popup and prompts you to install applications or download files
+- From there, the application keeps track of your keystrokes, reads and deletes files and has full control over your machine.
 
 </div>
 </div></div>
 
+## 💬 Many more
+
+There are many other threats to data, these are just some of them. 
 
 
 ---
