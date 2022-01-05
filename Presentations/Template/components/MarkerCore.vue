@@ -1,3 +1,3 @@
 <template>
-  <Marker class="text-orange-400">Description</Marker>
+  <Marker class="text-red-400">Threats</Marker>
 </template>
