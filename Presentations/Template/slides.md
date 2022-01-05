@@ -117,141 +117,20 @@ Here are some system and data threats...
 </div>
 </div></div>
 
----
-
-# Threats to systems and data
-
-If a user falls for a malicious trick, there are many security vulnerabilities that could be at risk.
-
-### Some system and data threats...
-
-**Social Engineering** <br>
-
-
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
----
-
-# Code
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
 
 ---
 
-# Passing Refs as Arguments <MarkerPattern />
+# Response to suspected phishing <MarkerPattern />
 
-<div class="grid grid-cols-[160px,1fr,180px] gap-x-4">
+Step by step guide on how to respond to phishing.
 
-<div />
+<div v-click>
 
-###### Implementation
+#### Step 1
 
-###### Usage
-
-<v-clicks :every='3'>
-
-<div class="my-auto leading-6 text-base opacity-75">
-Plain function
-</div>
-
-
-```ts
-function add(a: number, b: number) {
-  return a + b
-}
-```
-
-```ts
-let a = 1
-let b = 2
-
-let c = add(a, b) // 3
-```
-
-<div class="my-auto leading-6 text-base opacity-75">
-Accpets refs,<br>
-returns a reactive result.
-</div>
-
-```ts
-function add(a: Ref<number>, b: Ref<number>) {
-  return computed(() => a.value + b.value)
-}
-```
-
-```ts
-const a = ref(1)
-const b = ref(2)
-
-const c = add(a, b)
-c.value // 3
-```
-
-<div class="my-auto leading-6 text-base opacity-75">
-Accpets both refs and plain values.
-</div>
-
-```ts
-function add(
-  a: Ref<number> | number,
-  b: Ref<number> | number
-) {
-  return computed(() => unref(a) + unref(b))
-}
-```
-
-```ts
-const a = ref(1)
-
-const c = add(a, 5)
-c.value // 6
-```
-
-</v-clicks>
+- text
 
 </div>
-
 
 ---
 
