@@ -33,7 +33,8 @@ By [Nayan](https://nayanpatel.net)
 
 ---
 
-# What is a cyber attack?
+# What is a cyber attack? <MarkerPattern />
+
 
 Cyber attacks are unwelcome attempts to steal, expose, alter, disable or destroy information through unauthorized access to computer systems. <br>
 
@@ -49,6 +50,8 @@ They can come in many different forms, such as:
 
 Read more about [cyber attacks](https://notes.nayanpatel.net)
 
+<div class="grid grid-cols-2 gap-x-2"><div>
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -63,7 +66,7 @@ h1 {
 
 ---
 
-# Threats to systems and data <MarkerPattern />
+# Threats to systems and data
 
 If a user falls for a malicious trick, there are many security vulnerabilities that could be at risk. <br>
 
