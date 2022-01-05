@@ -1,3 +1,3 @@
 <template>
-  <Marker class="text-green-500">Desc</Marker>
+  <Marker class="text-orange-400">Description</Marker>
 </template>
