@@ -35,6 +35,8 @@ By [Nayan](https://nayanpatel.net)
 
 # What is a cyber attack?
 
+<div class="grid grid-cols-2 gap-x-4">
+
 Cyber attacks are unwelcome attempts to steal, expose, alter, disable or destroy information through unauthorized access to computer systems. <br>
 
 They can come in many different forms, such as:
@@ -43,6 +45,8 @@ They can come in many different forms, such as:
 - 🎣 **Phishing** - Occurs when a hacker sends emails that seem to be coming from trusted sources in an attempt to grab sensitive information.
 - 💉 **SQL injection** - A command is injected into a data plane in place of something else that normally goes there, such as a password or login. The server then runs the command and the system is penetrated.
 - 💬 **And more...** - There are more cyber attacks out there, these are only some of them!
+
+</div>
 
 <br>
 <br>
