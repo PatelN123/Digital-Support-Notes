@@ -132,6 +132,29 @@ Step by step guide on how to respond to phishing.
 
 </div>
 
+<style>
+
+  .slidev-vclick-target {
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: cubic-bezier(.4,0,.2,1);
+    -o-transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: .15s;
+    -o-transition-duration: .15s;
+    transition-duration: .15s;
+    -webkit-transition-duration: .1s;
+    -o-transition-duration: .1s;
+    transition-duration: .1s;
+    box-shadow: rgb(236 72 153 / 34%) 0px 0px 0px 3px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1b1b1b;
+    width: max-content;
+  }
+
+</style>
 ---
 
 # Components
