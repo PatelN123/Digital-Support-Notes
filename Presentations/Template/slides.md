@@ -138,10 +138,18 @@ Step by step guide on how to respond to phishing.
 
 #### Step 2
 ##### **Triage**
-- If step one passes, and you discover that this could be an actual phishing attack:
-  - 
+- If step one passes, and you discover that this could be an actual phishing attack
+  - Try to determine the severity of this attack, then notify the IT department of this. 
 
 </div>
+
+<div v-click>
+
+#### Following steps
+- The following steps, such as Investigation, Remediation and Risk avoidance will be done by the IT department. 
+
+</div>
+
 
 <style>
 
