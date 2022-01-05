@@ -8,6 +8,7 @@ linter:
   misspell:
     root_dir: ./Website/docs
     locale: UK
+    exclude: ./Presentations
 
 #   # ESLint example. See https://help.sider.review/tools/javascript/eslint
 #   eslint:
