@@ -128,13 +128,11 @@ Step by step guide on how to respond to phishing.
 
 #### Step 1
 ##### **Identification**
-- The first step in responding to a phishing attack is to identify the sender. 
-  - Check the email address of the sender against the intended sender.
+- The first step in responding to a phishing attack is to identify the sender and check the email address against the intended senders' email address.
 - Check the email for suspicious files. 
 
 </div>
 
-<br>
 <br>
 
 <div v-click>
@@ -146,7 +144,6 @@ Step by step guide on how to respond to phishing.
 
 </div>
 
-<br>
 <br>
 
 <div v-click>
