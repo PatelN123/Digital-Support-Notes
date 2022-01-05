@@ -63,37 +63,42 @@ h1 {
 
 ---
 
-# title
 
 <div class="grid grid-cols-2 gap-x-4"><div>
-
-<div v-click>
-
-### Pros
-
-text
-
-</div>
-
-<div v-click>
-
-### Pros
-
-text
-
-</div>
-
-</div></div>
 
 # text
 
 <div v-click>
 
-### Pros
+### text
 
-text
+- text
+- text
+
+### text
+
+- text
 
 </div>
+
+</div><div>
+
+# text
+
+<div v-click>
+
+### text
+
+- text
+
+### text
+
+- text
+
+</div>
+</div></div>
+
+
 
 ---
 
