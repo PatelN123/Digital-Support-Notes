@@ -195,6 +195,8 @@ Here are some general best practices to avoid cyber attack:
 
 </div>
 
+<br>
+
 <div v-click>
 
 ### 📮 Email sender
@@ -203,6 +205,7 @@ Here are some general best practices to avoid cyber attack:
 
 </div>
 
+<br>
 
 <div>
 
@@ -213,6 +216,8 @@ Here are some general best practices to avoid cyber attack:
 - Avoid installing apps from unknown sources. 
 
 </div>
+
+<br>
 
 <div v-click>
 
