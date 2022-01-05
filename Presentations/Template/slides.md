@@ -247,7 +247,7 @@ Here are some general best practices to avoid cyber attack:
     box-shadow: rgb(236 72 153 / 34%) 0px 0px 0px 3px;
     border-radius: 10px;
     padding: 10px;
-    background-color: #1b1b1b;
+    background-color: #5690d957;
     width: max-content;
   }
 
