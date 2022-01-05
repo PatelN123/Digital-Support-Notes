@@ -81,11 +81,13 @@ Some system and data threats...
 
 </div>
 
+<div v-click>
 ### 🦠 Virus
 
 - Designed to copy and attach itself to applications on your computer and spread through server files onto other workstations within the workplace. 
 - This can result in a loss of company data. 
 
+</div>
 
 
 </div><div>
