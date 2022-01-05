@@ -185,7 +185,7 @@ Step by step guide on how to respond to phishing.
 
 Here are some general best practices to avoid cyber attack:
 
-<div class="grid grid-cols-2 gap-x-2"><div>
+
 
 <div v-click>
 
