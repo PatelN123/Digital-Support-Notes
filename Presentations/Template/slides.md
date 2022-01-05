@@ -69,7 +69,7 @@ If a user falls for a malicious trick, there are many security vulnerabilities t
 
 Here are some system and data threats...
 
-<div class="grid grid-cols-2 gap-x-4"><div>
+<div class="grid grid-cols-2 gap-x-2"><div>
 
 
 
