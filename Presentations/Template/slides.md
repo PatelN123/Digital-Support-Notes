@@ -14,13 +14,13 @@ drawings:
   persist: false
 ---
 
-# Test title
+# Staff training and awareness
 
-Nayan text
+By [Nayan](https://nayanpatel.net)
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    To presentation! <carbon:arrow-right class="inline"/>
+    Next slide... <carbon:arrow-right class="inline"/>
   </span>
 </div>
 
@@ -31,33 +31,23 @@ Nayan text
   </a>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
 ---
 
-# Another title
+# What is a cyber attack?
 
-Some text...
+Cyber attacks are unwelcome attempts to steal, expose, alter, disable or destroy information through unauthorized access to computer systems. <br>
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+They can come in many different forms, such as:
+
+- 🚫 **Denial of Service** - Floods the target with illegitimate requests which leads to site downtime.
+- 🎣 **Phishing** - Occurs when a hacker sends emails that seem to be coming from trusted sources in an attempt to grab sensitive information.
+- 💉 **SQL injection** - A command is injected into a data plane in place of something else that normally goes there, such as a password or login. The server then runs the command and the system is penetrated.
+- 💬 **And more...** - There are more cyber attacks out there, these are only some of them!
 
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
+Read more about [cyber attacks](https://notes.nayanpatel.net)
 
 <style>
 h1 {
