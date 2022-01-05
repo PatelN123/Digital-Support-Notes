@@ -65,56 +65,33 @@ h1 {
 
 <div class="grid grid-cols-2 gap-x-4"><div>
 
-# Ref
+### Ref
 
-```ts {monaco}
-import { ref } from 'vue'
-
-let foo = 0
-let bar = ref(0)
-
-foo = 1
-bar = 1 // ts-error
-```
+text....
 
 <div v-click>
 
-###### Pros
+### Pros
 
-- More explicit, with type checking
-- Less caveats
-
-###### Cons
-
-- `.value`
+text
 
 </div>
 
 </div><div>
 
-# Reactive
+### Reactive
 
-```ts {monaco}
-import { reactive } from 'vue'
-
-const foo = { prop: 0 }
-const bar = reactive({ prop: 0 })
-
-foo.prop = 1
-bar.prop = 1
-```
+text
 
 <div v-click>
 
-###### Pros
+### Pros
 
-- Auto unwrapping (a.k.a `.value` free)
+text
 
-###### Cons
+### Cons
 
-- Same as plain objects on types
-- Destructure loses reactivity
-- Need to use callback for `watch`
+text
 
 </div>
 </div></div>
