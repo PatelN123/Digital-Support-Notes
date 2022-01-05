@@ -77,7 +77,7 @@ text....
 
 text
 
-</div>
+<div v-click>
 
 </div><div>
 
