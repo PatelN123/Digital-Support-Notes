@@ -51,6 +51,7 @@ They can come in many different forms, such as:
 Read more about [cyber attacks](https://notes.nayanpatel.net)
 
 <div class="grid grid-cols-2 gap-x-2"><div>
+</div>
 
 <style>
 h1 {
