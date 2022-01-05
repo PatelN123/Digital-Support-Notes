@@ -35,9 +35,10 @@ By [Nayan](https://nayanpatel.net)
 
 # What is a cyber attack? <MarkerCore />
 
-<div class="grid grid-cols-1">
 
 Cyber attacks are unwelcome attempts to steal, expose, alter, disable or destroy information through unauthorized access to computer systems. <br>
+
+<div class="grid grid-cols-1">
 
 They can come in many different forms, such as:
 
