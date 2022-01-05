@@ -65,9 +65,7 @@ h1 {
 
 # title
 
-...
-
-<div class="grid grid-cols-2 gap-x-4"><div>
+<div class="grid grid-cols-2 gap-x-4">
 
 <div>
 
