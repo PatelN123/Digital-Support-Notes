@@ -63,13 +63,73 @@ h1 {
 
 ---
 
+<div class="grid grid-cols-2 gap-x-4"><div>
+
+# Ref
+
+```ts {monaco}
+import { ref } from 'vue'
+
+let foo = 0
+let bar = ref(0)
+
+foo = 1
+bar = 1 // ts-error
+```
+
+<div v-click>
+
+###### Pros
+
+- More explicit, with type checking
+- Less caveats
+
+###### Cons
+
+- `.value`
+
+</div>
+
+</div><div>
+
+# Reactive
+
+```ts {monaco}
+import { reactive } from 'vue'
+
+const foo = { prop: 0 }
+const bar = reactive({ prop: 0 })
+
+foo.prop = 1
+bar.prop = 1
+```
+
+<div v-click>
+
+###### Pros
+
+- Auto unwrapping (a.k.a `.value` free)
+
+###### Cons
+
+- Same as plain objects on types
+- Destructure loses reactivity
+- Need to use callback for `watch`
+
+</div>
+</div></div>
+
+
+---
+
 # Threats to systems and data
 
 If a user falls for a malicious trick, there are many security vulnerabilities that could be at risk.
 
 ### Some system and data threats...
 
-text...
+**Social Engineering** <br>
+
 
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
