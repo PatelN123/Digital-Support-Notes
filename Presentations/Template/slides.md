@@ -63,15 +63,14 @@ h1 {
 
 ---
 
+
+<div class="grid grid-cols-2 gap-x-4"><div>
+
 # Threats to systems and data
 
 If a user falls for a malicious trick, there are many security vulnerabilities that could be at risk. <br>
 
 Some system and data threats...
-
-<div class="grid grid-cols-2 gap-x-4"><div>
-
-
 
 <div v-click>
 
@@ -81,19 +80,15 @@ Some system and data threats...
 - Can take the form of attackers impersonating friends or other trusted sources. 
 
 </div>
-</div><div>
-
-<div v-click>
 
 ### 🦠 Virus
 
 - Designed to copy and attach itself to applications on your computer and spread through server files onto other workstations within the workplace. 
 - This can result in a loss of company data. 
 
-</div>
-</div></div>
 
 
+</div><div>
 
 <div v-click>
 
@@ -113,7 +108,7 @@ Some system and data threats...
 
 ## 💬 Many more
 
-There are many other threats to data, these are just some of them. 
+There are many other threats to data, these are just some of 
 
 
 ---
