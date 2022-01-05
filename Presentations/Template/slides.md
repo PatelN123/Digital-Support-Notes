@@ -33,7 +33,7 @@ By [Nayan](https://nayanpatel.net)
 
 ---
 
-# What is a cyber attack? <MarkerCore />
+# What is a cyber attack? <Description />
 
 
 Cyber attacks are unwelcome attempts to steal, expose, alter, disable or destroy information through unauthorized access to computer systems. <br>
