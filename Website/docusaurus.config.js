@@ -103,6 +103,10 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        gtag: {
+          trackingID: 'G-MD5H6DHVZJJ',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
 
@@ -120,10 +124,6 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      },
-      gtag: {
-        trackingID: 'G-MD5H6DHVZJJ',
-        anonymizeIP: true,
       },
     ],
   ],
