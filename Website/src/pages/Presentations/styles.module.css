@@ -86,8 +86,10 @@
 .svgIconFavoriteXs {
   margin-left: 0.625rem;
   font-size: 1rem;
+  color: hotpink;
 }
 
 .svgIconFavorite {
   margin-left: 1rem;
+  color: hotpink;
 }
