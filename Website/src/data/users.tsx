@@ -136,7 +136,7 @@ const Users: User[] = [
     preview: require('./presentations/staa.png'),
     website: 'https://presentations.01.notes.nayanpatel.net/',
     source: 'https://github.com/PatelN123/Digital-Support-Notes/tree/main/Presentations/Staff%20training%20and%20awareness',
-    tags: ['DigitalEnvironments'],
+    tags: ['DigitalEnvironments', 'Favourite'],
   },
 ];
 

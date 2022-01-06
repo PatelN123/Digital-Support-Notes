@@ -30,7 +30,7 @@ import styles from './styles.module.css';
 const TITLE = 'Digital support notes presentations';
 const DESCRIPTION = 'Presentations for Digital Support Services';
 const EDIT_URL =
-  'https://github.com/facebook/docusaurus/edit/main/website/src/data/users.tsx';
+  'https://github.com/pateln123/Digital-Support-Notes/edit/main/Website/src/data/users.tsx';
 
 type UserState = {
   scrollTopPosition: number;
