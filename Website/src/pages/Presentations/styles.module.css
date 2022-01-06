@@ -61,7 +61,7 @@
 .showcaseFavorite {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: var(--site-color-favorite-background);
+  background-color: hotpink;
 }
 
 .showcaseFavoriteHeader {
@@ -80,7 +80,7 @@
 
 .svgIconFavoriteXs,
 .svgIconFavorite {
-  color: var(--site-color-svgIcon-favorite);
+  color: hotpink;
 }
 
 .svgIconFavoriteXs {
