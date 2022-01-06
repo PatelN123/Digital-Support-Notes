@@ -16,14 +16,14 @@ export type Tag = {
 };
 
 export type TagType =
-  | 'Business Context'
-  | 'Digital Environments'
+  | 'BusinessContext'
+  | 'DigitalEnvironments'
   | 'Planning'
   | 'Data'
-  | 'Diversity and Inclusion'
+  | 'DiversityandInclusion'
   | 'Legislation'
-  | 'Data analysis'
-  | 'Fault analysis'
+  | 'Dataanalysis'
+  | 'Faultanalysis'
   | 'Learning'
   | 'Tools'
   | 'Testing';
@@ -51,13 +51,13 @@ export const Tags: Record<TagType, Tag> = {
   },
 
   // For open-source sites, a link to the source code is required
-  Business Context: {
+  BusinessContext: {
     label: 'Business Context',
     description: 'Presentations relating to Business Context!',
     color: '#39ca30',
   },
 
-  Digital Environments: {
+  DigitalEnvironments: {
     label: 'Digital Environments',
     description: 'Presentations relating to Digital Environments!',
     color: '#dfd545',
@@ -77,7 +77,7 @@ export const Tags: Record<TagType, Tag> = {
     color: '#127f82',
   },
 
-  Divertisty and Inclusion: {
+  DivertistyandInclusion: {
     label: 'Diversity and Inclusion',
     description:
       'Presentations relating to Diversity and Inclusion!',
@@ -91,13 +91,13 @@ export const Tags: Record<TagType, Tag> = {
     color: '#8c2f00',
   },
 
-  Data analysis: {
+  Dataanalysis: {
     label: 'Data analysis',
     description: 'Presentations relating to Data analysis!',
     color: '#4267b2',
   },
 
-  Fault analysis: {
+  Faultanalysis: {
     label: 'Fault analysis',
     description:
       'Presentations relating to Fault analysis!',
@@ -127,8 +127,7 @@ export const Tags: Record<TagType, Tag> = {
   },
 };
 
-// Add your site to this list
-// prettier-ignore
+
 const Users: User[] = [
   {
     title: 'Staff training and awareness',
@@ -137,7 +136,7 @@ const Users: User[] = [
     preview: require('./presentations/staa.png'),
     website: 'https://presentations.01.notes.nayanpatel.net/',
     source: 'https://github.com/PatelN123/Digital-Support-Notes/tree/main/Presentations/Staff%20training%20and%20awareness',
-    tags: ['Digital Environments'],
+    tags: ['DigitalEnvironments'],
   },
 ];
 
