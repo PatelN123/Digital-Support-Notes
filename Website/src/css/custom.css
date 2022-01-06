@@ -83,6 +83,7 @@ article .badge.badge--secondary, table {
 
   --ifm-color-primary: #5fa0ff;
   --ifm-heading-color: var(--ifm-color-emphasis-900);
+  --site-color-svgIcon-favorite: hotpink;
 
   /* Quotes */
   --ifm-blockquote-background-color: #f8f9fc;
