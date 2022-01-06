@@ -64,7 +64,7 @@ export const Tags: Record<TagType, Tag> = {
   },
 
   Planning: {
-    label: 'Planninf',
+    label: 'Planning',
     description:
       'Presentations relating to Planning!',
     color: '#a44fb7',
@@ -136,7 +136,7 @@ const Users: User[] = [
     preview: require('./presentations/staa.png'),
     website: 'https://presentations.01.notes.nayanpatel.net/',
     source: 'https://github.com/PatelN123/Digital-Support-Notes/tree/main/Presentations/Staff%20training%20and%20awareness',
-    tags: ['DigitalEnvironments', 'Favourite'],
+    tags: ['DigitalEnvironments', 'favorite'],
   },
 ];
 
