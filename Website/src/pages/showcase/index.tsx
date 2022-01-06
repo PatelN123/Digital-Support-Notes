@@ -27,8 +27,8 @@ import {useLocation} from '@docusaurus/router';
 
 import styles from './styles.module.css';
 
-const TITLE = 'Docusaurus Site Showcase';
-const DESCRIPTION = 'List of websites people are building with Docusaurus';
+const TITLE = 'Digital support notes presentations';
+const DESCRIPTION = 'Presentations for Digital Support Services';
 const EDIT_URL =
   'https://github.com/facebook/docusaurus/edit/main/website/src/data/users.tsx';
 
