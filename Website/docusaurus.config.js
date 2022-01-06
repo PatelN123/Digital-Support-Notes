@@ -36,6 +36,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: '/Presentations',
+          label: 'Presentations',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
           position: 'right',
           className: 'header-github-link',
