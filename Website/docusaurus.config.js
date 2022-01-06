@@ -104,7 +104,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         gtag: {
-          trackingID: '${{ secrets.GTAG }}',
+          trackingID: 'UA-216503437-1',
           anonymizeIP: true,
         },
         docs: {
