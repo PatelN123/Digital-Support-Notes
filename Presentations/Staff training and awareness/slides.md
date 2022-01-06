@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://cdn.notes.nayanpatel.net\presentation-back.png
+background: https://cdn.notes.nayanpatel.net/presentation-back.png
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
