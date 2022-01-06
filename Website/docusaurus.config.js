@@ -121,6 +121,10 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
+      gtag: {
+        trackingID: 'G-MD5H6DHVZJJ',
+        anonymizeIP: true,
+      },
     ],
   ],
   plugins: [
