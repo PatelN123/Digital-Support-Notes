@@ -510,3 +510,13 @@ a.card-link:hover img {
   white-space: nowrap;
 }
 
+.showcaseFavoriteHeader_9Oaz>svg {
+  height: 30px;
+  width: 30px;
+  color: hotpink;
+}
+
+.showcaseCardHeader_0WPQ .svgIconFavorite_pm-U, .svgIconFavoriteXs_lZWc, .svgIconFavorite_LKJ7 {
+  color: hotpink;
+}
+

@@ -118,7 +118,7 @@ function ShowcaseHeader() {
         href={EDIT_URL}
         target="_blank"
         rel="noreferrer">
-        🙏 Please add your site
+        🙏 Please add your presentations
       </a>
     </section>
   );
@@ -220,7 +220,7 @@ function ShowcaseCards() {
             </div>
           </div>
           <div className="container margin-top--lg">
-            <h2 className={styles.showcaseHeader}>All sites</h2>
+            <h2 className={styles.showcaseHeader}>All presentations</h2>
             <ul className={styles.showcaseList}>
               {otherUsers.map((user) => (
                 <ShowcaseCard key={user.title} user={user} />
