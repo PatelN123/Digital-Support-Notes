@@ -25,7 +25,7 @@ By [Nayan](https://nayanpatel.net)
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="N/A" target="_blank" alt="GitHub"
+  <a href="https://github.com/PatelN123/Digital-Support-Notes/tree/main/Presentations/Staff%20training%20and%20awareness" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>

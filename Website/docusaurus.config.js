@@ -36,6 +36,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: '/Presentations',
+          label: 'Presentations',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
           position: 'right',
           className: 'header-github-link',
@@ -157,6 +162,16 @@ module.exports = {
             content: 'rgb(37, 194, 160)',
           },
         ],
+      },
+    ],
+    [
+      'ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        // disableInDev: false,
       },
     ],
     [

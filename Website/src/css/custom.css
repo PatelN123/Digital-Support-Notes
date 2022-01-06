@@ -83,6 +83,7 @@ article .badge.badge--secondary, table {
 
   --ifm-color-primary: #5fa0ff;
   --ifm-heading-color: var(--ifm-color-emphasis-900);
+  --site-color-svgIcon-favorite: hotpink;
 
   /* Quotes */
   --ifm-blockquote-background-color: #f8f9fc;
@@ -496,4 +497,27 @@ a.card-link:hover img {
   user-select: none;
 }
 
+.screen-reader-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.showcaseFavoriteHeader_9Oaz>svg {
+  height: 30px;
+  width: 30px;
+  color: hotpink;
+}
+
+.showcaseCardHeader_0WPQ .svgIconFavorite_pm-U, .svgIconFavoriteXs_lZWc, .svgIconFavorite_LKJ7 {
+  color: hotpink;
+}
 
