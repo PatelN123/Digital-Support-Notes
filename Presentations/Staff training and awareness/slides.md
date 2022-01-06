@@ -52,7 +52,7 @@ They can come in many different forms, such as:
 <br>
 <br>
 
-Read more about [cyber attacks](https://notes.nayanpatel.net)
+Read more about [cyber attacks](https://notes.nayanpatel.net/docs/)
 
 </div>
 
