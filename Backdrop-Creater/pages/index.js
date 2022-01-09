@@ -390,12 +390,12 @@ export default function Home() {
               </AnimatePresence>
               {/* STEP 4 : ASK USER TO SELECT THE COVER COLOR */}
               <div className={styles.modifierSettings__colorSelect}>
-                <h2>Select background color</h2>
+                <h2>Select a background color</h2>
                 <ChromePicker
                   color={bgColor}
                   onChangeComplete={(color) => setBgColor(color)}
                 />
-                <p className={styles.notionColours}>Notion Colours</p>
+                <p className={styles.notionColours}>Colours</p>
                 <CirclePicker
                   color={bgColor}
                   onChangeComplete={(color) => setBgColor(color)}
@@ -437,7 +437,7 @@ export default function Home() {
                   onClick={handleDownloadSvg}
                 >
                   <img
-                    src="/assets/notion-logo.svg"
+                    src="/assets/svgdownload.svg"
                     alt="download icon"
                     width={20}
                   />
