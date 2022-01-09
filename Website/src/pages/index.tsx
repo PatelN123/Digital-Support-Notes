@@ -47,7 +47,7 @@ function HomepageHeader() {
           GitHub
         </a>
 
-{/*         <br /> */}
+{         <br /> }
         <br />
 {         <a
           href="https://www.producthunt.com/posts/digital-support-notes"
