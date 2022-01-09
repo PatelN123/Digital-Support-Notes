@@ -461,7 +461,7 @@ export default function Home() {
           {/* FOOTER AND CREDITS */}
           <footer className={styles.footer}>
             <p>
-              Digital Support notes</a>
+              Part of <a href="https://notes.nayanpatel.net"> Digital Support Notes</a> <br /> Thanks to <a href="https://netlify.com"> @netlify</a> for providing us with a free pro account!
             </p>
           </footer>
         </main>
