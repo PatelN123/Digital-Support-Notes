@@ -357,7 +357,7 @@
     width: 90%;
     position: absolute;
     top: 0;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
     text-align: center;
     z-index: 999;
   }
