@@ -47,10 +47,10 @@ function HomepageHeader() {
           GitHub
         </a>
 
-{/*         <br /> */}
+{         <br /> }
         <br />
-{/*         <a
-          href="LINK FOR PRODUCTHUNT"
+{         <a
+          href="https://www.producthunt.com/posts/digital-support-notes"
           target="_blank"
         >
           <img
@@ -62,7 +62,7 @@ function HomepageHeader() {
             width="250"
             height="54"
           />
-        </a> */}
+        </a> }
       </div>
     </header>
   );
