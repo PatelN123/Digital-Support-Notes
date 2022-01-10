@@ -9,7 +9,7 @@ import useWindowSize from "../lib/winsizehook";
 import { getRegFromString } from "../lib/getRegFromString";
 import SVGToImage from "../lib/SVGToImage";
 import IconSearch from "../components/IconSearch";
-import circle from "/assets/circle.svg";
+import circle from "../public/assets/pulse.gif"
 
 export default function Home() {
   // REF TO CREATE A TAG FOR DOWNLOAD SVG
@@ -421,7 +421,7 @@ export default function Home() {
               <div className={styles.previewBox}>
                 <h2>
                   <span className={styles.previewBoxTitle}>
-                  <circle /> Live Preview
+                  <img src={require('circle').default} /> Live Preview
                   </span>
                 </h2>
                 <div
