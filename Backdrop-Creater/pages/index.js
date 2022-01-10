@@ -421,7 +421,7 @@ export default function Home() {
               <div className={styles.previewBox}>
                 <h2>
                   <span className={styles.previewBoxTitle}>
-                  <img src={'circle'} /> Live Preview
+                  <img src={circle} /> Live Preview
                   </span>
                 </h2>
                 <div
