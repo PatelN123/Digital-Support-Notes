@@ -8,8 +8,19 @@ slug: /contribute
 # ✍️ Contribute
 
 import { ReferenceLink } from '@site/docs/components/_nanos.mdx';
-import DC from '@site/src/components/DC';
-import DCs from '@site/src/components/DCs';
+import logo from '@site/img/social/github-white.svg'
+const frameworks = [
+  {
+    name: 'Logo one',
+    logo: logo,
+    href: 'foo',
+  },
+  {
+    name: 'Logo two',
+    logo: logo,
+    href: 'foo',
+  },
+]
 
 How to contribute
 
@@ -19,8 +30,19 @@ You can contribute by either [opening an issue](https://github.com/PatelN123/Dig
 This project is how it is today thanks to our contributors. <a href="https://github.com/PatelN123/Digital-Support-Notes/graphs/contributors"><img src="https://opencollective.com/digital-support-notes/contributors.svg?width=890&button=false" /></a>
 
 
-<DCs>
-  <DC header="Test" href="test" icon="https://docusaurus.io/img/docusaurus.svg">
-    <p>testing</p>
-  </DC>
-</DCs>
+<div>
+  <div class="row is-multiline">
+    {frameworks.map((x) => (
+      <div key={x.name} class="col col--3">
+        <Link class="card" to={x.href}>
+          <div class="card__body" style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
+            {x.logo && (
+              <x.logo width="20" alt={x.name} style={{ display: 'block', maxHeight: 20 }} />
+            )}
+            <p>{x.name}</p>
+          </div>
+        </Link>
+      </div>
+    ))}
+  </div>
+</div>
