@@ -142,8 +142,8 @@ export default function Home() {
     SVGToImage({
       svg: generatedCoverSvg,
       mimetype: "image/png",
-      width: 10000,
-      height: 10000,
+      width: 3000,
+      height: 1200,
       quality: 1,
       outputFormat: "blob",
     })
