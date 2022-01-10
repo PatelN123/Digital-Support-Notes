@@ -131,7 +131,7 @@ export default function Home() {
   // WHEN DOWNLOAD SVG BUTTON IS CLICKED, CREATE A NEW BLOB AND DOWNLOAD IT
   const handleDownloadSvg = () => {
     let blob = new Blob([generatedCoverSvg]);
-    downloadHelper_a_tag.current.download = `covercon_${selectedIconName}_${coverType}.svg`;
+    downloadHelper_a_tag.current.download = `nayan-backdrop-icons_${selectedIconName}_${coverType}.svg`;
     downloadHelper_a_tag.current.href = window.URL.createObjectURL(blob);
     downloadHelper_a_tag.current.click();
   };
@@ -147,7 +147,7 @@ export default function Home() {
       outputFormat: "blob",
     })
       .then(function (blob) {
-        downloadHelper_a_tag.current.download = `covercon_${selectedIconName}_${coverType}.png`;
+        downloadHelper_a_tag.current.download = `nayan-backdrop-icons_${selectedIconName}_${coverType}.png`;
         downloadHelper_a_tag.current.href = window.URL.createObjectURL(blob);
         downloadHelper_a_tag.current.click();
       })
