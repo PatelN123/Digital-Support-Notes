@@ -28,7 +28,7 @@ export default function Home() {
   const [iconPatternRotation, setIconPatternRotation] = React.useState(330);
   const [iconPatternShade, setIconPatternShade] = React.useState(-25);
   const [showAdvancedSettings, setShowAdvancedSettings] = React.useState(false);
-  const [selectedIconName, setSelectedIconName] = React.useState("smart_toy");
+  const [selectedIconName, setSelectedIconName] = React.useState("local_taxi");
   const [selectedIconVersion, setSelectedIconVersion] = React.useState(1);
   const [selectedIconType, setSelectedIconType] =
     React.useState("materialicons");
