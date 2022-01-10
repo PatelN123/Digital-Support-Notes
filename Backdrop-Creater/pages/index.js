@@ -9,7 +9,6 @@ import useWindowSize from "../lib/winsizehook";
 import { getRegFromString } from "../lib/getRegFromString";
 import SVGToImage from "../lib/SVGToImage";
 import IconSearch from "../components/IconSearch";
-import Image from 'next/image';
 
 export default function Home() {
   // REF TO CREATE A TAG FOR DOWNLOAD SVG
@@ -78,8 +77,8 @@ export default function Home() {
       setGeneratedCoverSvg(
         `<svg version="1.1" 
         baseProfile="full" 
-        width="1500" height="600"
-        viewbox="0 0 1500 600"
+        width="1500" height="1500"
+        viewbox="0 0 1500 1500"
         preserveAspectRatio="xMidYMid meet"
         xmlns="http://www.w3.org/2000/svg">
         <rect width="100%" height="100%" fill="${bgColor.hex}"/>
@@ -107,12 +106,12 @@ export default function Home() {
       setGeneratedCoverSvg(
         `<svg version="1.1"
           baseProfile="full"
-          viewbox="0 0 1500 600"
-          width="1500" height="600"
+          viewbox="0 0 1500 1500"
+          width="1500" height="1500"
           preserveAspectRatio="xMidYMid meet"
           xmlns="http://www.w3.org/2000/svg">
           <rect width="100%" height="100%" fill="${bgColor.hex}" />
-          <g transform="translate(610, 180) scale(10)" id="center_icon">${cleanedSvg(
+          <g transform="translate(610, 610) scale(10)" id="center_icon">${cleanedSvg(
             iconColor
           )}</g>
          </svg>`
@@ -132,7 +131,7 @@ export default function Home() {
   // WHEN DOWNLOAD SVG BUTTON IS CLICKED, CREATE A NEW BLOB AND DOWNLOAD IT
   const handleDownloadSvg = () => {
     let blob = new Blob([generatedCoverSvg]);
-    downloadHelper_a_tag.current.download = `covercon_${selectedIconName}_${coverType}.svg`;
+    downloadHelper_a_tag.current.download = `nayan-backdrop-icons_${selectedIconName}_${coverType}.svg`;
     downloadHelper_a_tag.current.href = window.URL.createObjectURL(blob);
     downloadHelper_a_tag.current.click();
   };
@@ -143,12 +142,12 @@ export default function Home() {
       svg: generatedCoverSvg,
       mimetype: "image/png",
       width: 3000,
-      height: 1200,
+      height: 3000,
       quality: 1,
       outputFormat: "blob",
     })
       .then(function (blob) {
-        downloadHelper_a_tag.current.download = `covercon_${selectedIconName}_${coverType}.png`;
+        downloadHelper_a_tag.current.download = `nayan-backdrop-icons_${selectedIconName}_${coverType}.png`;
         downloadHelper_a_tag.current.href = window.URL.createObjectURL(blob);
         downloadHelper_a_tag.current.click();
       })
