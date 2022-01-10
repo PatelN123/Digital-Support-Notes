@@ -190,8 +190,6 @@
     22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
     41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
     100px 100px 80px rgba(0, 0, 0, 0.07);
-  display:flex;
-  align-items:center;
 }
 .previewBox h2 {
   margin: 10px 0;
@@ -206,6 +204,9 @@
   font-size: 16px;
   border: 2px solid green;
   background-color: #082032;
+  display:flex;
+  align-items:center;
+  width: max-content;
 }
 .mobilePreviewBoxWrapper {
   display: none;
