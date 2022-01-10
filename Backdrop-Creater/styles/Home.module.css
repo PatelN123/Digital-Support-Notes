@@ -204,6 +204,9 @@
   font-size: 16px;
   border: 2px solid green;
   background-color: #082032;
+  display:flex;
+  align-items:center;
+  width: max-content;
 }
 .mobilePreviewBoxWrapper {
   display: none;

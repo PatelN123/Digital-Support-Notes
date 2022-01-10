@@ -9,6 +9,7 @@ import useWindowSize from "../lib/winsizehook";
 import { getRegFromString } from "../lib/getRegFromString";
 import SVGToImage from "../lib/SVGToImage";
 import IconSearch from "../components/IconSearch";
+import Image from 'next/image';
 
 export default function Home() {
   // REF TO CREATE A TAG FOR DOWNLOAD SVG
@@ -27,7 +28,7 @@ export default function Home() {
   const [iconPatternRotation, setIconPatternRotation] = React.useState(330);
   const [iconPatternShade, setIconPatternShade] = React.useState(-25);
   const [showAdvancedSettings, setShowAdvancedSettings] = React.useState(false);
-  const [selectedIconName, setSelectedIconName] = React.useState("rocket");
+  const [selectedIconName, setSelectedIconName] = React.useState("local_taxi");
   const [selectedIconVersion, setSelectedIconVersion] = React.useState(1);
   const [selectedIconType, setSelectedIconType] =
     React.useState("materialicons");
@@ -160,31 +161,31 @@ export default function Home() {
     <>
       <Head>
         {/* <!-- HTML Meta Tags --> */}
-        <title>Covercons</title>
-        <meta name="description" content="Generate Beautiful Notion Covers" />
-        <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+        <title>Backdrop Icons</title>
+        <meta name="description" content="Make awesome icon backdrops!" />
+        <link rel="icon" href="https://cdn.nayan.gq/me/icon.svg" sizes="any" type="image/svg+xml" />
         <meta name="theme-color" content="#222222" />
 
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property="og:url" content="https://covercons.vercel.app/" />
+        <meta property="og:url" content="https://backdrop-icons.notes.nayanpatel.net" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Covercons" />
+        <meta property="og:title" content="Backdrop Icons" />
         <meta
           property="og:description"
-          content="Generate beautiful cover images for Notion Pages, Blogs, and more"
+          content="Make awesome icon backdrops!"
         />
         <meta property="og:image" content="/og-image.png" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="covercons.vercel.app" />
-        <meta property="twitter:url" content="https://covercons.vercel.app/" />
-        <meta name="twitter:title" content="Covercons" />
+        <meta property="twitter:domain" content="backdrop-icons.notes.nayanpatel.net" />
+        <meta property="twitter:url" content="https://backdrop-icons.notes.nayanpatel.net" />
+        <meta name="twitter:title" content="Backdrop Icons" />
         <meta
           name="twitter:description"
-          content="Generate beautiful cover images for Notion Pages, Blogs, and more"
+          content="Make awesome icon backdrops!"
         />
-        <meta name="twitter:image" content="/og-image.png" />
+        <meta name="twitter:image" content="https://cdn.nayan.gq/me/me(png).png" />
       </Head>
 
       <div className={styles.container}>
@@ -192,8 +193,8 @@ export default function Home() {
         <main className={styles.main}>
           {/* HEADER */}
           <h1 className={styles.title}>
-            <img src="/favicon.svg" />
-            Covercons
+            <img src="https://cdn.nayan.gq/me/icon.svg" />
+            Backdrop icons
           </h1>
 
           {/* COVER PREVIEW ON TOP FOR SMALLER DEVICES */}
@@ -390,12 +391,12 @@ export default function Home() {
               </AnimatePresence>
               {/* STEP 4 : ASK USER TO SELECT THE COVER COLOR */}
               <div className={styles.modifierSettings__colorSelect}>
-                <h2>Select background color</h2>
+                <h2>Select a background color</h2>
                 <ChromePicker
                   color={bgColor}
                   onChangeComplete={(color) => setBgColor(color)}
                 />
-                <p className={styles.notionColours}>Notion Colours</p>
+                <p className={styles.notionColours}>Colours</p>
                 <CirclePicker
                   color={bgColor}
                   onChangeComplete={(color) => setBgColor(color)}
@@ -420,7 +421,7 @@ export default function Home() {
               <div className={styles.previewBox}>
                 <h2>
                   <span className={styles.previewBoxTitle}>
-                    🟢 Live Preview
+                  <img src="/assets/online.gif" alt="pulse" width="40" height="40"/> Live Preview
                   </span>
                 </h2>
                 <div
@@ -437,7 +438,7 @@ export default function Home() {
                   onClick={handleDownloadSvg}
                 >
                   <img
-                    src="/assets/notion-logo.svg"
+                    src="/assets/svgdownloader.svg"
                     alt="download icon"
                     width={20}
                   />
@@ -461,24 +462,11 @@ export default function Home() {
           {/* FOOTER AND CREDITS */}
           <footer className={styles.footer}>
             <p>
-              Made By <a href="https://srujangurram.me"> Srujan</a>
+              Part of <a href="https://notes.nayanpatel.net"> Digital Support Notes</a> <br /> Thanks to <a href="https://netlify.com"> @netlify</a> for providing us with a free pro account!
             </p>
           </footer>
         </main>
       </div>
-      {/* BUY ME A COFFEE WIDGET FOR DONATIONS */}
-      <script
-        data-name="BMC-Widget"
-        data-cfasync="false"
-        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-        data-id="srujangurram"
-        data-description="Support me on Buy me a coffee!"
-        data-message="If you like this tool you can offer me a coffee 😋"
-        data-color="#ff4c29"
-        data-position="Right"
-        data-x_margin="18"
-        data-y_margin="18"
-      ></script>
     </>
   );
 }
