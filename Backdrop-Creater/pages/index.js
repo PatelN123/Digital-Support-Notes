@@ -143,7 +143,7 @@ export default function Home() {
       svg: generatedCoverSvg,
       mimetype: "image/png",
       width: 3000,
-      height: 1200,
+      height: 3000,
       quality: 1,
       outputFormat: "blob",
     })
