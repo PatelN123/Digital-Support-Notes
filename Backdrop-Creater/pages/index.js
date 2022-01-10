@@ -9,7 +9,7 @@ import useWindowSize from "../lib/winsizehook";
 import { getRegFromString } from "../lib/getRegFromString";
 import SVGToImage from "../lib/SVGToImage";
 import IconSearch from "../components/IconSearch";
-import circle from "../public/assets/pulse.gif"
+import circle from "./assets/pulse.gif"
 
 export default function Home() {
   // REF TO CREATE A TAG FOR DOWNLOAD SVG
