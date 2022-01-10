@@ -199,3 +199,8 @@ input:checked + .slider:before {
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
+
+.pulsing {
+  display:flex;
+  align-items:center;
+}
