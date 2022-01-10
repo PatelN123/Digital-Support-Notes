@@ -420,11 +420,8 @@ export default function Home() {
             <div className={styles.coverPreview}>
               <div className={styles.previewBox}>
                 <h2>
-                <span className={styles.previewBoxTitle}>
-                   🟢
-                  </span>
                   <span className={styles.previewBoxTitle}>
-                   Live Preview
+                  🟢 Live Preview
                   </span>
                 </h2>
                 <div
