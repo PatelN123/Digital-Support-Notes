@@ -9,7 +9,6 @@ import useWindowSize from "../lib/winsizehook";
 import { getRegFromString } from "../lib/getRegFromString";
 import SVGToImage from "../lib/SVGToImage";
 import IconSearch from "../components/IconSearch";
-import Image from 'next/image';
 
 export default function Home() {
   // REF TO CREATE A TAG FOR DOWNLOAD SVG
@@ -112,7 +111,7 @@ export default function Home() {
           preserveAspectRatio="xMidYMid meet"
           xmlns="http://www.w3.org/2000/svg">
           <rect width="100%" height="100%" fill="${bgColor.hex}" />
-          <g transform="translate(610, 180) scale(10)" id="center_icon">${cleanedSvg(
+          <g transform="translate(610, 610) scale(10)" id="center_icon">${cleanedSvg(
             iconColor
           )}</g>
          </svg>`
