@@ -9,6 +9,7 @@ import useWindowSize from "../lib/winsizehook";
 import { getRegFromString } from "../lib/getRegFromString";
 import SVGToImage from "../lib/SVGToImage";
 import IconSearch from "../components/IconSearch";
+import Image from 'next/image';
 
 export default function Home() {
   // REF TO CREATE A TAG FOR DOWNLOAD SVG
