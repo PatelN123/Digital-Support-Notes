@@ -438,7 +438,7 @@ export default function Home() {
                   onClick={handleDownloadSvg}
                 >
                   <img
-                    src="/assets/svgdownload.svg"
+                    src="/assets/svgdownloader.svg"
                     alt="download icon"
                     width={20}
                   />
