@@ -1,3 +1,5 @@
-label: 'test'
-position: 13
-collapsible: true
+{
+  "label": "Resources",
+  "position": 2,
+  "collapsed": true
+}
