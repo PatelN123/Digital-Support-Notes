@@ -84,5 +84,5 @@ h1 {
 }
 
 .hero[data-theme'dark'] {
-  background-color: #fff;
+  background-color: --ifm-hero;
 }
