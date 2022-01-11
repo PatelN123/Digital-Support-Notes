@@ -7,4 +7,35 @@ slug: /learning-resources
 # 📖 Resources
 
 import { ReferenceLink } from '@site/docs/components/_nanos.mdx';
+const frameworks = [
+  {
+    name: 'Core Paper A (Question Paper)',
+    href: 'https://cdn.notes.nayanpatel.net/core-paper-a-qs.pdf',
+  },
+  {
+    name: 'Core Paper A (Mark Scheme)',
+    href: 'https://cdn.notes.nayanpatel.net/core-paper-a-ms.pdf',
+  },
+  {
+    name: 'Core Paper B (Question Paper)',
+    href: 'https://cdn.notes.nayanpatel.net/core-paper-b-qs.pdf',
+  },
+  {
+    name: 'Core Paper B (Mark Scheme)',
+    href: 'https://cdn.notes.nayanpatel.net/core-paper-b-ms.pdf',
+  },
+]
 
+<div>
+  <div class="row is-multiline">
+    {frameworks.map((x) => (
+      <div key={x.name} class="col col--3">
+        <Link class="card" to={x.href}>
+          <div class="card__body" style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
+            <p>{x.name}</p>
+          </div>
+        </Link>
+      </div>
+    ))}
+  </div>
+</div>
