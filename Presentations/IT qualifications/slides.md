@@ -53,8 +53,8 @@ This qulification includes Hardware, Networking, Software troubleshooting, Opera
 
 <style>
 h1 {
-  background-color: #2B90B6;
 }
+background: "https://cdn.notes.nayanpatel.net/presentation-back.png"
 </style>
 
 ---
