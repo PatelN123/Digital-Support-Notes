@@ -74,7 +74,7 @@ h1 {
 .heroDescription[data-theme='dark'] {
   font-family: "Poppins";
   font-weight: 500;
-  color: rgba(255, 255, 255, 0)
+  color: white;
   width: 70%;
   margin: auto;
   margin-top: 20px;
