@@ -69,6 +69,20 @@ h1 {
     padding-left: .2em;
     color: #9f9f9f;
 }
+
+.slidev-layout h1+p {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    opacity: .5;
+    color: #fff;
+}
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7e93a9;
+}
 </style>
 
 ---
