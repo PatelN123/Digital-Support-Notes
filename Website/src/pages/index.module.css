@@ -69,15 +69,3 @@ h1 {
     margin-bottom: 10px;
   }
 }
-
-
-.hero[data-theme="dark"] {
-  align-items: center;
-  background-color: #24252600;
-  color: var(--ifm-hero-text-color);
-  display: flex;
-  padding: 4rem 2rem;
-}
-
-
-
