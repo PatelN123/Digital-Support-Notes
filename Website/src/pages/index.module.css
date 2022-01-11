@@ -70,3 +70,14 @@ h1 {
   }
 }
 
+
+.hero {
+  align-items: center;
+  background-color: #f7fbff00;
+  color: var(--ifm-hero-text-color);
+  display: flex;
+  padding: 4rem 2rem;
+}
+
+
+
