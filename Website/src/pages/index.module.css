@@ -71,7 +71,7 @@ h1 {
 }
 
 
-.hero {
+.hero[data-theme="dark"] {
   align-items: center;
   background-color: #24252600;
   color: var(--ifm-hero-text-color);
