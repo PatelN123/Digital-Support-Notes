@@ -47,6 +47,9 @@ Research by indeed shows:
 - 93% said they would recommend a family member or friend earn this qualification
 
 This qulification includes Hardware, Networking, Software troubleshooting, Operating systems, and more!
+  
+- This course has a Core 1 and Core 2 part and a 90 minute time limit on each.
+- This course has a fee of $219
 <br>
 
 </div>
