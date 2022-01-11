@@ -551,3 +551,16 @@ a.card-link:hover img {
     font-weight: 600;
     color: #4f4f4f;
 }
+
+
+#__docusaurus [class^=tableOfContents_] {
+    -webkit-padding-after: 1.25rem;
+    -webkit-border-after: 1px solid var(--toc-separator-c);
+    border-block-end: 1px solid #e9edf3;
+    line-height: 1.4;
+    max-height: none;
+    overflow: hidden;
+    padding-block-end: 1.25rem;
+    position: static;
+    top: auto;
+}
