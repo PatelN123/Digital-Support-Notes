@@ -54,8 +54,6 @@ This qulification includes Hardware, Networking, Software troubleshooting, Opera
 <style>
 h1 {
   background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
 }
 </style>
 
