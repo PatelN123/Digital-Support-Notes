@@ -82,7 +82,3 @@ h1 {
   color: var(--hero-description-text-color);
   font-size: clamp(17px, 3vw, 1rem);
 }
-
-.hero[data-theme'dark'] {
-  background-color: --ifm-hero;
-}
