@@ -54,7 +54,21 @@ This qulification includes Hardware, Networking, Software troubleshooting, Opera
 <style>
 h1 {
 }
-background: "https://cdn.notes.nayanpatel.net/presentation-back.png"
+  
+.slidev-layout {
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2.5rem 3.5rem;
+    background: #000;
+}
+  
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-left: 1.1em;
+    padding-left: .2em;
+    color: #9f9f9f;
+}
 </style>
 
 ---
