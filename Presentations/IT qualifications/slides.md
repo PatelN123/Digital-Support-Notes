@@ -14,7 +14,7 @@ drawings:
   persist: false
 ---
 
-# Staff training and awareness
+# 10 Entry level IT certifications
 
 By [Nayan](https://nayanpatel.net)
 
@@ -25,7 +25,7 @@ By [Nayan](https://nayanpatel.net)
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/PatelN123/Digital-Support-Notes/tree/main/Presentations/Staff%20training%20and%20awareness" target="_blank" alt="GitHub"
+  <a href="https://github.com/PatelN123/Digital-Support-Notes/tree/main/Presentations" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -33,26 +33,21 @@ By [Nayan](https://nayanpatel.net)
 
 ---
 
-# What is a cyber attack? <Description />
+# CompTIA A+ <Description />
 
 
-Cyber attacks are unwelcome attempts to steal, expose, alter, disable or destroy information through unauthorized access to computer systems. <br>
+Also known as: Computing Technology Industry Association (CompTIA) A+ Certification <br />
 
 <div class="grid grid-cols-1">
 
-They can come in many different forms, such as:
+Research by indeed shows:
+- 67% of job seekers said "help my career progression" was the biggest reason for earning this qualification
+- 63% said earning this qualification helped them make more money
+- 62% said earningthis qualification helped them get a job
+- 93% said they would recommend a family member or friend earn this qualification
 
-- 🚫 **Denial of Service** - Floods the target with illegitimate requests which leads to site downtime.
-- 🎣 **Phishing** - Occurs when a hacker sends emails that seem to be coming from trusted sources in an attempt to grab sensitive information.
-- 💉 **SQL injection** - A command is injected into a data plane in place of something else that normally goes there, such as a password or login. The server then runs the command and the system is penetrated.
-- 💬 **And more...** - There are more cyber attacks out there, these are only some of them!
-
-
-
+This qulification includes Hardware, Networking, Software troubleshooting, Operating systems, and more!
 <br>
-<br>
-
-Read more about [cyber attacks](https://notes.nayanpatel.net)
 
 </div>
 
