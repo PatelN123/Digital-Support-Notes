@@ -546,3 +546,8 @@ a.card-link:hover img {
   }
 }
 
+#__docusaurus .toc-wrapper .theme-edit-this-page {
+    font-size: .875rem;
+    font-weight: 600;
+    color: #4f4f4f;
+}
