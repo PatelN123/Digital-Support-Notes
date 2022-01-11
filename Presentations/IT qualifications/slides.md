@@ -101,9 +101,11 @@ Cisco Certified Technicians have the skills to diagnose, restore, repair, and re
 
 <div class="grid grid-cols-1">
 
-The exam has 60 to 70 questions to be answered within 90 minutes. <br />
-The exam cost is $125. <br />
-The certificate must be renewed every three years, to keep up to date. <br />
+- The exam has 60 to 70 questions to be answered within 90 minutes.
+- The exam cost is $125.
+- The certificate must be renewed every three years, to keep up to date.
+  
+There's not much information about this course...
 
 <br>
 
@@ -147,3 +149,5 @@ h1 {
     background-color: #383838ba;
 }
 </style>
+
+
