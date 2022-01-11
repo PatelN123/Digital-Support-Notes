@@ -566,8 +566,8 @@ a.card-link:hover img {
 }
 
 #__docusaurus .toc-wrapper h2 {
-    color: var(--c-indigo-60);
-    font-size: .625rem;
+    color: #445b78cc;
+    font-size: 1rem!important;
     letter-spacing: .08em;
     line-height: 12px;
 }
