@@ -118,8 +118,8 @@ html[data-theme="dark"] {
   --ifm-color-info-dark: #5fa0ff;
   --ifm-color-success-dark: #36ad99;
 
-  --ifm-hero: #fff;
-  --ifm-hero-dark: #36ad99;
+  --ifm-hero-main: #fff;
+  --ifm-hero-main-dark: #36ad99;
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
