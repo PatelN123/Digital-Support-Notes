@@ -69,3 +69,15 @@ h1 {
     margin-bottom: 10px;
   }
 }
+
+
+.heroDescription[data-theme='dark'] {
+  font-family: "Poppins";
+  font-weight: 500;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: var(--hero-description-text-color);
+  font-size: clamp(17px, 3vw, 1rem);
+}
