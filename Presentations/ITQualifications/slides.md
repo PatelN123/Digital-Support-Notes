@@ -152,7 +152,7 @@ h1 {
 
 ---
 
-# Google IT Support <MarkerCore />
+# Google IT Support Professional Certificate <MarkerCore />
 
 The Google IT support certificate consists of 5 components. These include:
 
@@ -167,6 +167,12 @@ The Google IT support certificate consists of 5 components. These include:
 For this course, they say you'll learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service and learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging. 
 
 <br>
+
+For doing this, you get a certificate. 
+
+<br>
+
+[Certificate](https://coursera.org/share/5061f2fa6f9e86ecad3a2c4c5013cd16)
 
 </div>
 
@@ -208,3 +214,72 @@ h1 {
     background-color: #383838ba;
 }
 </style>
+
+---
+
+# IT Support: Fundamentals by Microsoft (edX) <Description />
+
+The IT Support: Fundamentals by Microsoft course is a free beginner level course that introduces learners to the role of an IT Support agent, including core priorities and key responsibilities. It teaches learners how to interact with other roles and master specific performance skills.
+
+<div class="grid grid-cols-1">
+
+The course also examines what influences customer behaviour when dealing with IT Support, including global cultural differences and communication styles and also includes an introduction to the basic stages of case management, from initial receipt of a support call through solution development and closure.
+
+</div>
+
+<style>
+h1 {
+}
+  
+.slidev-layout {
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2.5rem 3.5rem;
+    background: #000;
+}
+  
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-left: 1.1em;
+    padding-left: .2em;
+    color: #9f9f9f;
+}
+
+.slidev-layout h1+p {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    opacity: .5;
+    color: #fff;
+}
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7e93a9;
+}
+
+.translate-x-\[-0\.3em\] {
+    --tw-translate-x: -.3em;
+    background-color: #383838ba;
+}
+</style>
+
+---
+
+# IBM Cybersecurity Roles, Processes & Operating System Security <MarkerCore />
+
+<div class="leading-8 opacity-80">
+This course is about computer security and roles within security.<br>
+IBM say it is important for an IT technical support specialist to have some knowledge within security.<br>
+They say you'll learn to:
+
+- Understand the key cybersecurity roles within an Organization.
+- List key cybersecurity processes and an example of each process
+- Understand the concept of Virtualization as it relates to cybersecurity
+
+</div>
+
+
+<img src="https://images.credly.com/size/680x680/images/2d8a1c02-779b-4b58-9e11-701dcbeaf380/Cyber_roles__process_Op_Sys_Sec.png" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
