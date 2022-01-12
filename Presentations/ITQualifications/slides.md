@@ -281,7 +281,6 @@ IBM say it is important for an IT technical support specialist to have some know
 They say you'll learn to:
 
 <br>
-<br>
 
 - Understand the key cybersecurity roles within an Organization.
 - List key cybersecurity processes and an example of each process
