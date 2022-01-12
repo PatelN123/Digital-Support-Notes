@@ -291,3 +291,106 @@ Upon completion of this course, you get a virtual badge and a certificate.
 [Certificate](https://coursera.org/share/2419cad2c8aff25e8c200611c2a5d70d)
 
 <img src="https://images.credly.com/size/680x680/images/2d8a1c02-779b-4b58-9e11-701dcbeaf380/Cyber_roles__process_Op_Sys_Sec.png" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
+
+---
+
+# Certified Ethical Hacker (CEH) <Description />
+
+*“To beat a hacker, you need to think like one!”* - **EC-Council**
+
+<div class="grid grid-cols-1">
+
+This certification demonstrates that the certification holder has the knowledge and tools that malicious hackers have and can use those same forces against them. This certification of lawful and legitimate hacking skills also shows the world that the information security professional knows how to assess the security posture of a system/network and how to find weaknesses and vulnerabilities within it. 
+
+<br>
+
+This certification is four hours in duration and contain 125 questions.
+
+</div>
+
+<style>
+h1 {
+}
+  
+.slidev-layout {
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2.5rem 3.5rem;
+    background: #000;
+}
+  
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-left: 1.1em;
+    padding-left: .2em;
+    color: #9f9f9f;
+}
+
+.slidev-layout h1+p {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    opacity: .5;
+    color: #fff;
+}
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7e93a9;
+}
+
+.translate-x-\[-0\.3em\] {
+    --tw-translate-x: -.3em;
+    background-color: #383838ba;
+}
+</style>
+
+---
+
+# Cisco Certified Technician (CCT) <Description />
+
+### This is essentially cisco’s entry-level certification that they offer and from their website, cisco certified technicians have the skills to diagnose restore repair and replace critical Cisco networking and system devices at customer sites. So it’s very much networking-focused but is still a great entry-level certification.
+
+
+</div>
+
+<style>
+h1 {
+}
+  
+.slidev-layout {
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2.5rem 3.5rem;
+    background: #000;
+}
+  
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-left: 1.1em;
+    padding-left: .2em;
+    color: #9f9f9f;
+}
+
+.slidev-layout h1+p {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    opacity: .5;
+    color: #fff;
+}
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7e93a9;
+}
+
+.translate-x-\[-0\.3em\] {
+    --tw-translate-x: -.3em;
+    background-color: #383838ba;
+}
+</style>
