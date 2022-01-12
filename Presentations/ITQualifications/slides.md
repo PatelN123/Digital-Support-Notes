@@ -120,7 +120,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1;
     padding: 2.5rem 3.5rem;
-    background: #000;
+    background: #121212;
 }
   
 .slidev-layout li {
@@ -185,7 +185,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1;
     padding: 2.5rem 3.5rem;
-    background: #000;
+    background: #121212;
 }
   
 .slidev-layout li {
@@ -236,7 +236,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1;
     padding: 2.5rem 3.5rem;
-    background: #000;
+    background: #121212;
 }
   
 .slidev-layout li {
@@ -292,6 +292,14 @@ Upon completion of this course, you get a virtual badge and a certificate.
 
 <img src="https://images.credly.com/size/680x680/images/2d8a1c02-779b-4b58-9e11-701dcbeaf380/Cyber_roles__process_Op_Sys_Sec.png" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
 
+<style>
+
+.slidev-layout {
+    background: #121212;
+}
+
+</style>
+
 ---
 
 # Certified Ethical Hacker (CEH) <Description />
@@ -317,7 +325,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1;
     padding: 2.5rem 3.5rem;
-    background: #000;
+    background: #121212;
 }
   
 .slidev-layout li {
@@ -367,7 +375,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1;
     padding: 2.5rem 3.5rem;
-    background: #000;
+    background: #121212;
 }
   
 .slidev-layout li {
