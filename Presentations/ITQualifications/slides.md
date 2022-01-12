@@ -219,7 +219,7 @@ h1 {
 
 # IT Support: Fundamentals by Microsoft (edX) <Description />
 
-The IT Support: Fundamentals by Microsoft course is a free beginner level course that introduces learners to the role of an IT Support agent, including core priorities and key responsibilities. It teaches learners how to interact with other roles and master specific performance skills.
+The IT Support: Fundamentals by Microsoft course is a free beginner level course that introduces learners to the role of an IT Support agent, including core priorities and key responsibilities. <br> It teaches learners how to interact with other roles and master specific performance skills.
 
 <div class="grid grid-cols-1">
 
@@ -275,8 +275,6 @@ IBM Cybersecurity Roles, Processes & Operating System Security
 <div class="leading-8 opacity-80">
 This course is about computer security and roles within security.<br>
 IBM say it is important for an IT technical support specialist to have some knowledge <br> within security.<br> 
-
-<br>
 
 They say you'll learn to:
 
