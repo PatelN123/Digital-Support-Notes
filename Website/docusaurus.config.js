@@ -57,7 +57,7 @@ module.exports = {
           items: [
             {
               label: 'Notes',
-              to: 'notes',
+              to: 'docs',
             },
             {
               label: 'Main Site',
