@@ -9,6 +9,7 @@ export default function TOC({ toc, editUrl, ...props }) {
 
   return (
     <div className="toc-wrapper">
+      <p>Contents</p>
       <OriginalTOC toc={toc} {...props} />
       <EditThisPage editUrl="https://github.com/PatelN123/Digital-Support-Notes/edit/main/Website/" />
     </div>
