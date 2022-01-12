@@ -463,13 +463,78 @@ h1 {
 
 ---
 
-# Microsoft Technology Associate (MTA) <Description />
+# CISSP <Description />
 
-a six-hour exam consisting of 250 questions that certifies security professionals in ten different areas, of access control systems and methodology, business continuity planning and disaster recovery planning, physical security, operations, security, management practices, telecommunications and networking security.
+Certified Information Systems Security Professional (CISSP)
+
+A six-hour exam consisting of 250 questions that certifies security professionals in ten different areas, of access control systems and methodology, business continuity planning and disaster recovery planning, physical security, operations, security, management practices, telecommunications and networking security.
 
 <div class="grid grid-cols-1">
 
 Many employers value the CISSP for its designation as a standard for security professionals. While the investments in time and money are substantial, the career rewards can be valuable as professionals with the CISSP are in demand.
+
+
+</div>
+
+<style>
+h1 {
+}
+  
+.slidev-layout {
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2.5rem 3.5rem;
+    background: #121212;
+}
+  
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-left: 1.1em;
+    padding-left: .2em;
+    color: #9f9f9f;
+}
+
+.slidev-layout h1+p {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    opacity: .5;
+    color: #fff;
+}
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7e93a9;
+}
+
+.translate-x-\[-0\.3em\] {
+    --tw-translate-x: -.3em;
+    background-color: #383838ba;
+}
+</style>
+
+---
+
+# COBIT <Description />
+
+COBIT (Control Objectives for Information and Related Technologies)
+
+A framework created by ISACA for information technology (IT) management and IT governance. The framework is business focused and defines a set of generic processes for the management of IT, with each process defined together with process inputs and outputs, key process-activities, process objectives, performance measures and an elementary maturity model.
+
+<div class="grid grid-cols-1">
+
+The COBIT certification is aimed for people in the following roles:
+
+- IT Manager
+- IT Quality Professionals
+- IT Auditors
+- IT Consultants
+- IT Developers
+- IT Operational Management
+- ΙT Business Leadership Management
+- Managers in IT Service providing firms
 
 
 </div>
