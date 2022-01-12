@@ -63,7 +63,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1;
     padding: 2.5rem 3.5rem;
-    background: #000;
+    background: #121212;
 }
   
 .slidev-layout li {
