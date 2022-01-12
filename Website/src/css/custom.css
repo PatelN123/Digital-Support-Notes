@@ -552,39 +552,6 @@ a.card-link:hover img {
     color: #4f4f4f;
 }
 
-
-#__docusaurus [class^=tableOfContents_] {
-    -webkit-padding-after: 1.25rem;
-    -webkit-border-after: 1px solid var(--toc-separator-c);
-    border-block-end: 1px solid #e9edf3;
-    line-height: 1.4;
-    max-height: none;
-    overflow: hidden;
-    padding-block-end: 1.25rem;
-    position: static;
-    top: auto;
-}
-
-#__docusaurus .toc-wrapper h2 {
-    color: #445b78cc;
-    font-size: 1rem!important;
-    letter-spacing: .08em;
-    line-height: 12px;
-}
-
-#__docusaurus .toc-wrapper h2, .admonition .admonition-heading h5:first-letter, .admonition h5, .alert__heading, .appWizard_2PqS .wizard-button, .encapsulationPill_1PgI, .release-badge_1xee, .text--uppercase {
-    text-transform: uppercase;
-}
-
-#__docusaurus .toc-wrapper .table-of-contents {
-    -webkit-margin-start: calc(var(--ifm-toc-padding-horizontal)*-1);
-    -webkit-margin-end: calc(var(--ifm-toc-padding-horizontal)*-1);
-    margin-inline-end: calc(var(--ifm-toc-padding-horizontal)*-1);
-    margin-inline-start: calc(var(--ifm-toc-padding-horizontal)*-1);
-    padding: 0;
-    width: 16rem;
-}
-
 .table-of-contents__left-border {
     border-left: 1px solid var(--ifm-toc-border-color);
 }
@@ -603,20 +570,4 @@ a.card-link:hover img {
 ol, ul {
     margin: 0 0 var(--ifm-list-margin);
     padding-left: var(--ifm-list-left-padding);
-}
-
-#__docusaurus .toc-wrapper {
-    -webkit-margin-before: 5rem;
-    -webkit-padding-end: 2rem;
-    -webkit-padding-start: 2rem;
-    -webkit-padding-after: 2rem;
-    margin-block-start: 5rem;
-    max-height: calc(100vh - var(--ifm-navbar-height) - 16px);
-    overflow: auto;
-    padding-block-end: 2rem;
-    padding-inline-end: 2rem;
-    padding-inline-start: 2rem;
-    position: -webkit-sticky;
-    position: sticky;
-    top: calc(var(--ifm-navbar-height) + 16px);
 }
