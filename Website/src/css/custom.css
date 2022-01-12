@@ -37,9 +37,6 @@ article .badge.badge--secondary, table {
   font-weight: 550;
 }
 
-li.theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-1.menu__list-item {
-  display: none;
-}
 
 .announcementBar_3WsW, .announcementBar_axC9 {
   height: var(--docusaurus-announcement-bar-height);
