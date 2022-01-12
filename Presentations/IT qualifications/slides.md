@@ -150,4 +150,61 @@ h1 {
 }
 </style>
 
+---
 
+# Google IT Support <MarkerCore />
+
+The Google IT support certificate consists of 5 components. These include:
+
+<div class="grid grid-cols-1">
+
+- 🧑‍💻 Technical Support Fundaments
+- 🌏 The Bits and Bytes of computer networking 
+- 💻 Operating system and you: Becoming a power user
+- 🛡️ System Administration and IT Infrastructure Services
+- 🕵 IT Security: Defence against the digital dark arts
+  
+For this course, they say you'll learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service and learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging. 
+
+<br>
+
+</div>
+
+<style>
+h1 {
+}
+  
+.slidev-layout {
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2.5rem 3.5rem;
+    background: #000;
+}
+  
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-left: 1.1em;
+    padding-left: .2em;
+    color: #9f9f9f;
+}
+
+.slidev-layout h1+p {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    opacity: .5;
+    color: #fff;
+}
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7e93a9;
+}
+
+.translate-x-\[-0\.3em\] {
+    --tw-translate-x: -.3em;
+    background-color: #383838ba;
+}
+</style>
