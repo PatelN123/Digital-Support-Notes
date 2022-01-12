@@ -404,3 +404,111 @@ h1 {
     background-color: #383838ba;
 }
 </style>
+
+---
+
+# Microsoft Technology Associate (MTA) <Description />
+
+Microsoft Technology Associate is an entry-level certification that validates fundamental technology skills and knowledge in Microsoft products. MTA exams are designed to assess and validate core technical concepts in three primary areas: Databases, Development and IT Infrastructure. 
+
+<div class="grid grid-cols-1">
+
+MTA exams and certification are offered as part of the Microsoft Certified Professional program.
+
+<br>
+
+There are multiple exams for this cartifications averaging at $127 USD
+
+
+</div>
+
+<style>
+h1 {
+}
+  
+.slidev-layout {
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2.5rem 3.5rem;
+    background: #121212;
+}
+  
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-left: 1.1em;
+    padding-left: .2em;
+    color: #9f9f9f;
+}
+
+.slidev-layout h1+p {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    opacity: .5;
+    color: #fff;
+}
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7e93a9;
+}
+
+.translate-x-\[-0\.3em\] {
+    --tw-translate-x: -.3em;
+    background-color: #383838ba;
+}
+</style>
+
+---
+
+# Microsoft Technology Associate (MTA) <Description />
+
+a six-hour exam consisting of 250 questions that certifies security professionals in ten different areas, of access control systems and methodology, business continuity planning and disaster recovery planning, physical security, operations, security, management practices, telecommunications and networking security.
+
+<div class="grid grid-cols-1">
+
+Many employers value the CISSP for its designation as a standard for security professionals. While the investments in time and money are substantial, the career rewards can be valuable as professionals with the CISSP are in demand.
+
+
+</div>
+
+<style>
+h1 {
+}
+  
+.slidev-layout {
+    height: 100%;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2.5rem 3.5rem;
+    background: #121212;
+}
+  
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-left: 1.1em;
+    padding-left: .2em;
+    color: #9f9f9f;
+}
+
+.slidev-layout h1+p {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    opacity: .5;
+    color: #fff;
+}
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7e93a9;
+}
+
+.translate-x-\[-0\.3em\] {
+    --tw-translate-x: -.3em;
+    background-color: #383838ba;
+}
+</style>
