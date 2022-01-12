@@ -351,7 +351,7 @@ h1 {
 
 # Cisco Certified Technician (CCT) <Description />
 
-### This is essentially cisco’s entry-level certification that they offer and from their website, cisco certified technicians have the skills to diagnose restore repair and replace critical Cisco networking and system devices at customer sites. So it’s very much networking-focused but is still a great entry-level certification.
+This is essentially cisco’s entry-level certification that they offer and from their website, cisco certified technicians have the skills to diagnose restore repair and replace critical Cisco networking and system devices at customer sites. So it’s very much networking-focused but is still a great entry-level certification.
 
 
 </div>
