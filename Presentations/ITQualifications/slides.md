@@ -268,12 +268,20 @@ h1 {
 
 ---
 
-# IBM Cybersecurity Roles, Processes & Operating System Security <MarkerCore />
+# IBM Cybersecurity <MarkerCore />
+
+IBM Cybersecurity Roles, Processes & Operating System Security
 
 <div class="leading-8 opacity-80">
 This course is about computer security and roles within security.<br>
-IBM say it is important for an IT technical support specialist to have some knowledge within security.<br>
+IBM say it is important for an IT technical support specialist to have some knowledge <br> within security.<br> 
+
+<br>
+
 They say you'll learn to:
+
+<br>
+<br>
 
 - Understand the key cybersecurity roles within an Organization.
 - List key cybersecurity processes and an example of each process
@@ -281,5 +289,8 @@ They say you'll learn to:
 
 </div>
 
+Upon completion of this course, you get a virtual badge and a certificate. 
+
+[Certificate](https://coursera.org/share/2419cad2c8aff25e8c200611c2a5d70d)
 
 <img src="https://images.credly.com/size/680x680/images/2d8a1c02-779b-4b58-9e11-701dcbeaf380/Cyber_roles__process_Op_Sys_Sec.png" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
