@@ -1,7 +1,7 @@
 const isDev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+const config = {
   title: 'Digital Support Services T-Level Notes',
   tagline: 'nayans notes',
   url: 'https://notes.nayanpatel.net',
@@ -210,3 +210,10 @@ module.exports = {
     ],
 ],
 };
+
+async function createConfig() {
+  const FeatureRequestsPlugin = (await import('./src/featureRequests/FeatureRequestsPlugin.mjs')).default;
+  config.plugins?.push(FeatureRequestsPlugin);
+}
+
+module.exports = createConfig;
