@@ -573,3 +573,48 @@ ol, ul {
   position: sticky;
   top: calc(var(--ifm-navbar-height) + 16px);
 }
+
+feature-req {
+  align-items: center;
+    background: linear-gradient(
+90deg
+,#495fff,#18c6ff 114.68%);
+    border-radius: 200px;
+    color: #fff;
+    display: flex;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 100%;
+    margin-inline-start: .5rem;
+    padding: .375rem .625rem;
+    transition: opacity .2s ease-out;
+    white-space: nowrap;
+    width: max-content;
+}
+
+.feature-req {
+  align-items: center;
+    background: linear-gradient(
+90deg
+,#495fff,#18c6ff 114.68%);
+    border-radius: 200px;
+    color: #fff;
+    display: flex;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 100%;
+    margin-inline-start: .5rem;
+    padding: .375rem .625rem;
+    transition: opacity .2s ease-out;
+    white-space: nowrap;
+    width: max-content;
+}
+
+.feature-req:hover {
+  background: linear-gradient(90deg,#495fffbd,#18c6ffba 114.68%);
+  color: white;
+}
+
+.betapage {
+  cursor: not-allowed
+}

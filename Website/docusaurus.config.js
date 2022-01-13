@@ -41,10 +41,11 @@ const config = {
           label: 'Presentations',
           position: 'left',
         },
-                {
+        {
           to: '/feature-requests',
-          label: 'Feature Request',
+          label: 'Feature Request →',
           position: 'left',
+          className: 'feature-req',
         },
         {
           href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
