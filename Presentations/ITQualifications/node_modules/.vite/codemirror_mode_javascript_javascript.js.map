@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["dep:codemirror_mode_javascript_javascript"],
+  "sourcesContent": ["export default require(\"./node_modules/codemirror/mode/javascript/javascript.js\");"],
+  "mappings": ";;;;;;;AAAA,IAAO,gDAAQ;",
+  "names": []
+}

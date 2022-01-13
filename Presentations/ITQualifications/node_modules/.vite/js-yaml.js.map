@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["dep:js-yaml"],
+  "sourcesContent": ["import d from \"./node_modules/js-yaml/dist/js-yaml.mjs\";export default d;\nexport * from \"./node_modules/js-yaml/dist/js-yaml.mjs\""],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAwD,IAAO,mBAAQ;",
+  "names": []
+}

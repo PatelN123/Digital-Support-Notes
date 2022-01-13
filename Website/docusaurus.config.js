@@ -41,10 +41,11 @@ const config = {
           label: 'Presentations',
           position: 'left',
         },
-                {
+        {
           to: '/feature-requests',
           label: 'Feature Request',
           position: 'left',
+          className: 'feature-req',
         },
         {
           href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
@@ -93,7 +94,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Nayan Patel`,
+      copyright: `Copyright © 2022 Nayan Patel`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),

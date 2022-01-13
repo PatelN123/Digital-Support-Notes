@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["dep:codemirror"],
+  "sourcesContent": ["export default require(\"./node_modules/codemirror/lib/codemirror.js\");"],
+  "mappings": ";;;;;;AAAA,IAAO,qBAAQ;",
+  "names": []
+}

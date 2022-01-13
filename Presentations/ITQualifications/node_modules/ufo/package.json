@@ -1,0 +1,41 @@
+{
+  "name": "ufo",
+  "version": "0.7.9",
+  "description": "URL utils for humans",
+  "repository": "unjs/ufo",
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "siroc build",
+    "lint": "eslint --ext .ts .",
+    "prepublishOnly": "yarn build",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@types/flat": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "eslint": "latest",
+    "jest": "latest",
+    "siroc": "latest",
+    "standard-version": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  }
+}
