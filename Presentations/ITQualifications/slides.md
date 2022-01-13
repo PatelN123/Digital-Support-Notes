@@ -303,32 +303,6 @@ Upon completion of this course, you get a virtual badge and a certificate.
     color: #d0d0d0;
 }
 
-
-.slidev-layout h1+p {
-    margin-top: -.5rem;
-    margin-bottom: 1rem;
-    opacity: .5;
-    color: #63c2ff;
-}
-
-h1 {
-}
-  
-.slidev-layout {
-    height: 100%;
-    font-size: 1.1rem;
-    line-height: 1;
-    padding: 2.5rem 3.5rem;
-    background: #121212;
-}
-  
-.slidev-layout li {
-    line-height: 1.8em;
-    margin-left: 1.1em;
-    padding-left: .2em;
-    color: #9f9f9f;
-}
-
 .translate-x-\[-0\.3em\] {
     --tw-translate-x: -.3em;
     background-color: #383838ba;
