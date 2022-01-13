@@ -12,7 +12,7 @@ import cannyScript from './cannyScript';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const BOARD_TOKEN = '054e0e53-d951-b14c-7e74-9eb8f9ed2f91';
+const BOARD_TOKEN = 'd4ccd174-6255-d1a9-bf90-cb57ff076a8b';
 
 function FeatureRequests({basePath}: {basePath: string}): JSX.Element {
   useEffect(() => {
@@ -26,7 +26,7 @@ function FeatureRequests({basePath}: {basePath: string}): JSX.Element {
   }, [basePath]);
 
   return (
-    <Layout title="Feedback" description="Docusaurus 2 Feature Requests page">
+    <Layout title="Requests" description="Request a page or feature!">
       <main
         className={clsx('container', 'margin-vert--lg', styles.main)}
         data-canny
