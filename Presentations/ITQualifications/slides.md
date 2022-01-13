@@ -307,6 +307,13 @@ Upon completion of this course, you get a virtual badge and a certificate.
     --tw-translate-x: -.3em;
     background-color: #383838ba;
 }
+  
+.slidev-layout p {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #478ca1;
+}
 
 </style>
 
