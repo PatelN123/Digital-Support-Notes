@@ -12,7 +12,7 @@ import cannyScript from './cannyScript';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const BOARD_TOKEN = 'd4ccd174-6255-d1a9-bf90-cb57ff076a8b';
+const BOARD_TOKEN = 'bfa0a307-6361-68f3-9b03-32b0a754a950';
 
 function FeatureRequests({basePath}: {basePath: string}): JSX.Element {
   useEffect(() => {
