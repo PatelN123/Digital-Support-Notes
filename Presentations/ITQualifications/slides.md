@@ -278,7 +278,6 @@ IBM say it is important for an IT technical support specialist to have some know
 
 They say you'll learn to:
 
-<br>
 
 - Understand the key cybersecurity roles within an Organization.
 - List key cybersecurity processes and an example of each process
@@ -286,7 +285,7 @@ They say you'll learn to:
 
 </div>
 
-Upon completion of this course, you get a virtual badge and a certificate. 
+Upon completion of this course, you get a virtual badge and a certificate.  <br>
 
 [Certificate](https://coursera.org/share/2419cad2c8aff25e8c200611c2a5d70d)
 
