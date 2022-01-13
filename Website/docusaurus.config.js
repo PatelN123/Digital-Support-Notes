@@ -214,6 +214,7 @@ const config = {
 async function createConfig() {
   const FeatureRequestsPlugin = (await import('./src/featureRequests/FeatureRequestsPlugin.mjs')).default;
   config.plugins?.push(FeatureRequestsPlugin);
+  return config;
 }
 
 module.exports = createConfig;
