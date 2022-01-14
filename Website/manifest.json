@@ -1,0 +1,17 @@
+{
+    "name": "Digital Support Notes",
+    "short_name": "Notes",
+    "theme_color": "#94aaf7",
+    "background_color": "#94aaf7",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./index.html",
+    "related_applications": [
+      {
+        "platform": "webapp",
+        "url": "https://notes.nayanpatel.net/manifest.json"
+      }
+    ],
+    "icons": [
+    ]
+  }

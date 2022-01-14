@@ -30,6 +30,7 @@
     "@popperjs/core": "^2.11.2",
     "@svgr/webpack": "^6.1.2",
     "clsx": "^1.1.1",
+    "docusaurus-plugin-sass": "^0.2.1",
     "file-loader": "^6.2.0",
     "plugin-image-zoom": "github:ataft/plugin-image-zoom",
     "prism-react-renderer": "^1.2.1",
@@ -39,6 +40,7 @@
     "react-icons": "^4.3.1",
     "react-popper": "^2.2.5",
     "remark-admonitions": "^1.2.1",
+    "sass": "^1.48.0",
     "url-loader": "^4.1.1"
   },
   "browserslist": {

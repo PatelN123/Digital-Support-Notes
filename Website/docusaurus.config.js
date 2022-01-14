@@ -136,6 +136,11 @@ const config = {
   ],
   plugins: [
     [
+      'docusaurus-plugin-sass',
+      {
+      },
+    ],
+    [
         require.resolve("@easyops-cn/docusaurus-search-local"),
         {
             hashed: true,
