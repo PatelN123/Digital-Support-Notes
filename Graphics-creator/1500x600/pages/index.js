@@ -77,8 +77,8 @@ export default function Home() {
       setGeneratedCoverSvg(
         `<svg version="1.1" 
         baseProfile="full" 
-        width="3000" height="1500"
-        viewbox="0 0 3000 1500"
+        width="1500" height="600"
+        viewbox="0 0 1500 600"
         preserveAspectRatio="xMidYMid meet"
         xmlns="http://www.w3.org/2000/svg">
         <rect width="100%" height="100%" fill="${bgColor.hex}"/>
@@ -106,12 +106,12 @@ export default function Home() {
       setGeneratedCoverSvg(
         `<svg version="1.1"
           baseProfile="full"
-          viewbox="0 0 3000 1500"
-          width="3000" height="1500"
+          viewbox="0 0 1500 600"
+          width="1500" height="600"
           preserveAspectRatio="xMidYMid meet"
           xmlns="http://www.w3.org/2000/svg">
           <rect width="100%" height="100%" fill="${bgColor.hex}" />
-          <g transform="translate(610, 610) scale(10)" id="center_icon">${cleanedSvg(
+          <g transform="translate(610, 180) scale(10)" id="center_icon">${cleanedSvg(
             iconColor
           )}</g>
          </svg>`
