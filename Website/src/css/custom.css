@@ -619,3 +619,6 @@ feature-req {
   cursor: not-allowed
 }
 
+a.navbar__item.navbar__link.feature-req.navbar__link--active {
+  cursor: not-allowed;
+}
