@@ -50,7 +50,7 @@ const config = {
         {
           href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
           position: 'right',
-          className: 'header-github-link',
+          className: 'header-fb-link',
           'aria-label': 'GitHub repository',
         },
       ],
