@@ -2,6 +2,10 @@ const isDev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
+  i18n: {
+    defaultLocale: 'en-GB',
+    locales: ['en-GB']
+  },
   title: 'Digital Support Services T-Level Notes',
   tagline: 'nayans notes',
   url: 'https://notes.nayanpatel.net',
