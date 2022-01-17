@@ -38,7 +38,7 @@ article .badge.badge--secondary, table {
 }
 
 
-.announcementBar_3WsW, .announcementBar_axC9 {
+div[class^='announcementBar_'] {
   height: var(--docusaurus-announcement-bar-height);
   background-image: linear-gradient(45deg,#94aaf7 25%,#c2cfff 0,#c2cfff 50%,#94aaf7 0,#94aaf7 75%,#c2cfff 0,#c2cfff);
   background-size: 56.57px 56.57px;
