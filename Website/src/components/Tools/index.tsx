@@ -15,19 +15,19 @@ import clsx from 'clsx';
 const Playgrounds = [
   {
     name: <><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" class="icon-inline" />Discord banner</>,
-    url: 'https://',
+    url: 'https://backdropicons.notes.nayanpatel.net/',
     description: (
       <Translate id="playground.codesandbox.description">
-        Discord optimised size for a banner, at `1500` × `600` pixels.
+        Discord optimised size for a banner, at 1500 × 600 pixels.
       </Translate>
     ),
   },
   {
-    name: <><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.pngg" class="icon-inline" />Instagram Story</>,
-    url: 'https://',
+    name: <><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" class="icon-inline" />Instagram Story</>,
+    url: 'https://backdropicons.notes.nayanpatel.net/instagram-story',
     description: (
       <Translate id="playground.codesandbox.description">
-        Instagram story optimised size for a banner, at `1500` × `600` pixels.
+        Instagram story optimised size for a banner, at 1500 × 600 pixels.
       </Translate>
     ),
   },
@@ -54,7 +54,7 @@ function PlaygroundCard({name, image, url, description}: Props) {
         <div className="card__footer">
           <div className="button-group button-group--block">
             <Link className="button button--secondary" to={url}>
-              <Translate id="playground.tryItButton">Try it now!</Translate>
+              <Translate id="playground.tryItButton">Use the tool!</Translate>
             </Link>
           </div>
         </div>

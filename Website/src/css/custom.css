@@ -639,3 +639,20 @@ a.navbar__item.navbar__link.feature-req.navbar__link--active {
   background-color: #ebedf0;
   padding: 4px;
 }
+
+hr {
+  border-color: #a6a6a7b0;
+  border-style: solid;
+  border-width: 1px;
+  margin: var(--ifm-hr-margin-vertical) 0;
+  background-color: #a6a6a7b0;
+  border-radius: 10px;
+}
+
+.denied {
+  cursor: not-allowed;
+}
+
+.denied:hover {
+  color: red;
+}
