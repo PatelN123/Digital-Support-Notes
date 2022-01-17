@@ -14,41 +14,20 @@ import clsx from 'clsx';
 
 const Playgrounds = [
   {
-    name: <><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" class="icon-inline" />CodeSandbox</>,
+    name: <><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" class="icon-inline" />Discord banner</>,
     url: 'https://',
     description: (
       <Translate id="playground.codesandbox.description">
-        CodeSandbox is a popular playground solution. Runs Docusaurus in a
-        remote Docker container.
+        Discord optimised size for a banner, at `1500` × `600` pixels.
       </Translate>
     ),
   },
   {
-    name: <><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" class="icon-inline" />CodeSandbox</>,
-    url: 'https://docurus.new/codesandbox',
+    name: <><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.pngg" class="icon-inline" />Instagram Story</>,
+    url: 'https://',
     description: (
-      <Translate id="playground.testbox.description">
-        CodeSandbox is ular playground solution. Runs Docusaurus in a
-        remote Docker cner.
-      </Translate>
-    ),
-  },
-  {
-    name: <><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" class="icon-inline" />CodeSandbox</>,
-    url: 'https://docusaurus.new/stackblitz',
-    description: (
-      <Translate
-        id="playground.stackblitz.description"
-        values={{
-          webContainersLink: (
-            <Link href="https://blog.stackblitz.com/posts/introducing-webcontainers/">
-              WebContainers
-            </Link>
-          ),
-        }}>
-        {
-          'StackBlitz uses a novel {webContainersLink} technology to run Docusaurus directly in your browser.'
-        }
+      <Translate id="playground.codesandbox.description">
+        Instagram story optimised size for a banner, at `1500` × `600` pixels.
       </Translate>
     ),
   },
