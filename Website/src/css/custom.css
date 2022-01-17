@@ -631,3 +631,11 @@ a.navbar__item.navbar__link.feature-req.navbar__link--active {
 .DocSearch-Button-Keys {
   display: none
 }
+
+.icon-inline {
+  display: block;
+  max-width: 35px;
+  border-radius: 20px;
+  background-color: #ebedf0;
+  padding: 4px;
+}
