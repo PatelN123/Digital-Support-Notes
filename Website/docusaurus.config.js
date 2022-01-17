@@ -13,7 +13,9 @@ const config = {
   projectName: 'notes',
   trailingSlash: true,
   themeConfig: {
-    disableSwitch: true,
+    colorMode: {
+      disableSwitch: true,
+    },
      announcementBar: {
        id: 'beta', // Any value that will identify this message.
        content:
