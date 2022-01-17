@@ -111,7 +111,7 @@ export default function Home() {
           preserveAspectRatio="xMidYMid meet"
           xmlns="http://www.w3.org/2000/svg">
           <rect width="100%" height="100%" fill="${bgColor.hex}" />
-          <g transform="translate(540, 960) scale(10)" id="center_icon">${cleanedSvg(
+          <g transform="translate(500, 1080) scale(10)" id="center_icon">${cleanedSvg(
             iconColor
           )}</g>
          </svg>`
