@@ -4,13 +4,13 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
-import useThemeContext from "@theme/hooks/useThemeContext"; //docs: https://v2.docusaurus.io/docs/2.0.0-alpha.69/theme-classic#usethemecontext
+import {useColorMode} from '@docusaurus/theme-common'; //docs: https://v2.docusaurus.io/docs/2.0.0-alpha.69/theme-classic#usethemecontext
 
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { BiMessageSquareDetail, BiPaint } from "react-icons/bi";
 
 function HomepageHeader() {
-  const { isDarkTheme } = useThemeContext();
+  const { isDarkTheme } = useColorMode();
 
   return (
     <header className={clsx("hero", styles.heroBanner)}>
