@@ -656,3 +656,13 @@ hr {
 .denied:hover {
   color: red;
 }
+
+.pinknumbercode {
+  color: #d22cf1;
+  font-family: 'Poppins';
+}
+
+.greennumbercode {
+  color: #539d6d;
+  font-family: 'Poppins';
+}
