@@ -48,6 +48,21 @@ const config = {
           position: 'left',
         },
         {
+          label: 'Tools',
+          position: 'left',
+          items: [
+            {
+              label: 'Backdrop Icons',
+              to: 'backdropicons',
+            },
+            {
+              label: '🚧 More comming soon!',
+              to: '#',
+              className: 'denied',
+            },
+          ],
+        },
+        {
           to: '/feature-requests',
           label: 'Feature Request →',
           position: 'left',
