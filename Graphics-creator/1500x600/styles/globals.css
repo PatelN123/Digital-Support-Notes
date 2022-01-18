@@ -204,3 +204,9 @@ input:checked + .slider:before {
   display:flex;
   align-items:center;
 }
+
+p {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+}
