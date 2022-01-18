@@ -666,3 +666,7 @@ hr {
   color: #539d6d;
   font-family: 'Poppins';
 }
+
+.searchHintContainer_Pkmr {
+  display: none;
+}

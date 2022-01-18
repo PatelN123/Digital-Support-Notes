@@ -7,13 +7,13 @@ const config = {
     locales: ['en-GB']
   },
   title: 'Digital Support Services T-Level Notes',
-  tagline: 'nayans notes',
+  tagline: 'Open source, documented notes!',
   url: 'https://notes.nayanpatel.net',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Nayan Notes',
+  organizationName: 'Digital Support Notes',
   projectName: 'notes',
   trailingSlash: true,
   themeConfig: {
