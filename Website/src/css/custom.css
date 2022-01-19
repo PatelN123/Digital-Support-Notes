@@ -656,3 +656,7 @@ hr {
 .denied:hover {
   color: red;
 }
+
+img {
+  border-radius: 10px;
+}
