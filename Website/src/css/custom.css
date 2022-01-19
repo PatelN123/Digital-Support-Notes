@@ -657,6 +657,10 @@ hr {
   color: red;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .pinknumbercode {
   color: #d22cf1;
   font-family: 'Poppins';
@@ -665,8 +669,4 @@ hr {
 .greennumbercode {
   color: #539d6d;
   font-family: 'Poppins';
-}
-
-.searchHintContainer_Pkmr {
-  display: none;
 }
