@@ -342,7 +342,7 @@ html[data-theme="dark"] .medium-zoom-overlay {
   width: 24px;
   height: 24px;
   display: flex;
-  background: url("/img/social/ph.svg")
+  background: url("/img/social/ph.png")
     no-repeat;
 }
 
