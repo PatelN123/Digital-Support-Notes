@@ -1,4 +1,5 @@
 const isDev = process.env.NODE_ENV === 'development';
+const pageRef = require('./src/plugins/pageRef');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
@@ -140,7 +141,10 @@ const config = {
 
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl: "https://github.com/PatelN123/Digital-Support-Notes/edit/main/Website/"
+          editUrl: "https://github.com/PatelN123/Digital-Support-Notes/edit/main/Website/",
+          beforeDefaultRemarkPlugins: [
+            pageRef,
+        ],
         },
         blog: {
           showReadingTime: true,
