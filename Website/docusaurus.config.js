@@ -74,6 +74,12 @@ const config = {
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
         },
+        {
+          href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
+          position: 'right',
+          className: 'header-prodhunt-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
     },
     footer: {
