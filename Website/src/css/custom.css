@@ -670,3 +670,13 @@ img {
   color: #539d6d;
   font-family: 'Poppins';
 }
+
+.toggle_iYfV {
+    cursor: pointer;
+    position: relative;
+    touch-action: pan-x;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
