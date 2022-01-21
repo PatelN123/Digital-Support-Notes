@@ -310,6 +310,7 @@ html[data-theme="dark"] .medium-zoom-overlay {
 }
 
 .header-github-link:hover,
+.header-prod-link:hover,
 .header-discord-link:hover,
 .header-nanos-link:hover {
   opacity: 0.6;
