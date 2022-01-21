@@ -76,7 +76,7 @@ const config = {
           'aria-label': 'GitHub repository',
         },
         {
-          href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
+          href: 'https://www.producthunt.com/posts/digital-support-notes',
           position: 'right',
           className: 'header-prod-link',
           'aria-label': 'GitHub repository',
