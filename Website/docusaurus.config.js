@@ -75,6 +75,12 @@ const config = {
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
         },
+        {
+          href: 'https://www.producthunt.com/posts/digital-support-notes',
+          position: 'right',
+          className: 'header-prod-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
     },
     footer: {
