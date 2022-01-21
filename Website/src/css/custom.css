@@ -337,6 +337,15 @@ html[data-theme="dark"] .medium-zoom-overlay {
     no-repeat;
 }
 
+.header-prod-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/img/social/ph.svg")
+    no-repeat;
+}
+
 html[data-theme='dark'] .header-github-link:before {
   background: no-repeat center/24px url("/img/social/github-white.svg");
 }
