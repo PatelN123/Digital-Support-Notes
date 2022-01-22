@@ -1,0 +1,103 @@
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176993861-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-176993861-1');
+</script>
+
+
+
+  <title>Webshot | Instantly create a mockup for any website</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>">
+  <link rel="stylesheet" type="text/css" href="./frontend/home.css" media="screen"/>
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/html2canvas@1.0.0-rc.5/dist/html2canvas.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
+  <script defer src="https://feedback.fish/ff.js?pid=afcd6253d9d268"></script>
+  <script src="https://cdn.jsdelivr.net/g/filesaver.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+  <script src="	https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.js"></script>
+</head>
+
+<body>
+<section class="section1" id="section1">
+  <div class="content">
+    <h1>w📷bshot</h1>
+    <h3>Instantly create a mockup for any website. <br> It's simple, type in a URL below.</h3>
+    <div class="cont">
+      <input type="text" id="websiteAdress" placeholder="Enter URL" autocomplete="off">
+      <div class="color_cont">
+        <div id="color_demo"></div>
+        <input type="text" id="bgColor" placeholder="Background Color (hex)" autocomplete="off">
+      </div>
+
+      <select id="select-survey">
+        <option disabled selected>How are you using WebShot?</option>
+        <option value="business">business</option>
+        <option value="personal">personal</option>
+        <option value="prefer-not-to-say">prefer not to say</option>
+        <option value="other">other</option>
+      </select>
+
+  <button type="submit" id="submitBtn" style="margin-bottom: 8px;" onclick='generatemockup();changeView()'>🎉 generate mockup</button>
+  <p class="text-gray-500" style="font-size: 13px;">* all data collected is anonymous</p>
+  </div>
+  </div>
+</section>
+
+
+
+
+<div id="section2">
+  <div class="wrapper">
+    <img id="loading" src="https://www.criminalwatchdog.com/images/assets/loading.gif">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="section3">
+  <div class="cont">
+    <br>
+
+    <h1></h1>
+    <img alt="" id='resultImg'>
+    <br>
+    <div align="right">
+    <button id="ViewButton">✨ view mockup</button>
+    <button id="DownloadButton" onclick="capture()">🔥 export mockup</button>
+  </div>
+  <br>
+  <div align="right">
+    <button id="VisitSiteButton" onclick="location.reload();">💨 generate again</button>
+    <button id="TweetButton" onclick="Tweet()">🐦 tweet</button>
+  </div>
+    </a>
+  </div>
+</div>
+
+<textarea style="visibility: hidden;" id=t></textarea>
+<div id="footer" class="flex flex-col p-6 text-center text-black bg-white" style="cursor:pointer;">
+  <div id="links" class="my-3 max-w-md mx-auto w-full flex justify-center items-center">
+    <a data-feedback-fish class="pr-5 hover:text-gray-700">feedback</a>
+    <a href="https://twitter.com/trywebshot" target="_blank" class="pr-5 hover:text-gray-700">twitter</a>
+    <a href="https://github.com/heybereket/webshot" target="_blank" class="pr-5 hover:text-gray-700">source</a>
+  </div>
+ 
+
+<script src="./frontend/mockup.js"></script>
+<script src="./frontend/color-input.js"></script>
+<script src="./frontend/enter-function.js"></script>
+<script src="./frontend/tweet-button.js"></script>
+<script src="./frontend/download-button.js"></script>
+<script src="./frontend/visit-site-button.js"></script>
+</body>
+</html>

@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #222;
+  overflow-y: visible;
+}
+
+input {
+  outline: none;
+}
+
+#section1 h1 {
+	display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.20em;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 60px;
+    color: #2d3748;
+}
+
+#section h3 {
+  color: #2d3748;
+}
+
+#section1 h3 {
+  display: block;
+  font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 75px;
+}
+
+#section1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 100 20px;
+}
+
+#submitBtn {
+	display: inline-block;
+	color: #222;
+	border-radius: 5px;
+	border: solid #222 2px;
+  transition: all .15s ease;
+  background: #222;
+  color: #fff;
+}
+
+#submitBtn:hover {
+  border-radius: 5px;
+  border: solid #222 2px;
+  background: transparent;
+  color: #222;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+
+#websiteAdress {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  margin: 0 0 15px 0;
+  color: #222;
+  padding: 0 20px;
+
+}
+
+#select-survey {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  margin: 0 0 15px 0;
+  color: #222;
+  padding: 0 20px;
+  outline: none;
+}
+
+
+.color_cont {
+  height: 40px;
+  width: 420px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+}
+
+#color_demo {
+  width: 50px;
+  height: 40px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0 10px;
+  margin-top: -14px;
+}
+
+#bgColor {
+  height: 40px;
+  width: 340px;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  margin: 0 0 15px 0;
+  color: #222;
+  padding: 0 20px;
+}
+
+/* Loading Screen */
+#section2 {
+  display: none;
+}
+
+#loading {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+  position: relative;
+  top: 350px;
+}
+
+
+/* Results Screen */
+#section3 {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#resultImg {
+  width: 50%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#ViewButton, #TweetButton, #DownloadButton, #VisitSiteButton {
+  margin: 0 30px 0 30px;
+  width: 375px;
+}
+
+#ViewButton:hover, #TweetButton:hover, #DownloadButton:hover, #VisitSiteButton:hover {
+  color: #fff;
+}
+
+/* Misc */
+button {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid #222;
+  color: #222;
+  cursor: pointer;
+}
+
+button:hover {
+  border: none;
+  cursor: pointer;
+  background: #222;
+  color: #222;
+}
+
+#footer { 
+  border-top: 2px solid #eee;
+  width:100%;
+  position:absolute;
+  bottom: 0;
+  left:0;
+  font-weight: 300;
+}
+
+
+
+/* test animations */
+.el {
+  -webkit-animation: jello-horizontal 0.9s both;
+        animation: jello-horizontal 0.9s both;
+        cursor: pointer;
+}
+
+#no-animation {
+  visibility: visible;
+}
+
+@media (max-width: 800px){
+  #no-animation {
+      visibility: hidden;
+  }
+}
+
+#logo:hover {
+  -webkit-animation: jello-horizontal 0.9s both;
+        animation: jello-horizontal 0.9s both;
+}
+
+.e {
+  animation: jiggle 5s infinite;
+  
+}
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+
+@keyframes jiggle2 {
+  
+  7.5% {
+    transform: rotate(7.5deg);
+  }
+  10% {
+    transform: rotate(-7.5deg);
+  }
+  12.5% {
+    transform: rotate(0deg);
+  }
+ 
+}
+
+
+@keyframes jiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  2.5% {
+    transform: rotate(5deg);
+  }
+  5% {
+    transform: rotate(-5deg);
+  }
+  7.5% {
+    transform: rotate(7.5deg);
+  }
+  10% {
+    transform: rotate(-7.5deg);
+  }
+  12.5% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#emoji {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 20px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+::-webkit-scrollbar-track {
+  background: #D3D1CB;
+}
