@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
+import HomeHero from '../components/homeHero'
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
@@ -15,6 +16,7 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero", styles.heroBanner)}>
       <div className="container">
+        <HomeHero />
         <h1 className={styles.heroTitle}>
           Open source documented notes for{" "}
           <span style={{ color: "var(--ifm-color-primary)" }}>
