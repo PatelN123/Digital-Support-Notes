@@ -57,6 +57,10 @@ const config = {
               to: 'backdropicons',
             },
             {
+              label: 'Website Mockups',
+              to: 'https://website-mockup.notes.nayanpatel.net',
+            },
+            {
               label: '🚧 More comming soon!',
               to: '#',
               className: 'denied',
