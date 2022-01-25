@@ -65,5 +65,31 @@ RAID 0 is ideal for non-critical storage of data that have to be read/written to
 - Does not always allow for hot swap
 
 ### RAID 5
+- This combines RAID 0 & RAID 1, however it does not use mirroring. 
+- A parity block accross all drives is employed
+- If a drive fails the parity, infomation along with the remaining drive information can be used to rebuild the set
+- A minimum of 3 drives is required for RAID 5
 
+RAID 5 combines efficient storage with excellent security and decent performance <br />
+Ideal for fiel and application servers that have a limited number of data drives
+
+#### Advantages
+- Read data transactions are very fast while write data transactions are somewhat slower
+- If a drive fails, you still have access to all data, eben while the failed drive is being replaces and the storage controller rebuilds the data on the new drive
+
+#### Disadvantages
+- Drive failures have an effect on throughput, although this is still acceptable
+- Complex
+
+### RAID 10
+- Combines the advantages (and disadvantages) of RAID 0 and RAID 1 into a single system. 
+- It prvides security by mirroring all data on secondary drives, while using stripping across each set of drives to speed up data transfers
+- Requires a minimum of 4 drives
+
+#### Advantages
+- If somethign goes wrong with one disk, in a RAID 10 configuration, the rebuild time is very fast as all that is needed is to copy all data from the surviving mirror to the new drive
+    - This can take as little as 30 minutes for 1TB of data
+
+#### Disadvantages
+- Half of the storage capacity goes to mirroring, so it's an expensive way to have redundancy
 
