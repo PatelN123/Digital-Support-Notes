@@ -54,6 +54,34 @@ With one copy offsite, for disaster recovery
 
 ## Methodologies
 
+### Full
+Makes a copy of all data to another set of media. <br />
 
+#### Advantages
+- All data is backed up
+- Straightforward to restore
 
+#### Disadvantages
+- Time consuming
+- Storage space
 
+### Incremental
+Only copies data that has changed since the last backup of any time
+
+#### Advantages
+- Less sorage required than differential backup
+- Quicker to backup
+
+#### Disadvantages
+- More time to restore as all previous backups have to be restored
+
+### Differential
+Only copies data that has changed since the last full backup. <br  />
+
+#### Advantages
+- Less storage required than full backup
+- Quicker to restore than full backup
+
+#### Disadvantages
+- Stores more data than an incremental backup
+- More space required than incrememntal backup
