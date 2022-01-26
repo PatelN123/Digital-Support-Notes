@@ -61,6 +61,10 @@ const config = {
               to: 'https://website-mockup.notes.nayanpatel.net',
             },
             {
+              label: 'Analytics',
+              to: 'https://analytics.notes.nayanpatel.net/share/NmRzIAly/Digital%20Support%20Notes',
+            },
+            {
               label: '🚧 More comming soon!',
               to: '#',
               className: 'denied',
@@ -96,6 +100,10 @@ const config = {
             {
               label: 'Notes',
               to: 'docs',
+            },
+            {
+              label: 'Analytics',
+              href: 'https://analytics.notes.nayanpatel.net/share/NmRzIAly/Digital%20Support%20Notes',
             },
             {
               label: 'Main Site',

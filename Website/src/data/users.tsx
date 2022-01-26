@@ -138,6 +138,15 @@ const Users: User[] = [
     source: 'https://github.com/PatelN123/Digital-Support-Notes/tree/main/Presentations/Staff%20training%20and%20awareness',
     tags: ['DigitalEnvironments', 'favorite'],
   },
+  {
+    title: 'Device Hardening',
+    description:
+      'A powerpoint on Device Hardening, and methods.',
+    preview: require('./presentations/device-hardening.png'),
+    website: 'http://cdn.nayan.gq/Hardening%20New.pptx',
+    source: '',
+    tags: ['DigitalEnvironments'],
+  },
 ];
 
 export const TagList = Object.keys(Tags) as TagType[];
