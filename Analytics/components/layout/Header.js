@@ -32,7 +32,7 @@ export default function Header() {
           <div className="">
             <div className={styles.title}>
               <Icon icon={<Logo />} size="large" className={styles.logo} />
-              <Link href={user ? '/' : 'https://analytics.notes.nayanpatel.net'}>Digital Support Notes Analytics</Link>
+              <Link href={user ? '/' : 'https://notes.nayanpatel.net'}>Analytics</Link>
             </div>
           </div>
           <Button
