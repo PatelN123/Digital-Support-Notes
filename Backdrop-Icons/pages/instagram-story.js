@@ -162,7 +162,7 @@ export default function Home() {
         {/* <!-- HTML Meta Tags --> */}
         <title>Backdrop Icons</title>
         <meta name="description" content="Make awesome icon backdrops!" />
-        <link rel="icon" href="https://cdn.nayan.gq/me/icon.svg" sizes="any" type="image/svg+xml" />
+        <link rel="icon" href="https://cdn.notes.nayanpatel.net/bdlogo.png" sizes="any" type="image/svg+xml" />
         <meta name="theme-color" content="#222222" />
 
         {/* <!-- Facebook Meta Tags --> */}
@@ -173,7 +173,7 @@ export default function Home() {
           property="og:description"
           content="Make awesome icon backdrops!"
         />
-        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:image" content="https://cdn.notes.nayanpatel.net/bdlogo.png" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -184,7 +184,7 @@ export default function Home() {
           name="twitter:description"
           content="Make awesome icon backdrops!"
         />
-        <meta name="twitter:image" content="https://cdn.nayan.gq/me/me(png).png" />
+        <meta name="twitter:image" content="https://cdn.notes.nayanpatel.net/bdlogo.png" />
       </Head>
 
       <div className={styles.container}>
