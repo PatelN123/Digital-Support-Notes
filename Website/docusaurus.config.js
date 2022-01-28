@@ -34,7 +34,7 @@ const config = {
       title: 'Digital Support Services Notes',
       logo: {
         alt: 'nayan notes',
-        src: 'img/logonobg.png',
+        src: 'img/logo.gif',
         href: '/'
       },
       items: [
@@ -172,7 +172,7 @@ const config = {
           blogSidebarCount: 'ALL',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],
