@@ -34,7 +34,7 @@ const config = {
       title: 'Digital Support Services Notes',
       logo: {
         alt: 'nayan notes',
-        src: 'img/logonobg.png',
+        src: 'img/logo.gif',
         href: '/'
       },
       items: [
