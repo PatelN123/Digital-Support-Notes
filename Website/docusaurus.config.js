@@ -18,11 +18,6 @@ const config = {
   projectName: 'notes',
   trailingSlash: true,
   themeConfig: {
-    algolia: {
-      appId: 'T2T780TWHU',
-      apiKey: '99a14a43d86b4d0cb8f8608e65b3edaf',
-      indexName: 'notes-nayanpatel',
-    },
     colorMode: {
       disableSwitch: true,
     },
@@ -187,6 +182,18 @@ const config = {
       'docusaurus-plugin-sass',
       {
       },
+    ],
+    [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        {
+            hashed: true,
+            docsDir: 'docs',
+            docsRouteBasePath: '/',
+            indexDocs: true,
+            indexBlog: false,
+            indexPages: true,
+            highlightSearchTermsOnTargetPage: false
+        }
     ],
     [
       '@docusaurus/plugin-pwa',
