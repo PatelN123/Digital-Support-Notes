@@ -190,18 +190,6 @@ const config = {
       },
     ],
     [
-        require.resolve("@easyops-cn/docusaurus-search-local"),
-        {
-            hashed: true,
-            docsDir: 'docs',
-            docsRouteBasePath: '/',
-            indexDocs: true,
-            indexBlog: false,
-            indexPages: true,
-            highlightSearchTermsOnTargetPage: false
-        }
-    ],
-    [
       '@docusaurus/plugin-pwa',
       {
         debug: true,
