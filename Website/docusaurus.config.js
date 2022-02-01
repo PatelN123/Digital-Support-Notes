@@ -18,6 +18,12 @@ const config = {
   projectName: 'notes',
   trailingSlash: true,
   themeConfig: {
+    algolia: {
+      appId: 'T2T780TWHU',
+      apiKey: '99a14a43d86b4d0cb8f8608e65b3edaf',
+      indexName: 'notes-nayanpatel',
+      contextualSearch: true,
+    },
     colorMode: {
       disableSwitch: true,
     },
