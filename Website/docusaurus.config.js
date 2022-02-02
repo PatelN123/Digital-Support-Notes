@@ -35,12 +35,12 @@ const config = {
        textColor: '#091E42', // Defaults to `#000`.
        isCloseable: true, // Defaults to `true`.
      },
-     metadata: [{name: 'Digital Support Services T-Level Notes', content: 'notes, docs'}],
+     metadata: [{name: 'Digital Support Services T-Level Textbook', content: 'notes, docs, textbook, alternative, learn'}],
     navbar: {
       title: 'Digital Support Services Notes',
       logo: {
         alt: 'nayan notes',
-        src: 'img/logo.gif',
+        src: 'img/logonobg.png',
         href: '/'
       },
       items: [
@@ -119,18 +119,6 @@ const config = {
           ],
         },
         {
-          title: 'More',
-          items: [
-            {
-              html: `
-              <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
-                <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
-              </a>
-            `,
-            },
-          ],
-        },
-        {
           title: 'Code of Conduct',
           items: [
             {
@@ -140,7 +128,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Nayan Patel`,
+      copyright: `Thanks to <a target="_blank" rel="noopener noreferrer" href="https://netlify.com">Netlify</a> for sponsoring us with a free Pro account! <br /> Copyright © ${new Date().getFullYear()} Nayan Patel`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
