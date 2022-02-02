@@ -41,7 +41,7 @@ const config = {
       logo: {
         alt: 'Digital Support Notes',
         src: 'img/logonobg.png',
-        href: '/'
+        href: '/',
         width: 32,
         height: 32,
       },
