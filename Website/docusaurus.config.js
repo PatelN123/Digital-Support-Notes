@@ -39,9 +39,11 @@ const config = {
     navbar: {
       title: 'Digital Support Services Notes',
       logo: {
-        alt: 'nayan notes',
+        alt: 'Digital Support Notes',
         src: 'img/logonobg.png',
         href: '/'
+        width: 32,
+        height: 32,
       },
       items: [
         {
