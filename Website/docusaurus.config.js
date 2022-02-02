@@ -146,7 +146,7 @@ const config = {
     [
       '@docusaurus/preset-classic',
       {
-        gtag: {
+        googleAnalytics: {
           trackingID: 'UA-216503437-1',
           anonymizeIP: true,
         },
