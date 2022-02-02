@@ -6,6 +6,7 @@ import { useTitleFormatter } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import DocPaginator from "@theme/DocPaginator";
+import DocItemFooter from '@theme/DocItemFooter';
 import DocVersionBanner from "@theme/DocVersionBanner";
 import DocVersionBadge from "@theme/DocVersionBadge"
 import TOC from "@theme/TOC";
@@ -102,6 +103,7 @@ function DocItem(props) {
               <MDXProvider components={MDXComponents}>
                 <div className="markdown">
                   <DocContent />
+                  <DocItemFooter {...props} />
                 </div>
               </MDXProvider>
             </article>
