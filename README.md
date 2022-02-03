@@ -1,5 +1,8 @@
 Notes website for Digital Support Services!
 
+<iframe src="https://status.notes.nayanpatel.net/embed-status/dark-md" width="230" height="61" 
+                      frameBorder="0" scrolling="no" style="border: none;" ></iframe>
+
 
 ## Contributors
 
