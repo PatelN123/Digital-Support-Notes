@@ -761,3 +761,121 @@ p {
     display: none;
 }
 }
+
+.noborder {
+  border-radius: 0px;
+}
+
+.display-flex, .docs-wrapper, .pagination-nav {
+  display: flex;
+}
+
+.docsRating {
+  border-radius: var(--ifm-global-radius);
+  margin: 36px 0 0!important;
+  width: 100%;
+}
+
+.docsRating {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  line-height: 32px;
+  min-height: 66px;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.margin-top--lg, .margin-vert--lg {
+  margin-top: 2rem!important;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.justify-content--center {
+  justify-content: center;
+}
+
+.pagination-nav__link {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  flex-grow: 1;
+  line-height: var(--ifm-heading-line-height);
+  padding: var(--ifm-global-spacing);
+  transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.docsRating .i_thumbsup {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin: auto 14px;
+}
+
+.docsRating .i_thumbsdown {
+  transform: scale(-1, -1) translateY(-0.25em);
+  margin: -3px 14px auto 14px;
+}
+
+html[data-theme="dark"] .docsRating .i_thumbsup {
+  fill: #56a211;
+}
+
+html[data-theme="dark"] .docsRating .i_thumbsdown {
+  fill: #e9430f;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.justify-content--center {
+  justify-content: center;
+}
+
+.sub-rating:hover,
+.docsRating svg:focus {
+  cursor: pointer;
+  fill: var(--ifm-color-primary);
+}
+
+.user-options {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 475px) {
+  .user-options:nth-child(1) {
+    display: initial;
+  }
+
+  .edit-this-page {
+    margin-left: 0rem !important;
+  }
+}
+
+.docsRating svg {
+  height: 1.5em;
+  margin: 0 0 0 6px;
+  width: 1.5em;
+}
+
+.docsRating .i_thumbsup {
+  margin: auto 10px;
+  transform: scaleX(-1);
+}
+
+.docsRating .i_thumbsdown {
+  margin: -3px 14px auto;
+  transform: scale(-1) translateY(-.25em);
+}
+
+.docsRating .text--left {
+  border-radius: var(--ifm-badge-border-radius);
+  padding: 16px;
+}
+
+.docsRating .text--left, details, summary {
+  background-color: #f6f8fa;
+}
