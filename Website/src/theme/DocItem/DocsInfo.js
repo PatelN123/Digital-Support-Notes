@@ -21,22 +21,6 @@ function DocsInfo({ docsPluginId, ...props }) {
         <div className="user-options">
           {/* Open Doc Issue Button*/}
           <div className="margin-right--md display-flex">
-            {openDocIssueURL && (
-              <a
-                href={openDocIssueURL}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <img
-                  className="padding-right--sm noborder"
-                  src={bugIconUrl}
-                ></img>
-                Open notes issue
-              </a>
-            )}
-          </div>
-          {/* Share Button*/}
-          <div className="display-flex">
             <ShareButton title={props.title} />
           </div>
         </div>

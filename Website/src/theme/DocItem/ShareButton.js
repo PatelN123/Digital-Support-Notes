@@ -10,7 +10,7 @@ function ShareButton(props) {
     "&text=Check out this page on " +
     `${props.title}` +
     ": " +
-    "&hashtags=zowe,openmainframeproject,opensource";
+    "&hashtags=digital,support,services,t-level,tlevel,textbook,notes,opensource,free";
   const linkedinShareURL =
     "http://www.linkedin.com/shareArticle?mini=true&url=https://notes.nayanpatel.net" +
     `${location.pathname}` +

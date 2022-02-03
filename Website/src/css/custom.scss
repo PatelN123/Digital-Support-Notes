@@ -900,5 +900,26 @@ html[data-theme="dark"] .docsRating .i_thumbsup {
 }
 
 .noborder {
+<<<<<<< HEAD
   border-radius: 0;
+=======
+  border-radius: 0px;
+}
+
+
+.floatit {
+  width: 100px;
+  float:left;
+  height:100px;
+  background:gray;
+  margin:10px
+}
+
+.floatitone {
+  width: 100px;
+  float:left;
+  height:100px;
+  background:yellow;
+  margin:10px
+>>>>>>> 6f2e1b07 (add)
 }

@@ -1,91 +1,108 @@
-import React, { useEffect, useState } from "react";
-import Head from "@docusaurus/Head";
-import MDXComponents from "@theme/MDXComponents";
-import { MDXProvider } from "@mdx-js/react";
-import { useTitleFormatter } from "@docusaurus/theme-common";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import DocPaginator from "@theme/DocPaginator";
-import DocItemFooter from '@theme/DocItemFooter';
-import DocVersionBanner from "@theme/DocVersionBanner";
-import DocVersionBadge from "@theme/DocVersionBadge"
-import TOC from "@theme/TOC";
-import clsx from "clsx";
-import styles from "./styles.module.css";
-import { useActivePlugin, useVersions } from "@docusaurus/plugin-content-docs/client";
-
-//Components
-import DocsInfo from "./DocsInfo";
-import DocsRating from "./DocsRating";
-
-function DocItem(props) {
-  const { siteConfig } = useDocusaurusContext();
-  const { url: siteUrl } = siteConfig;
-  const { content: DocContent, versionMetadata } = props;
-  const {
-    metadata,
-    frontMatter: {
-      image: metaImage,
-      keywords,
-      hide_title: hideTitle,
-      hide_table_of_contents: hideTableOfContents,
-    },
-  } = DocContent;
-  const {
-    description,
-    title,
-    permalink,
-    editUrl,
-    lastUpdatedAt,
-    lastUpdatedBy,
-    unversionedId,
-  } = metadata;
-  const { pluginId } = useActivePlugin({ failfast: true });
-
-  const versions = useVersions(pluginId);
-
-  const showVersionBadge = versions.length > 1;
-  const metaTitle = useTitleFormatter(title);
-  const metaImageUrl = useBaseUrl(metaImage, {
-    absolute: true,
-  });
-  return (
-    <>
-      <Head>
-        <title>{metaTitle}</title>
-        <meta property="og:title" content={metaTitle} />
-        {description && <meta name="description" content={description} />}
-        {description && (
-          <meta property="og:description" content={description} />
-        )}
-        {keywords && keywords.length && (
-          <meta name="keywords" content={keywords.join(",")} />
-        )}
-        {metaImage && <meta property="og:image" content={metaImageUrl} />}
-        {metaImage && <meta name="twitter:image" content={metaImageUrl} />}
-        {metaImage && (
-          <meta name="twitter:image:alt" content={`Image for ${title}`} />
-        )}
-        {permalink && <meta property="og:url" content={siteUrl + permalink} />}
-        {permalink && <link rel="canonical" href={siteUrl + permalink} />}
-      </Head>
-
-      <div className="row">
-        <div
-          className={clsx("col", {
-            [styles.docItemCol]: !hideTableOfContents,
-          })}
-        >
-          <DocVersionBanner versionMetadata={versionMetadata} />
-          <div className={styles.docItemContainer}>
-            <article className="article-content">
-            <DocVersionBadge/>
-              {showVersionBadge && (
-                <div>
-                  <span className="badge badge--secondary">
-                    Version: {versionMetadata.label}
-                  </span>
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+ import React, { useEffect, useState } from "react";
+ import Head from "@docusaurus/Head";
+ import MDXComponents from "@theme/MDXComponents";
+ import { MDXProvider } from "@mdx-js/react";
+ import { useTitleFormatter } from "@docusaurus/theme-common";
+ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+ import useBaseUrl from "@docusaurus/useBaseUrl";
+ import clsx from 'clsx';
+ import DocPaginator from '@theme/DocPaginator';
+ import DocVersionBanner from '@theme/DocVersionBanner';
+ import DocVersionBadge from '@theme/DocVersionBadge';
+ import Seo from '@theme/Seo';
+ import DocItemFooter from '@theme/DocItemFooter';
+ import TOC from '@theme/TOC';
+ import TOCCollapsible from '@theme/TOCCollapsible';
+ import { useActivePlugin, useVersions } from "@docusaurus/plugin-content-docs/client";
+ import Heading from '@theme/Heading';
+ import styles from './styles.module.css';
+ import {ThemeClassNames, useWindowSize} from '@docusaurus/theme-common';
+ 
+ 
+ //Components
+ import DocsInfo from "./DocsInfo";
+ import DocsRating from "./DocsRating";
+ 
+ export default function DocItem(props) {
+   const {content: DocContent} = props;
+   const {metadata, frontMatter} = DocContent;
+   const {
+     image,
+     keywords,
+     hide_title: hideTitle,
+     hide_table_of_contents: hideTableOfContents,
+     toc_min_heading_level: tocMinHeadingLevel,
+     toc_max_heading_level: tocMaxHeadingLevel,
+   } = frontMatter;
+   const {description, title, unversionedId, editUrl} = metadata; // We only add a title if:
+   // - user asks to hide it with front matter
+   // - the markdown content does not already contain a top-level h1 heading
+ 
+   const shouldAddTitle =
+     !hideTitle && typeof DocContent.contentTitle === 'undefined';
+   const windowSize = useWindowSize();
+   const canRenderTOC =
+     !hideTableOfContents && DocContent.toc && DocContent.toc.length > 0;
+   const renderTocDesktop =
+     canRenderTOC && (windowSize === 'desktop' || windowSize === 'ssr');
+   return (
+     <>
+       <Seo
+         {...{
+           title,
+           description,
+           keywords,
+           image,
+         }}
+       />
+ 
+       <div className="row">
+         <div
+           className={clsx('col', {
+             [styles.docItemCol]: !hideTableOfContents,
+           })}>
+           <DocVersionBanner />
+           <div className={styles.docItemContainer}>
+             <article>
+               <DocVersionBadge />
+ 
+               {canRenderTOC && (
+                 <TOCCollapsible
+                   toc={DocContent.toc}
+                   minHeadingLevel={tocMinHeadingLevel}
+                   maxHeadingLevel={tocMaxHeadingLevel}
+                   className={clsx(
+                     ThemeClassNames.docs.docTocMobile,
+                     styles.tocMobile,
+                   )}
+                 />
+               )}
+               <div
+                 className={clsx(ThemeClassNames.docs.docMarkdown, 'markdown')}>
+                 {/*
+                 Title can be declared inside md content or declared through front matter and added manually
+                 To make both cases consistent, the added title is added under the same div.markdown block
+                 See https://github.com/facebook/docusaurus/pull/4882#issuecomment-853021120
+                 */}
+                 {shouldAddTitle && (
+                   <header>
+                     <Heading as="h1">{title}</Heading>
+                   </header>
+                 )}
+                 <DocContent />
+               </div>
+               <DocItemFooter {...props} />
+             </article>
+             <div className="margin-left--none margin-top--md text--center">
+               <DocsRating label={unversionedId} />
                 </div>
+<<<<<<< HEAD
               )}
               {!hideTitle && (
                 <header>
@@ -127,3 +144,24 @@ function DocItem(props) {
 }
 
 export default DocItem;
+=======
+ 
+             <DocPaginator previous={metadata.previous} next={metadata.next} />
+           </div>
+         </div>
+         {renderTocDesktop && (
+           <div className="col col--3">
+             <TOC
+               toc={DocContent.toc}
+               minHeadingLevel={tocMinHeadingLevel}
+               maxHeadingLevel={tocMaxHeadingLevel}
+               className={ThemeClassNames.docs.docTocDesktop}
+             />
+           </div>
+         )}
+       </div>
+     </>
+   );
+ }
+ 
+>>>>>>> 6f2e1b07 (add)

@@ -7,12 +7,8 @@ const DocsRating = ({ label }) => {
     return null;
   }
   const location = useLocation();
-  const slackInviteURL = "https://slack.openmainframeproject.org/";
   const openDocIssueURL =
-    "https://github.com/zowe/docs-site/issues/new?assignees=&labels=&template=---doc-error-report.md&title=Issue with docs.zowe.org" +
-    `${location.pathname}`;
-  const docEnhancementURL =
-    "https://github.com/zowe/docs-site/issues/new?assignees=&labels=&template=---doc-site-enhancement-request.md&title=Doc enhancement request for docs.zowe.org" +
+    "https://github.com/PatelN123/Digital-Support-Notes/issues/new" +
     `${location.pathname}`;
 
   const [haveVoted, setHaveVoted] = useState(false);
@@ -41,14 +37,12 @@ const DocsRating = ({ label }) => {
     <div className="docsRating margin-auto margin-top--lg">
       {haveVoted && liked == false ? (
         <div className="text--left">
-          Thanks for letting us know! If you have a specific question about how
-          to use Zowe, ask it on our <a href={slackInviteURL}>Slack Channel</a>.
-          Open an issue in the GitHub repo if you want to{" "}
-          <a href={openDocIssueURL}>report a problem</a> or{" "}
-          <a href={docEnhancementURL}>suggest an improvement</a>.
+          Thanks for letting us know! We're constantly updating these notes, but if you'd like, you can
+          open an issue in the GitHub repo {" "}
+          <a href={openDocIssueURL}>report a problem</a> or suggest an improvement, by contributing!.
         </div>
       ) : haveVoted && liked == true ? (
-        "Thanks for letting us know!"
+        "Awesome! Thanks for letting us know!"
       ) : (
         <div className="text--center">
           <h3>Was this topic helpful?</h3>
@@ -57,6 +51,7 @@ const DocsRating = ({ label }) => {
               className="sub-rating pagination-nav__link padding-vert--sm padding-horiz--md margin-right--sm user-options"
               style={{ flexGrow: "unset" }}
               onClick={() => giveFeedback(1)}
+              onClick={() => window.umami('positive')}
             >
               <svg
                 className="i_thumbsup"
@@ -72,6 +67,7 @@ const DocsRating = ({ label }) => {
               className="sub-rating pagination-nav__link padding-vert--sm padding-horiz--md user-options"
               style={{ flexGrow: "unset" }}
               onClick={() => giveFeedback(0)}
+              onClick={() => window.umami('negative')}
             >
               <svg
                 className="i_thumbsdown"
