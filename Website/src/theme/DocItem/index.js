@@ -102,7 +102,6 @@
              <div className="margin-left--none margin-top--md text--center">
                <DocsRating label={unversionedId} />
                 </div>
-<<<<<<< HEAD
               )}
               {!hideTitle && (
                 <header>
@@ -144,7 +143,6 @@
 }
 
 export default DocItem;
-=======
  
              <DocPaginator previous={metadata.previous} next={metadata.next} />
            </div>
@@ -163,5 +161,3 @@ export default DocItem;
      </>
    );
  }
- 
->>>>>>> 6f2e1b07 (add)
