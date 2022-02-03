@@ -121,6 +121,15 @@ const config = {
           ],
         },
         {
+          title: 'Sponsors',
+          items: [
+            {
+              label: 'Sponsors',
+              to: 'sponsors',
+            },
+          ],
+        },
+        {
           title: 'Code of Conduct',
           items: [
             {
