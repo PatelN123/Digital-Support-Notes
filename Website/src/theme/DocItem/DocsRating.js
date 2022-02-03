@@ -8,8 +8,7 @@ const DocsRating = ({ label }) => {
   }
   const location = useLocation();
   const openDocIssueURL =
-    "https://github.com/PatelN123/Digital-Support-Notes/issues/new" +
-    `${location.pathname}`;
+    "https://github.com/PatelN123/Digital-Support-Notes/issues/new";
 
   const [haveVoted, setHaveVoted] = useState(false);
   const [liked, setLiked] = useState(false);
