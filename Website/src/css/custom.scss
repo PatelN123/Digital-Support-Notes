@@ -153,9 +153,21 @@ header + p::after {
   padding: 0 var(--ifm-pre-padding);
 }
 
+.sub-rating:hover,
+.docsRating svg:focus {
+  cursor: pointer;
+  fill: var(--ifm-color-primary);
+}
+
 video {
   width: 100%;
   margin: 2rem 0;
+}
+
+.docsRating .i_thumbsup {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin: auto 14px;
 }
 
 /* Headers */
@@ -804,11 +816,6 @@ p {
   transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
 }
 
-.docsRating .i_thumbsup {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  margin: auto 14px;
-}
 
 .docsRating .i_thumbsdown {
   transform: scale(-1, -1) translateY(-0.25em);
@@ -827,15 +834,6 @@ html[data-theme="dark"] .docsRating .i_thumbsdown {
   display: flex;
 }
 
-.justify-content--center {
-  justify-content: center;
-}
-
-.sub-rating:hover,
-.docsRating svg:focus {
-  cursor: pointer;
-  fill: var(--ifm-color-primary);
-}
 
 .user-options {
   display: flex;
