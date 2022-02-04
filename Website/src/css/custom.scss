@@ -879,3 +879,15 @@ html[data-theme="dark"] .docsRating .i_thumbsdown {
 .docsRating .text--left, details, summary {
   background-color: #f6f8fa;
 }
+
+.menu__link--active:not(.menu__link--sublist) {
+  border-left-color: var(--ifm-menu-color-active) !important;
+  border-left-width: 4px;
+  border-left-style: solid;
+  font-weight: 500;
+  padding-left: 12px;
+}
+
+.menu__link:not([href]) {
+  border-left: none;
+}
