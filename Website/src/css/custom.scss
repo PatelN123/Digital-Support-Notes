@@ -771,12 +771,6 @@ p {
 }
 
 .docsRating {
-  border-radius: var(--ifm-global-radius);
-  margin: 36px 0 0!important;
-  width: 100%;
-}
-
-.docsRating {
   display: flex;
   flex-direction: column;
   font-weight: 500;
@@ -784,6 +778,9 @@ p {
   min-height: 66px;
   padding: 16px 0;
   text-align: center;
+  border-radius: var(--ifm-global-radius);
+  margin: 36px 0 0!important;
+  width: 100%;
 }
 
 .margin-top--lg, .margin-vert--lg {
