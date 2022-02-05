@@ -886,3 +886,18 @@ html[data-theme="dark"] .docsRating .i_thumbsdown {
 .menu__link:not([href]) {
   border-left: none;
 }
+
+svg.arrowhome {
+  margin-left: 5px;
+}
+
+svg.githubhome {
+  margin-right: 5px;
+}
+
+.gradienttitle {
+  background-image: linear-gradient(60deg,#5fa0ff,#785fff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-variation-settings: 'wght' 800;
+}
