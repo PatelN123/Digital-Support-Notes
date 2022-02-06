@@ -906,3 +906,11 @@ svg.githubhome {
   display: inline-flex;
   align-self: center;
 }
+
+@import 'node_modules/aos/src/sass/aos.scss';
+
+[data-aos="zoom-y-out"] {
+  transform: scaleX(1.03);
+  opacity: 0;
+  transition-property: transform, opacity;
+}
