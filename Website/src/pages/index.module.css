@@ -15,20 +15,53 @@
 }
 
 .heroDescription {
-  font-family: "Poppins";
-  font-weight: 500;
-  width: 70%;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  color: var(--hero-description-text-color);
-  font-size: clamp(17px, 3vw, 1rem);
+  max-width: 560px;
+  -webkit-margin-start: auto;
+  margin-inline-start: auto;
+  -webkit-margin-end: auto;
+  margin-inline-end: auto;
+  color: #718096;
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
 }
 
 .heroButton {
   font-weight: 500;
   padding: 12px 25px;
-  font-size: 18px;
+  margin-right: 10px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    width: auto;
+    line-height: 1.2;
+    height: 4rem;
+    min-width: 3rem;
+    font-size: 1.2rem;
+    -webkit-padding-start: 40px;
+    padding-inline-start: 40px;
+    -webkit-padding-end: 40px;
+    padding-inline-end: 40px;
 }
 
 .featureCard {
@@ -57,7 +90,7 @@ h1 {
     width: 100%;
     padding: 2rem 1rem;
   }
-
+  
   .heroDescription {
     width: 100%;
   }
@@ -71,5 +104,13 @@ h1 {
 }
 
 .heroTitle {
-  padding-top: 15px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.gradienttitle {
+  background-image: linear-gradient(60deg,#5fa0ff,#785fff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-variation-settings: 'wght' 800;
 }
