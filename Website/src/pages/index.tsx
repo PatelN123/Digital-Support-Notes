@@ -1,17 +1,23 @@
 import React from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
-import HomeHero from '../components/homeHero'
+import HomeHero from '../components/homeHero';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import styles from "./index.module.css";
 import 'animate.css';
 import {useColorMode} from '@docusaurus/theme-common'; //docs: https://v2.docusaurus.io/docs/2.0.0-alpha.69/theme-classic#usethemecontext
 import AOS from 'aos';
-AOS.init();
-window.addEventListener('load', AOS.refresh)
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { BiMessageSquareDetail, BiPaint } from "react-icons/bi";
+
+
+if (ExecutionEnvironment.canUseDOM) {
+  window.addEventListener;
+  AOS.init();
+};
 
 function HomepageHeader() {
   const { isDarkTheme } = useColorMode();
@@ -19,7 +25,7 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero animate__pulse", styles.heroBanner)}>
       <div className="container">
-        <h1 className={(styles.heroTitle)} data-aos="zoom-y-out">
+          <h1 className={(styles.heroTitle)} data-aos="zoom-y-out">
           Open source documented notes for{" "}
           <span className={clsx("gradienttitle")} style={{ color: "var(--ifm-color-primary);" }}>
             Digital Support Services
@@ -75,6 +81,7 @@ function HomepageHeader() {
       </div>
     </header>
   );
+
 }
 function FeaturesSection() {
   const features = [
