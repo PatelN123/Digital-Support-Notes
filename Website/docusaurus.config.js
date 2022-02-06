@@ -8,7 +8,7 @@ const config = {
     locales: ['en-GB']
   },
   title: 'Digital Support Services T-Level Notes',
-  tagline: 'Open source, documented notes!',
+  tagline: 'An awesome textbook alternative, that you can contribute to!',
   url: 'https://notes.nayanpatel.net',
   baseUrl: '/',
   onBrokenLinks: 'warn',
