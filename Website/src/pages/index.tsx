@@ -107,7 +107,7 @@ function FeaturesSection() {
 
   const renderFeatureCards = (features) => {
     return features.map((feature, key) => (
-      <div key={key} className="col col--4" data-aos="zoom-y-out">
+      <div key={key} className="col col--4" data-aos="zoom-y-out" data-aos-delay="300">
         <div className={clsx("card", styles.featureCard)}>
           <div className={clsx("card__header", styles.featureCardTitle)}>
             <div className={styles.featureCardIcon}>{feature.icon}</div>
