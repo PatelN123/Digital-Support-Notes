@@ -457,6 +457,12 @@ a.reference-link span {
   }
 }
 
+@media screen and (min-width: 995px) and (max-width: 1300px), (max-width: 800px) {
+  a.feature-req {
+    display: none;
+  }
+}
+
 /* Card Link */
 .card-links {
   display: flex;

@@ -139,7 +139,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Thanks to <strong> <a href="https://netlify.com"> Netlify </a> </strong> for sponsoring us with a free Pro account! <br /> <br /> Copyright © ${new Date().getFullYear()} Nayan Patel`,
+      copyright: `<span style="line-height: 30px;" >Thanks to <strong> <a href="https://netlify.com"> Netlify </a> </strong> for sponsoring us with a free Pro account! </span> <br /> Copyright © ${new Date().getFullYear()} Nayan Patel`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
