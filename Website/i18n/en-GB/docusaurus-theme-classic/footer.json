@@ -22,9 +22,5 @@
   "link.item.label.Code of Conduct": {
     "message": "Code of Conduct",
     "description": "The label of footer link with label=Code of Conduct linking to https://github.com/Nayan-Web/Digital-Support-Notes/blob/main/Code%20of%20Conduct.md"
-  },
-  "copyright": {
-    "message": "Copyright © 2021 Nayan Patel",
-    "description": "The footer copyright"
   }
 }

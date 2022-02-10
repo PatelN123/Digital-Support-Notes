@@ -942,3 +942,26 @@ html[data-theme='light'] .DocSearch {
   /* Footer */
   --docsearch-footer-background: var(--ifm-color-white);
 }
+
+.footer-link {
+  color: var(--text);
+}
+
+html[data-theme='dark'] .footer-link {
+  color: #fff;
+}
+
+.footer {
+  background-color: #f5f6f7;
+  color: #1C1E21;
+  padding: var(--ifm-footer-padding-vertical) var(--ifm-footer-padding-horizontal);
+}
+
+.footer__title {
+  color: #1C1E21;
+}
+
+.footer__link-item {
+  color: #606770;
+  line-height: 2;
+}
