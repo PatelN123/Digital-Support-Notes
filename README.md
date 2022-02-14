@@ -7,3 +7,6 @@ This project is how it is today thanks to our contributors. <a href="https://git
 
 
 Thank you to [@netlify](https://github.com/netlify) for providing us with a free **Pro** account!
+
+
+[<img src="https://docs.cleavr.io/images/deployed-with-cleavr.png" />](https://cleavr.io)
