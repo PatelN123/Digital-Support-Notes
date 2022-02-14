@@ -1,2 +1,11 @@
 /sitelogo.svg
   content-disposition: attachment; filename="sitelogo.svg"
+  
+/instatus.png
+  content-disposition: attachment; filename="instatus.png"
+  
+/netlify.png
+  content-disposition: attachment; filename="netlify.png"
+  
+/cleavr-logo.png
+  content-disposition: attachment; filename="cleavr-logo.png"
