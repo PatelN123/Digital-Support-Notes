@@ -3,9 +3,49 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "static/img"
 collections:
-  - label: "Notes"
-    name: "notes"
-    folder: "docs"
+  - label: "Business Context notes"
+    name: "Business Context notes"
+    folder: "docs/digitalsupportnotes/Business Context"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Communications in the sector notes"
+    name: "Communications in the sector notes"
+    folder: "docs/digitalsupportnotes/Communication in the sector"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Data notes"
+    name: "Data notes"
+    folder: "docs/digitalsupportnotes/Data"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Data Analysis notes"
+    name: "Data analysis notes"
+    folder: "docs/digitalsupportnotes/Data Analysis"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Digital Environments notes"
+    name: "Digital Environments notes"
+    folder: "docs/digitalsupportnotes/Digital Environments"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Diversity and Inclusion notes"
+    name: "Diversity and Inclusion notes"
+    folder: "docs/digitalsupportnotes/Diversity and Inclusion"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
