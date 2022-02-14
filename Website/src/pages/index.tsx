@@ -135,10 +135,10 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title} - ${siteConfig.tagline}`}
-      description="All notes needed for Digital Support Services!"
+      description="Digital Support Services (T Level) notes - An awesome textbook alternative that you can contribute to!"
     >
     <Head>
-        <meta property="og:image" content="https://meta-image.vercel.app/Welcome%20to%20the%20**Digital%20Support%20Notes**!%20%F0%9F%8E%89.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fnotes.nayanpatel.net%2Fsitelogo.svg&widths=300&heights=300" />
+      <meta property="og:image" content="https://meta-image.vercel.app/Welcome%20to%20the%20**Digital%20Support%20Notes**!%20%F0%9F%8E%89.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fnotes.nayanpatel.net%2Fsitelogo.svg&widths=300&heights=300" />
     </Head>
       <HomepageHeader />
       <br />
