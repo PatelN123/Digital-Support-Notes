@@ -32,7 +32,7 @@ const Playgrounds = [
     ),
   },
     {
-    name: <><img src="https://cleavr.io/images/cleavr-logo.png" class="icon-inline" /🔪 Cleavr</>,
+    name: <><img src="https://cleavr.io/images/cleavr-logo.png" class="icon-inline" />🔪 Cleavr</>,
     url: 'https://cleavr.io',
     description: (
       <Translate id="cleavr.desc">
