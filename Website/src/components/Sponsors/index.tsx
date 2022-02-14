@@ -27,7 +27,16 @@ const Playgrounds = [
     url: 'https://netlify.com',
     description: (
       <Translate id="netlify.desc">
-        Instagram story optimised size for a banner, at 1500 × 600 pixels.
+        With just seconds of setup, the Netlify platform provides teams everything to take modern web projects from the first preview to full production.
+      </Translate>
+    ),
+  },
+    {
+    name: <><img src="https://cleavr.io/images/cleavr-logo.png" class="icon-inline" />🌐 Netlify</>,
+    url: 'https://cleavr.io',
+    description: (
+      <Translate id="cleavr.desc">
+        Cleavr is your all-in-one server and deployment management platform for your PHP and NodeJS apps. Provision, deploy, monitor, backup, plus tons more!
       </Translate>
     ),
   },
