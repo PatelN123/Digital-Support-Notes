@@ -2,7 +2,7 @@ import React from 'react';
 import Head from '@docusaurus/Head';
 import {useTitleFormatter} from '@docusaurus/theme-common';
 
-const getOgImageURL = title => `https://ogimage.notes.nayanpatel.net/${title}.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fnotes.nayanpatel.net%2Fsitelogo.svg`
+const getOgImageURL = title => `https://meta-image.vercel.app/${title}.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fnotes.nayanpatel.net%2Fsitelogo.svg&widths=350&heights=350`
 
 export default function Seo({
   title,
