@@ -139,7 +139,14 @@ const config = {
           ],
         },
       ],
-      copyright: `<span style="line-height: 30px;" >Thanks to <strong> <a href="https://netlify.com"> Netlify </a> </strong> for sponsoring us with a free Pro account! </span> <br /> Copyright © ${new Date().getFullYear()} Nayan Patel`,
+      logo: {
+        alt: 'Powered by Vercel',
+        src: 'powered-by-vercel.svg',
+        width: 160,
+        height: 51,
+        href: 'https://google.com',
+      },
+      copyright: `<span style="line-height: 30px;" >Thanks to <strong> <a href="https://netlify.com"> Netlify </a> </strong> for sponsoring us with a free Pro account! </span> <br /> Copyright © Coded with ❤️ by <a href="https://nayanpatel.net">Nayan Patel & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
