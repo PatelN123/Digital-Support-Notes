@@ -8,5 +8,5 @@ This project is how it is today thanks to our contributors. <a href="https://git
 
 Thank you to [@netlify](https://github.com/netlify) for providing us with a free **Pro** account!
 
-
+[<img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />](https://vercel.com/?utm_source=[digital-support-notes]&utm_campaign=oss)
 [<img src="https://docs.cleavr.io/images/deployed-with-cleavr.png" />](https://cleavr.io)
