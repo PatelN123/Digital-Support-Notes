@@ -9,3 +9,6 @@
   
 /cleavr-logo.png
   content-disposition: attachment; filename="cleavr-logo.png"
+  
+/canny.png
+  content-disposition: attachment; filename="canny.png"
