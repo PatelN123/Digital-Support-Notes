@@ -40,6 +40,13 @@ const Playgrounds = [
       </Translate>
     ),
   },
+  {
+   name: <><img src="https://www.zoho.com/flow/assets/app_logos/canny_logo.jpeg" class="icon-inline" />Canny</>,
+   url: 'https://canny.io/',
+   description: (
+       "Canny helps you collect and organize feature requests to better understand customer needs and prioritize your roadmap."
+    ),
+  },
 ];
 
 interface Props {
