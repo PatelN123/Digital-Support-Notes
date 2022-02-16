@@ -191,6 +191,11 @@ const config = {
   ],
   plugins: [
     [
+      'docusaurus-plugin-help-widget',
+      {
+      },
+    ],
+    [
       'docusaurus-plugin-sass',
       {
       },

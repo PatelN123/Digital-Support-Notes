@@ -3763,6 +3763,11 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
+docusaurus-plugin-help-widget@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-help-widget/-/docusaurus-plugin-help-widget-1.2.0.tgz#4f3de2e7983fa446f02016652927404127b94f7a"
+  integrity sha512-6pR6BE7nkB3u5m3aiJlCrWaUaToCpBWtHVOPMscD4GHdrSMehQhwOXj8QBx+bSZbLgqocGQUcS7ruoTOKeBiEw==
+
 docusaurus-plugin-sass@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.2.1.tgz#673c6b6ac00b581e8fb0baab22f2b3766735aafc"
