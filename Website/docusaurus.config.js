@@ -18,6 +18,13 @@ const config = {
   projectName: 'notes',
   trailingSlash: true,
   themeConfig: {
+    umami: {
+      websiteid: "67a6f4d2-2b85-4678-8972-d5d43a6216ab",
+      src: "https://analytics.notes.nayanpatel.net/umami.js",
+    },
+    clarity: {
+      ID: "9hfzg8mbot",
+    },
     algolia: {
       appId: 'T2T780TWHU',
       apiKey: '99a14a43d86b4d0cb8f8608e65b3edaf',
@@ -190,6 +197,21 @@ const config = {
     ],
   ],
   plugins: [
+    [
+      'docusaurus-plugin-umami',
+      {
+      },
+    ],
+    [
+      'docusaurus-plugin-clarity',
+      {
+      },
+    ],
+    [
+      'docusaurus-plugin-help-widget',
+      {
+      },
+    ],
     [
       'docusaurus-plugin-sass',
       {
