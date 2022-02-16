@@ -1,6 +1,13 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
+  squash_merges: true
+  open_authoring: true
+
+site_url: https://notes.nayanpatel.net
+
+publish_mode: editorial_workflow
+
 media_folder: "static/img"
 logo_url: https://d33wubrfki0l68.cloudfront.net/897b1646265d05008ae77960f1a99056fa365d07/ceeed/img/logonobg.png
 collections:
