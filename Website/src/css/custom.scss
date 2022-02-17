@@ -115,6 +115,21 @@ article .badge.badge--secondary, table {
   --ifm-color-info-contrast-background: #fefefe;
 }
 
+.breadcrumbs__link {
+  outline: #ebedf0;
+  outline-style: solid;
+  font-weight: 599;
+  -webkit-box-shadow: 7px 8px 21px -11px rgb(0 0 0 / 45%);
+}
+
+.breadcrumbs__item:not(.breadcrumbs__item--active):hover .breadcrumbs__link {
+  background: #ebedf0!important;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link:hover {
+  background-color: #ebedf0;
+}
+
 html[data-theme="dark"] {
   --ifm-font-color-base: #bdbdbd;
   --ifm-color-content-secondary: #bdbdbd;
