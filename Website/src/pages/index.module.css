@@ -12,6 +12,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  font-size: 3rem!important;
 }
 
 .heroDescription {
@@ -72,7 +73,6 @@
 
 h1 {
   color: #444950;
-  font-size: 2.25rem!important;
   font-weight: 600;
 }
 
