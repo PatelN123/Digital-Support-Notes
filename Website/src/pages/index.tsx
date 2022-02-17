@@ -24,7 +24,7 @@ function HomepageHeader() {
   const { isDarkTheme } = useColorMode();
 
   return (
-    <header className={clsx("hero animate__pulse", styles.heroBanner)}>
+    <header className={clsx("hero animate__pulse bigtext", styles.heroBanner)}>
       <div className="container">
           <h1 className={(styles.heroTitle)} data-aos="zoom-y-out">
           Open source documented notes for{" "}
