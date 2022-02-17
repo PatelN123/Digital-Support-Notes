@@ -1,0 +1,11 @@
+{
+  "headers": [
+    {
+      "source": "/sitelogo.svg",
+      "headers" : [
+        {
+          "value" : "content-disposition: attachment; filename="sitelogo.svg""
+        }
+      ]
+     }
+}
