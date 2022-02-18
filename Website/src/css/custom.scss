@@ -119,7 +119,12 @@ article .badge.badge--secondary, table {
   outline: #ebedf0;
   outline-style: solid;
   font-weight: 599;
-  -webkit-box-shadow: 7px 8px 21px -11px rgb(0 0 0 / 45%);
+  border-radius: 10px;
+}
+
+.breadcrumbs__item:not(:last-child) {
+    margin-right: var(--ifm-breadcrumb-spacing);
+    margin-bottom: 4px;
 }
 
 .breadcrumbs__item:not(.breadcrumbs__item--active):hover .breadcrumbs__link {
