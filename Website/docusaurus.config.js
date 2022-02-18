@@ -174,6 +174,7 @@ const config = {
           anonymizeIP: true,
         },
         docs: {
+          breadcrumbs: true,
           sidebarPath: require.resolve('./sidebars.js'),
 
           showLastUpdateAuthor: true,

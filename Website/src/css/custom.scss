@@ -115,6 +115,26 @@ article .badge.badge--secondary, table {
   --ifm-color-info-contrast-background: #fefefe;
 }
 
+.breadcrumbs__link {
+  outline: #ebedf0;
+  outline-style: solid;
+  font-weight: 599;
+  border-radius: 10px;
+}
+
+.breadcrumbs__item:not(:last-child) {
+    margin-right: var(--ifm-breadcrumb-spacing);
+    margin-bottom: 4px;
+}
+
+.breadcrumbs__item:not(.breadcrumbs__item--active):hover .breadcrumbs__link {
+  background: #ebedf0!important;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link:hover {
+  background-color: #ebedf0;
+}
+
 html[data-theme="dark"] {
   --ifm-font-color-base: #bdbdbd;
   --ifm-color-content-secondary: #bdbdbd;
@@ -709,6 +729,10 @@ img {
 .pinknumbercode {
   color: #d22cf1;
   font-family: 'Poppins';
+}
+
+.alert.alert--warning:not(.admonition), .pagination-nav, article {
+    margin: 0!important;
 }
 
 .greennumbercode {
