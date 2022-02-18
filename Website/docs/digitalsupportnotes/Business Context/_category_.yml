@@ -1,4 +1,5 @@
 label: '💼 Business Context'
 position: 2
 collapsible: true
-type: generated-index
+link:
+  type: generated-index
