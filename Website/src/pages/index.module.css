@@ -113,4 +113,5 @@ h1 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-variation-settings: 'wght' 800;
+  font-size: 3rem!important;
 }
