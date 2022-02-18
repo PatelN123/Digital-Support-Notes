@@ -731,6 +731,10 @@ img {
   font-family: 'Poppins';
 }
 
+.alert.alert--warning:not(.admonition), .pagination-nav, article {
+    margin: 0!important;
+}
+
 .greennumbercode {
   color: #539d6d;
   font-family: 'Poppins';
