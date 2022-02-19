@@ -49,7 +49,7 @@ const DocsRating = ({ label }) => {
               className="sub-rating pagination-nav__link padding-vert--sm padding-horiz--md margin-right--sm user-options"
               style={{ flexGrow: "unset" }}
               onClick={() => giveFeedback(1)}
-              onclick={() => umami('negative')}
+              onclick={() => LOU.track('Negative')}
             >
               <svg
                 className="i_thumbsup"
@@ -66,7 +66,7 @@ const DocsRating = ({ label }) => {
               id= "bttn01"
               style={{ flexGrow: "unset" }}
               onClick={() => giveFeedback(0)}
-              onclick={() => umami('positive')}
+              onclick={() => LOU.track('Positive')}
             >
               <svg
                 className="i_thumbsdown"
