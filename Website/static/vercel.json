@@ -4,8 +4,7 @@
       "source": "/sitelogo.svg",
       "headers" : [
         {
-          "key" : "content-disposition",
-          "value" : "attachment"
+          "key" : "content-disposition: attachment",
         }
       ]
      }
