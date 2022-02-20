@@ -5,7 +5,7 @@
       "headers" : [
         {
           "key" : "content-disposition",
-          "value" : "attachment; filename="sitelogo.svg""
+          "value" : "attachment"
         }
       ]
      }
