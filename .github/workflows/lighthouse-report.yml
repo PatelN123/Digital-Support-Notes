@@ -18,12 +18,23 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           max_timeout: 600
       - run: echo ${{steps.waitFor200.outputs.url}}
+      - run: sleep 30
+      - name: vercel-preview-url
+        uses: zentered/vercel-preview-url@v1.0.0
+        id: vercel_preview_url
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        with:
+          vercel_team_id: 'team_tjc1cqk1SizL5DL5pjxRQqlw'
+          vercel_project_id: 'prj_zanLPfjsSoI7NZMVHmL7ziYCMCCq'
+      - name: Get URL
+        run: echo "https://${{ steps.vercel_preview_url.outputs.preview_url }}"
       - name: Audit URLs using Lighthouse
         id: lighthouse_audit
         uses: treosh/lighthouse-ci-action@9.3.0
         with:
           urls: |
-            https://digital-support-notes-git-$PR_NAME-digital-support-notes.vercel.app/
+            https://${{ steps.vercel_preview_url.outputs.preview_url }}
           configPath: ./.github/workflows/lighthouserc.json
           uploadArtifacts: true
           temporaryPublicStorage: true
