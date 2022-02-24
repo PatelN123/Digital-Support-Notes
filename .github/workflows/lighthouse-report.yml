@@ -19,22 +19,25 @@ jobs:
           max_timeout: 600
       - run: echo ${{steps.waitFor200.outputs.url}}
       - run: sleep 30
-      - name: vercel-preview-url
-        uses: zentered/vercel-preview-url@v1.0.0
-        id: vercel_preview_url
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        with:
-          vercel_team_id: 'team_tjc1cqk1SizL5DL5pjxRQqlw'
-          vercel_project_id: 'prj_zanLPfjsSoI7NZMVHmL7ziYCMCCq'
-      - name: Get URL
-        run: echo "https://${{ steps.vercel_preview_url.outputs.preview_url }}"
+        name: Capture Vercel preview URL
+          on:
+            issue_comment:
+              types: [edited]
+          jobs:
+            capture_vercel_preview_url:
+              name: Capture Vercel preview URL
+              runs-on: "ubuntu-latest"
+              steps:
+                - uses: aaimio/vercel-preview-url-action@v1
+                id: vercel_preview_url
+                with:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Audit URLs using Lighthouse
         id: lighthouse_audit
         uses: treosh/lighthouse-ci-action@9.3.0
         with:
           urls: |
-            https://${{ steps.vercel_preview_url.outputs.preview_url }}
+            ${{ steps.vercel_preview_url.outputs.vercel_preview_url }}
           configPath: ./.github/workflows/lighthouserc.json
           uploadArtifacts: true
           temporaryPublicStorage: true
