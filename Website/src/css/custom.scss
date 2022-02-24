@@ -4,7 +4,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
- 
+
  body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
@@ -59,6 +59,10 @@ article .badge.badge--secondary, table {
   font-weight: 599;
   outline: #ebedf0;
   outline-style: solid;
+}
+
+p, li {
+  color: #404756;
 }
 
 .DocSearch-Hit-content-wrapper {
