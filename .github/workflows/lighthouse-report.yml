@@ -14,6 +14,9 @@ jobs:
       - name: Wait for Vercel Preview
         uses: patrickedqvist/wait-for-vercel-preview@v1.2.0
         id: wait-for-vercel
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          max_timeout: 60
       - name: Audit URLs using Lighthouse
         id: lighthouse_audit
         uses: treosh/lighthouse-ci-action@9.3.0
