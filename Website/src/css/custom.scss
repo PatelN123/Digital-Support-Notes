@@ -648,7 +648,7 @@ ol, ul {
 }
 
 #__docusaurus .toc-wrapper {
-  position: unset;
+  position: sticky;
   top: calc(var(--ifm-navbar-height) + 16px);
 }
 
