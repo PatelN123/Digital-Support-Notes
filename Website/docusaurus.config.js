@@ -32,6 +32,7 @@ const config = {
       contextualSearch: true,
     },
     colorMode: {
+      defaultMode: 'light',
       disableSwitch: true,
     },
      announcementBar: {
