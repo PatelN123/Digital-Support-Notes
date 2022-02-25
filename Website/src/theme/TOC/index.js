@@ -2,6 +2,7 @@ import OriginalTOC from '@theme-original/TOC';
 import EditThisPage from '@theme/EditThisPage';
 import React from 'react';
 import DocsInfo from "@site/src/theme/DocItem/DocsInfo";
+import styles from './styles.module.css';
 
 export default function TOC({ toc, editUrl, ...props }) {
   const isEmpty = toc.length <= 0;

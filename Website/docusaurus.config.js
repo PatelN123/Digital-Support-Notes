@@ -18,9 +18,6 @@ const config = {
   projectName: 'notes',
   trailingSlash: true,
   themeConfig: {
-    lou: {
-      src: "//run.louassist.com/v2.5.1-m?id=486134702173",
-    },
     umami: {
       websiteid: "67a6f4d2-2b85-4678-8972-d5d43a6216ab",
       src: "https://analytics.notes.nayanpatel.net/umami.js",
@@ -202,11 +199,6 @@ const config = {
   ],
   plugins: [
     [
-      'docusaurus-plugin-lou',
-      {
-      },
-    ],
-    [
       'docusaurus-plugin-umami',
       {
       },
@@ -239,7 +231,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/docusaurus.png',
+            href: '/img/logonobg.png',
           },
           {
             tagName: 'link',

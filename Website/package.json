@@ -33,7 +33,6 @@
     "clsx": "^1.1.1",
     "docusaurus-plugin-clarity": "^2.0.0",
     "docusaurus-plugin-help-widget": "^2.0.0",
-    "docusaurus-plugin-lou": "^1.0.0",
     "docusaurus-plugin-sass": "^0.2.1",
     "docusaurus-plugin-umami": "^2.0.0",
     "file-loader": "^6.2.0",
