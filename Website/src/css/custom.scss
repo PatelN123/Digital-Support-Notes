@@ -1042,10 +1042,3 @@ html[data-theme=light] .DocSearch-Form {
 .theme-back-to-top-button {
   display: none;
 }
-
-.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-next-theme-TOC-styles-module {
-  max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
-  overflow-y: auto;
-  position: unset!important;
-  top: calc(var(--ifm-navbar-height) + 1rem);
-}
