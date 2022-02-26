@@ -25,7 +25,7 @@ const config = {
   trailingSlash: true,
   themeConfig: {
     headway: {
-      selector: "img",
+      selector: ".navbar__logo",
       account: "yBWwGx",
     },
     umami: {
