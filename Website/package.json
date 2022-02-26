@@ -32,7 +32,7 @@
     "aos": "^2.3.4",
     "clsx": "^1.1.1",
     "docusaurus-plugin-clarity": "^2.0.0",
-    "docusaurus-plugin-headway": "^2.0.0",
+    "docusaurus-plugin-headway": "^2.1.0",
     "docusaurus-plugin-help-widget": "^2.0.0",
     "docusaurus-plugin-sass": "^0.2.1",
     "docusaurus-plugin-umami": "^2.0.0",
