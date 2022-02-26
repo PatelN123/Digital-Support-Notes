@@ -3,6 +3,12 @@ const pageRef = require('./src/plugins/pageRef');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
+  scripts: [
+    {
+      src: 'https://cdn.headwayapp.co/widget.js',
+      async: true,
+    },
+  ],
   i18n: {
     defaultLocale: 'en-GB',
     locales: ['en-GB']
@@ -18,6 +24,10 @@ const config = {
   projectName: 'notes',
   trailingSlash: true,
   themeConfig: {
+    headway: {
+      selector: "img",
+      account: "yBWwGx",
+    },
     umami: {
       websiteid: "67a6f4d2-2b85-4678-8972-d5d43a6216ab",
       src: "https://analytics.notes.nayanpatel.net/umami.js",
@@ -199,6 +209,11 @@ const config = {
     ],
   ],
   plugins: [
+    [
+      'docusaurus-plugin-headway',
+      {
+      },
+    ],
     [
       'docusaurus-plugin-umami',
       {
