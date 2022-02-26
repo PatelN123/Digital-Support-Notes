@@ -4960,10 +4960,10 @@ docusaurus-plugin-clarity@^2.0.0:
   resolved "https://registry.yarnpkg.com/docusaurus-plugin-clarity/-/docusaurus-plugin-clarity-2.0.0.tgz#525a3eb67fc7ef89e59a655e58e17cb30193b026"
   integrity sha512-Y0KoG8gW4PTw399VL71K9TJr2KIEAcIBbGcrQk8awWtIngNHzwosdd8aFOGtRVczPAjB+xqKUmdQdmb5tS0eUQ==
 
-docusaurus-plugin-headway@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-headway/-/docusaurus-plugin-headway-2.1.0.tgz#32f62c9e58d1376be4d39822b5cee79da3ea832e"
-  integrity sha512-lQTMfDEtnbJBkNw248/t59Vi576ZzIlgQ2ZKVuz0zuRpZAJrJ1oWY4/fJITJtT+I194h4OG/cWTUYUG4sABiRw==
+docusaurus-plugin-headway@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-headway/-/docusaurus-plugin-headway-2.2.0.tgz#1e25cc9a046e7e8077db9420d8cb5fd5056b353a"
+  integrity sha512-AcXnA/5WaRPzkPcTVeoK+tok3sBKQJuZSI3r77NMr88VzLvYZse3GGTTDQxp+H6HshZ9RxcJY2hRd0vadp6iqg==
 
 docusaurus-plugin-help-widget@^2.0.0:
   version "2.0.0"
