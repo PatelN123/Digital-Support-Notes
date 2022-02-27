@@ -1,4 +1,5 @@
 {
-  "source": "/help-widget",
-  "destination": "/docs/issue/"
+  "redirects": [
+    { "source": "/help-widget", "destination": "/docs/issues" }
+  ]
 }
