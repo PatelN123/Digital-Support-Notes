@@ -1,22 +1,4 @@
 {
-  "headers": [
-    {
-      "source": "/sitelogo.svg",
-      "headers": [
-        {
-          "key": "content-disposition",
-          "value": "attachment; filename='sitelogo.svg'"
-        }
-      ]
-    },
-    {
-      "source": "/instatus.png",
-      "headers": [
-        {
-          "key": "content-disposition",
-          "value": "attachment; filename='instatus.png'"
-        }
-      ]
-    }
-  ]
+  "source": "/help-widget",
+  "destination": "/docs/issue/"
 }
