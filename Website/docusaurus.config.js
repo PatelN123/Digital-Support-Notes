@@ -73,10 +73,6 @@ const config = {
               to: 'backdropicons',
             },
             {
-              label: 'Website Mockups',
-              to: 'https://website-mockup.notes.nayanpatel.net',
-            },
-            {
               label: 'Analytics',
               to: 'https://analytics.notes.nayanpatel.net/share/NmRzIAly/Digital%20Support%20Notes',
             },
