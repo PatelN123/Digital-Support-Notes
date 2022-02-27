@@ -32,6 +32,7 @@ const config = {
       contextualSearch: true,
     },
     colorMode: {
+      defaultMode: 'light',
       disableSwitch: true,
     },
      announcementBar: {
@@ -174,6 +175,7 @@ const config = {
           anonymizeIP: true,
         },
         docs: {
+          breadcrumbs: true,
           sidebarPath: require.resolve('./sidebars.js'),
 
           showLastUpdateAuthor: true,
@@ -230,7 +232,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/docusaurus.png',
+            href: '/img/logonobg.png',
           },
           {
             tagName: 'link',

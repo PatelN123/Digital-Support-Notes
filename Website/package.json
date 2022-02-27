@@ -18,13 +18,13 @@
   },
   "dependencies": {
     "@crowdin/cli": "^3.6.5",
-    "@docusaurus/core": "2.0.0-beta.15",
-    "@docusaurus/plugin-client-redirects": "2.0.0-beta.15",
-    "@docusaurus/plugin-google-analytics": "^2.0.0-beta.15",
-    "@docusaurus/plugin-ideal-image": "2.0.0-beta.15",
-    "@docusaurus/plugin-pwa": "2.0.0-beta.15",
-    "@docusaurus/preset-classic": "2.0.0-beta.15",
-    "@docusaurus/utils": "2.0.0-beta.15",
+    "@docusaurus/core": "^2.0.0-beta.16",
+    "@docusaurus/plugin-client-redirects": "^2.0.0-beta.16",
+    "@docusaurus/plugin-google-analytics": "^2.0.0-beta.16",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.16",
+    "@docusaurus/plugin-pwa": "^2.0.0-beta.16",
+    "@docusaurus/preset-classic": "^2.0.0-beta.16",
+    "@docusaurus/utils": "^2.0.0-beta.16",
     "@mdx-js/react": "^1.6.21",
     "@popperjs/core": "^2.11.2",
     "@svgr/webpack": "^6.1.2",
@@ -60,7 +60,7 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.0.0-beta.14",
+    "@docusaurus/module-type-aliases": "0.0.0-4603",
     "@tsconfig/docusaurus": "^1.0.4",
     "typescript": "^4.5.4"
   }

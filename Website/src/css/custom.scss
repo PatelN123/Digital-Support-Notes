@@ -4,7 +4,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
- 
+
  body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
@@ -45,6 +45,25 @@ article .badge.badge--secondary, table {
   font-weight: 550;
 }
 
+.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-next-theme-TOC-styles-module {
+  max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
+  overflow-y: auto;
+  position: unset!important;
+  top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+.table-of-contents__link {
+  display: block;
+  transition: all ease 0.25s !important;
+}
+
+.table-of-contents__link:not(.table-of-contents__link--active) {
+  transition: all 0.1s;
+  opacity: 0.8;
+  transform: scale(0.9) !important;
+  transform-origin: left;
+}
+
 
 div[class^='announcementBar_'] {
   height: var(--docusaurus-announcement-bar-height);
@@ -59,6 +78,10 @@ article .badge.badge--secondary, table {
   font-weight: 599;
   outline: #ebedf0;
   outline-style: solid;
+}
+
+p, li {
+  color: #404756;
 }
 
 .DocSearch-Hit-content-wrapper {
@@ -113,6 +136,26 @@ article .badge.badge--secondary, table {
   --ifm-font-family-base: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 
   --ifm-color-info-contrast-background: #fefefe;
+}
+
+.breadcrumbs__link {
+  outline: #ebedf0;
+  outline-style: solid;
+  font-weight: 599;
+  border-radius: 10px;
+}
+
+.breadcrumbs__item:not(:last-child) {
+    margin-right: var(--ifm-breadcrumb-spacing);
+    margin-bottom: 4px;
+}
+
+.breadcrumbs__item:not(.breadcrumbs__item--active):hover .breadcrumbs__link {
+  background: #ebedf0!important;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link:hover {
+  background-color: #ebedf0;
 }
 
 html[data-theme="dark"] {
@@ -709,6 +752,10 @@ img {
 .pinknumbercode {
   color: #d22cf1;
   font-family: 'Poppins';
+}
+
+.alert.alert--warning:not(.admonition), .pagination-nav, article {
+    margin: 0!important;
 }
 
 .greennumbercode {

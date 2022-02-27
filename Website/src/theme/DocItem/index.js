@@ -18,11 +18,13 @@
  import Seo from '@theme/Seo';
  import DocItemFooter from '@theme/DocItemFooter';
  import TOC from '@theme/TOC';
+ import DocBreadcrumbs from '@theme/DocBreadcrumbs';
  import TOCCollapsible from '@theme/TOCCollapsible';
  import { useActivePlugin, useVersions } from "@docusaurus/plugin-content-docs/client";
  import Heading from '@theme/Heading';
  import styles from './styles.module.css';
  import {ThemeClassNames, useWindowSize} from '@docusaurus/theme-common';
+ import DocsInfo from "@site/src/theme/DocItem/DocsInfo";
  
  
  //Components
@@ -69,7 +71,7 @@
            <DocVersionBanner />
            <div className={styles.docItemContainer}>
              <article>
-               <DocVersionBadge />
+              <DocBreadcrumbs />
  
                {canRenderTOC && (
                  <TOCCollapsible
