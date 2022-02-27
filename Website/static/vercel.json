@@ -14,16 +14,7 @@
       "headers": [
         {
           "key": "content-disposition",
-          "value": "attachment; filename='sitelogo.svg'"
-        }
-      ]
-    },
-    {
-      "source": "/netlify.png",
-      "headers": [
-        {
-          "key": "content-disposition",
-          "value": "attachment; filename='sitelogo.svg'"
+          "value": "attachment; filename='instatus.png'"
         }
       ]
     }
