@@ -24,6 +24,7 @@
  import Heading from '@theme/Heading';
  import styles from './styles.module.css';
  import {ThemeClassNames, useWindowSize} from '@docusaurus/theme-common';
+ import DocsInfo from "@site/src/theme/DocItem/DocsInfo";
  
  
  //Components

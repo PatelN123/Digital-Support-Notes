@@ -45,6 +45,25 @@ article .badge.badge--secondary, table {
   font-weight: 550;
 }
 
+.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-next-theme-TOC-styles-module {
+  max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
+  overflow-y: auto;
+  position: unset!important;
+  top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+.table-of-contents__link {
+  display: block;
+  transition: all ease 0.25s !important;
+}
+
+.table-of-contents__link:not(.table-of-contents__link--active) {
+  transition: all 0.1s;
+  opacity: 0.8;
+  transform: scale(0.9) !important;
+  transform-origin: left;
+}
+
 
 div[class^='announcementBar_'] {
   height: var(--docusaurus-announcement-bar-height);
