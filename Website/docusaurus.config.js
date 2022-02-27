@@ -60,11 +60,6 @@ const config = {
           position: 'left',
         },
         {
-          to: '/Presentations',
-          label: 'Presentations',
-          position: 'left',
-        },
-        {
           label: 'Tools',
           position: 'left',
           items: [
