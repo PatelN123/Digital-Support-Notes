@@ -2,10 +2,30 @@
   "headers": [
     {
       "source": "/sitelogo.svg",
-      "headers" : [
+      "headers": [
         {
-          "key" : "content-disposition: attachment; filename=sitelogo.svg",
+          "key": "content-disposition",
+          "value": "attachment; filename='sitelogo.svg'"
         }
       ]
-     }
+    },
+    {
+      "source": "/instatus.png",
+      "headers": [
+        {
+          "key": "content-disposition",
+          "value": "attachment; filename='sitelogo.svg'"
+        }
+      ]
+    },
+    {
+      "source": "/netlify.png",
+      "headers": [
+        {
+          "key": "content-disposition",
+          "value": "attachment; filename='sitelogo.svg'"
+        }
+      ]
+    }
+  ]
 }
