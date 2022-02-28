@@ -23,11 +23,11 @@ const Playgrounds = [
     ),
   },
   {
-    name: <><img src="https://www.netlify.com/v3/img/components/logomark.png" class="icon-inline" />🌐 Netlify</>,
-    url: 'https://netlify.com',
+    name: <><img src="https://assets.vercel.com/image/upload/q_auto/front/zeit/og.png" class="icon-inline" />▲ Vercel</>,
+    url: 'https://vercel.com',
     description: (
-      <Translate id="netlify.desc">
-        With just seconds of setup, the Netlify platform provides teams everything to take modern web projects from the first preview to full production.
+      <Translate id="vercel.desc">
+        Vercel is a platform for frontend frameworks and static sites, built to integrate with your headless content, commerce, or database.
       </Translate>
     ),
   },
@@ -41,10 +41,28 @@ const Playgrounds = [
     ),
   },
   {
+    name: <><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/r5ayjzfa7lhihesgh407" class="icon-inline" />💥 Koyeb</>,
+    url: 'https://koyeb.com',
+    description: (
+      <Translate id="koyeb.desc">
+        Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, or infrastructure management.
+      </Translate>
+    ),
+  },
+  {
    name: <><img src="https://www.zoho.com/flow/assets/app_logos/canny_logo.jpeg" class="icon-inline" />Canny</>,
    url: 'https://canny.io/',
    description: (
        "Canny helps you collect and organize feature requests to better understand customer needs and prioritize your roadmap."
+    ),
+  },
+  {
+    name: <><img src="https://www.freelogovectors.net/wp-content/uploads/2020/11/algolia_logo.png" class="icon-inline" />🔍 Algolia</>,
+    url: 'https://algolia.com',
+    description: (
+      <Translate id="algolia.desc">
+        Algolia empowers Builders with the Search and Recommendation services they need to build world-class experiences.
+      </Translate>
     ),
   },
 ];

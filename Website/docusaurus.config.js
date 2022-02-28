@@ -133,7 +133,7 @@ const config = {
           items: [
             {
               label: 'Code of Conduct',
-              href: 'https://github.com/Nayan-Web/Digital-Support-Notes/blob/main/Code%20of%20Conduct.md',
+              href: 'https://github.com/PatelN123/Digital-Support-Notes/blob/main/CODE_OF_CONDUCT.md',
             },
           ],
         },
