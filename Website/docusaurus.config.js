@@ -3,6 +3,15 @@ const pageRef = require('./src/plugins/pageRef');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
+  scripts: [
+    {
+      src: "/olvyConfig.js",
+    },
+    {
+      src: "https://app.olvy.co/script.js",
+      async: true,
+    },
+  ],
   i18n: {
     defaultLocale: 'en-GB',
     locales: ['en-GB']

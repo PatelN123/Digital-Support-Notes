@@ -1061,3 +1061,31 @@ html[data-theme=light] .DocSearch-Form {
 .theme-back-to-top-button {
   display: none;
 }
+
+.dot__class img {
+  height: 9px;
+  width: auto;
+  position: relative;
+  right: 13px;
+  bottom: 10px;
+  padding-right: 0px;
+}
+
+.olvy-unread-indicator.olvy-organisation-dssn {
+  position: relative;
+  position: absolute;
+  display: block;
+  width: 20px;
+  bottom: 16px;
+  right: 10px;
+  height: 20px;
+  border-radius: 50%;
+  background: #5FA0FFFF;
+  box-shadow: 0 0 0 #5FA0FFFF;
+  animation: olvyPulse-dssn 2s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: #fff;
+}
