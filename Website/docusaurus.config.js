@@ -3,6 +3,14 @@ const pageRef = require('./src/plugins/pageRef');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
+  scripts: [
+    {
+      src: "/cannywidget.js",
+    },
+    {
+      src: "/cannyconfig.js",
+    },
+  ],
   i18n: {
     defaultLocale: 'en-GB',
     locales: ['en-GB']
