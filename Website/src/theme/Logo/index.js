@@ -69,8 +69,8 @@
            themedImage
          ))}
          {greydot.src &&
-         ("dot__class" ? (
-           <div className={"dot__class"}>{themedot}</div>
+         ("dot__class data-canny-changelog" ? (
+           <div className={"dot__class data-canny-changelog"}>{themedot}</div>
          ) : (
            themedot
          ))}
