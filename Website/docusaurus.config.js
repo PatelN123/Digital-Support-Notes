@@ -138,8 +138,15 @@ const config = {
           ],
         },
       ],
-      copyright: `<span style="line-height: 30px;" >Thanks to <strong> <a href="https://vercel.com/?utm_source=digital-support-notes&utm_campaign=oss"> ▲ Vercel </a> </strong> for sponsoring us with a free Pro account for hosting! </span> <br /> Copyright © Coded with ❤️ by <a href="https://nayanpatel.net">Nayan Patel </a> & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
+    logo: {
+      alt: 'Powered by Vercel',
+      src: 'powered-by-vercel.svg',
+      width: 160,
+      height: 51,
+      href: 'https://vercel.com/?utm_source=digital-support-notes&utm_campaign=oss',
     },
+    copyright: ` Copyright © Coded with ❤️ by <a href="https://nayanpatel.net">Nayan Patel </a> & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
+  },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
       darkTheme: require('prism-react-renderer/themes/vsDark'),
