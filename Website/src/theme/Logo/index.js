@@ -69,8 +69,8 @@
            themedImage
          ))}
          {greydot.src &&
-         ("dot__class" ? (
-           <div className={"dot__class"}>{themedot}</div>
+         ("dot__class rn-badge" ? (
+           <div className={"dot__class rn-badge"}>{themedot}</div>
          ) : (
            themedot
          ))}

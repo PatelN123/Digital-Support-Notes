@@ -5,10 +5,10 @@ const pageRef = require('./src/plugins/pageRef');
 const config = {
   scripts: [
     {
-      src: "/cannywidget.js",
+      src: "/releasenotes.js",
     },
     {
-      src: "/cannyconfig.js",
+      src: "/badge.js",
     },
   ],
   i18n: {
