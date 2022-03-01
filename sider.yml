@@ -6,8 +6,6 @@
 # Customize each tool. If analyses fail, try adjusting each option referencing the following example.
 linter:
   misspell:
-    exclude:
-      - Presentations
     target:
       - ./Website/docs
     locale: UK

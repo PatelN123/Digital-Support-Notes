@@ -60,21 +60,12 @@ const config = {
           position: 'left',
         },
         {
-          to: '/Presentations',
-          label: 'Presentations',
-          position: 'left',
-        },
-        {
           label: 'Tools',
           position: 'left',
           items: [
             {
               label: 'Backdrop Icons',
               to: 'backdropicons',
-            },
-            {
-              label: 'Website Mockups',
-              to: 'https://website-mockup.notes.nayanpatel.net',
             },
             {
               label: 'Analytics',
@@ -142,19 +133,12 @@ const config = {
           items: [
             {
               label: 'Code of Conduct',
-              href: 'https://github.com/Nayan-Web/Digital-Support-Notes/blob/main/Code%20of%20Conduct.md',
+              href: 'https://github.com/PatelN123/Digital-Support-Notes/blob/main/CODE_OF_CONDUCT.md',
             },
           ],
         },
       ],
-      logo: {
-        alt: 'Powered by Vercel',
-        src: 'powered-by-vercel.svg',
-        width: 160,
-        height: 51,
-        href: 'https://vercel.com/?utm_source=[digital-support-notes]&utm_campaign=oss',
-      },
-      copyright: `<span style="line-height: 30px;" >Thanks to <strong> <a href="https://netlify.com"> Netlify </a> </strong> for sponsoring us with a free Pro account! </span> <br /> Copyright © Coded with ❤️ by <a href="https://nayanpatel.net">Nayan Patel & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
+      copyright: `<span style="line-height: 30px;" >Thanks to <strong> <a href="https://vercel.com/?utm_source=digital-support-notes&utm_campaign=oss"> ▲ Vercel </a> </strong> for sponsoring us with a free Pro account for hosting! </span> <br /> Copyright © Coded with ❤️ by <a href="https://nayanpatel.net">Nayan Patel </a> & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
