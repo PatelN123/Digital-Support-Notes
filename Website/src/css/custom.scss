@@ -1072,12 +1072,12 @@ html[data-theme=light] .DocSearch-Form {
 }
 
 @media screen and (min-width: 995px) and (max-width: 1300px), (max-width: 800px) {
-  a#releasenotes-whats-new {
+  .release-notes-widget {
     display: none;
 	}
 }
 
-a#releasenotes-whats-new {
+.release-notes-widget {
     padding-top: 1px;
     padding-right: 1px;
     padding-left: 1px;
