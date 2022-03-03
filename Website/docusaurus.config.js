@@ -104,6 +104,14 @@ const config = {
           className: 'header-prod-link',
           'aria-label': 'GitHub repository',
         },
+        {
+          href: "#",
+          id: "olvy-whats-new",
+          docId: "releasenotes",
+          label: "What's new?",
+          position: 'right',
+          className: 'release-notes-widget',
+        },
       ],
     },
     footer: {

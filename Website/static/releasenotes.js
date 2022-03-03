@@ -3,5 +3,5 @@
 
 rnw('init', {
     account: 'dsn.releasenotes.io',
-    selector: '.dot__class', // change the CSS selector to apply the badge and link to
+    selector: '.release-notes-widget', // change the CSS selector to apply the badge and link to
 });
