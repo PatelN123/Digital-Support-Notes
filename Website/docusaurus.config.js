@@ -106,7 +106,7 @@ const config = {
         },
         {
           href: "#",
-          id: "olvy-whats-new",
+          id: "releasenotes-whats-new",
           docId: "releasenotes",
           label: "What's new?",
           position: 'right',
