@@ -104,14 +104,6 @@ const config = {
           className: 'header-prod-link',
           'aria-label': 'GitHub repository',
         },
-        {
-          href: "#",
-          id: "releasenotes-whats-new",
-          docId: "releasenotes",
-          label: "What's new?",
-          position: 'right',
-          className: 'release-notes-widget',
-        },
       ],
     },
     footer: {
