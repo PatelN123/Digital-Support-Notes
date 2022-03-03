@@ -46,7 +46,7 @@ const config = {
      announcementBar: {
        id: 'beta', // Any value that will identify this message.
        content:
-         '⭐️ If you like these notes, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/PatelN123/Digital-Support-Notes">GitHub</a>',
+         '🎉 We are developing a platform called <strong>Sivu</strong>! <a target="_blank" rel="noopener noreferrer" href="https://dsn.releasenotes.io/release/ZjkGD-were-developing-a-platform-called-sivu">Read more</a>',
        backgroundColor: '#fafbfc', // Defaults to `#fff`.
        textColor: '#091E42', // Defaults to `#000`.
        isCloseable: true, // Defaults to `true`.
