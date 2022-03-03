@@ -3,6 +3,14 @@ const pageRef = require('./src/plugins/pageRef');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
+  scripts: [
+    {
+      src: "/releasenotes.js",
+    },
+    {
+      src: "/badge.js",
+    },
+  ],
   i18n: {
     defaultLocale: 'en-GB',
     locales: ['en-GB']
@@ -95,6 +103,14 @@ const config = {
           position: 'right',
           className: 'header-prod-link',
           'aria-label': 'GitHub repository',
+        },
+        {
+          href: "#",
+          id: "releasenotes-whats-new",
+          docId: "releasenotes",
+          label: "What's new?",
+          position: 'right',
+          className: 'release-notes-widget',
         },
       ],
     },

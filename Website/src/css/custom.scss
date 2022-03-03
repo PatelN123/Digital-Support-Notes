@@ -1061,3 +1061,18 @@ html[data-theme=light] .DocSearch-Form {
 .theme-back-to-top-button {
   display: none;
 }
+
+.dot__class img {
+  height: 9px;
+  width: auto;
+  position: relative;
+  right: 13px;
+  bottom: 10px;
+  padding-right: 0px;
+}
+
+.release-notes-widget {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
