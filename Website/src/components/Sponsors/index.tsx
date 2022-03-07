@@ -12,7 +12,7 @@ import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
 
-const Playgrounds = [
+const Sponsors = [
   {
     name: <><img src="https://img.stackshare.io/service/12547/OIhIQ6XR_400x400.jpg" class="icon-inline" />🪐 Instatus</>,
     url: 'https://instatus.com/',
@@ -100,7 +100,7 @@ function PlaygroundCard({name, image, url, description}: Props) {
 export function PlaygroundCardsRow(): JSX.Element {
   return (
     <div className="row">
-      {Playgrounds.map((playground) => (
+      {Sponsors.map((playground) => (
         <PlaygroundCard key={playground.name} {...playground} />
       ))}
     </div>
