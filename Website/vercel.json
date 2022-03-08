@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(s|S)(p|P)(o|O)(n|N)(s|S)(o|O)(r|R)(s|S)", "destination": "/sponsors" },
+  ]
+}
