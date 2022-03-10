@@ -5,10 +5,7 @@ const pageRef = require('./src/plugins/pageRef');
 const config = {
   scripts: [
     {
-      src: "/releasenotes.js",
-    },
-    {
-      src: "/badge.js",
+      src: "https://status.notes.nayanpatel.net/widget/script.js",
     },
   ],
   i18n: {
