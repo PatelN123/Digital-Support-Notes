@@ -118,6 +118,10 @@ const config = {
               href: 'https://analytics.notes.nayanpatel.net/share/NmRzIAly/Digital%20Support%20Notes',
             },
             {
+              label: 'Status Page',
+              href: 'https://status.notes.nayanpatel.net',
+            },
+            {
               label: 'Main Site',
               href: 'https://nayanpatel.net',
             },
