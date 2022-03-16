@@ -23,7 +23,7 @@ const Sponsors = [
     ),
   },
   {
-    name: <><img src="https://assets.vercel.com/image/upload/q_auto/front/zeit/og.png" class="icon-inline" />▲ Vercel</>,
+    name: <><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/dtokjerhk1dxyludtlwc" class="icon-inline" />▲ Vercel</>,
     url: 'https://vercel.com',
     description: (
       <Translate id="vercel.desc">
@@ -31,12 +31,21 @@ const Sponsors = [
       </Translate>
     ),
   },
-    {
+  {
     name: <><img src="https://cleavr.io/images/cleavr-logo.png" class="icon-inline" />🔪 Cleavr</>,
     url: 'https://cleavr.io',
     description: (
       <Translate id="cleavr.desc">
         Cleavr is your all-in-one server and deployment management platform for your PHP and NodeJS apps. Provision, deploy, monitor, backup, plus tons more!
+      </Translate>
+    ),
+  },
+  {
+    name: <><img src="https://www.gitpod.io/images/media-kit/logo-mark.png" class="icon-inline" />🍊 Gitpod</>,
+    url: 'https://www.gitpod.io/',
+    description: (
+      <Translate id="gitpod.desc">
+        Always Ready to Code.
       </Translate>
     ),
   },
