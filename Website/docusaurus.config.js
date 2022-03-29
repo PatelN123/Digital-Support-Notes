@@ -7,6 +7,11 @@ const config = {
     {
       src: "https://status.notes.nayanpatel.net/widget/script.js",
     },
+    {
+      src: 'https://apiv2.popupsmart.com/api/Bundle/382430',
+      async: true,
+      type: 'text/javascript'
+    },
   ],
   i18n: {
     defaultLocale: 'en-GB',
