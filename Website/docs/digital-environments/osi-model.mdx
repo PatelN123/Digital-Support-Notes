@@ -1,0 +1,150 @@
+---
+id: OSI Model
+description: What is the OSI model?
+slug: /OSI-model
+title: 🚀 OSI Model
+---
+
+<p className="grey">The <strong>OSI</strong> (Open System Interconnection Model) model has 7 layers. <br /> It was developed by the ISO (International Standard organisation. </p>
+
+It's purpose was to describe how network protocols and network devices operate. <br />
+
+
+It dictates standards where data is transmitted from one location and received at another so that data is handled in the same way.
+
+:::info THERE ARE 7 LAYERS IN THE OSI MODEL
+The layers are: Physical layer, Data link layer, Network layer, Transport layer, Session Layer, Presentation layer and application layer.
+:::
+
+## Layer 1
+<p className="grey">Physical Layer</p>
+
+At this level. the concern is with data movement between device and medium. <br />
+The transmission of 1s and 0s over the medium. 
+  
+- Protocols:
+    - Digital Subscriber line
+        - A family of technologies that are used to transmit digital data over telephone lines.
+    - Ethernet
+        - Wired computer networking technologies commonly used in local area networks (LAN), metropolitan area networks (MAN) and wide area networks (WAN).
+- Hardware
+    - NIC's
+        - A computer hardware component that connects a computer to a computer network.
+    - Hub
+        - A device that allows multiple computers to communicate with each other over a network. The computers connect through ethernet ports built into the network hub. Typically hubs contain between four and 12 ethernet ports. These devices are best suited for small local area networks (LAN).
+    - Connectors & Cabling 
+   
+<br />
+
+## Layer 2
+<p className="grey">Data Link Layer</p>
+  
+This layer is responsible for flow control and error checking, data is arranged into chunks called frames, whih indicate the start and end points of data.  <br />
+
+<br />
+
+- Protocols
+    - CSMA/CD Ethernet operates at this level
+        - Carrier-sense multiple access with collision detection. A media access control method used most notably in early Ethernet technology for local area networking. It uses carrier-sensing to defer transmissions until no other stations are transmitting.
+    - MAC
+        - MAC address is expected to uniquely identify each node on that segment and allows frames to be marked for specific hosts. It thus forms the basis of most of the link layer networking upon which upper layer protocols rely to produce complex, functioning networks.
+- Hardware
+    - Bridges
+        - A network bridge is a computer networking device that creates a single, aggregate network from multiple communication networks or network segments. This function is called network bridging.
+    - Switches
+        - Forwards data packets between devices. Switches send packets directly to devices, rather than sending them to networks like a router does.
+
+<br />
+
+## Layer 3
+<p className="grey">Network Layer</p>
+
+Logical networking addressing is converted to physical addressing here such as IP addressing. Messages are routed through the correct station.  <br />
+
+- Protocols
+    - CLNS
+        - Known ad Connectionless-mode Network Service
+        - An OSI network layer datagram service that does not require a circuit to be established before data is transmitted, and routes messages to their destinations independently of any other messages.
+    - RIP
+        - Also known as Routing Information Protocol
+        - One of the oldest distance-vector routing protocols which employs the hop count as a routing metric. RIP prevents routing loops by implementing a limit on the number of hops allowed in a path from source to destination.
+    - IPv4
+        - The fourth version of the Internet Protocol (IP). It is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks.
+    - IPv6
+        - Most recent version of the Internet Protocol (IP), the communications protocol that provides an identification and location system for computers on networks and routes traffic across the Internet.
+    - PIM
+        - A family of multicast routing protocols for Internet Protocol (IP) networks that provide one-to-many and many-to-many distribution of data over a LAN, WAN or the Internet.
+    - OSPF
+    - ICMP
+    - Routing Protocols
+- Hardware
+    - Router
+        - A networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. Data sent through the internet, such as a web page or email, is in the form of data packets.
+
+<br />
+
+## Layer 4
+<p className="grey">Transport layer</p>
+
+Messages are divided into smaller segments or shortner messages are combined. It is responsible for message delivery and error control.  <br />
+
+- Protocols
+    - TCP
+        - Also known as Transmission Control Protocol
+        - One of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP). Therefore, the entire suite is commonly referred to as TCP/IP.
+    - UDP
+        - Also known as User Datagram Protocol
+        - One of the core members of the Internet protocol suite. With UDP, computer applications can send messages, in this case referred to as datagrams, to other hosts on an Internet Protocol (IP) network.
+
+<br />
+
+## Layer 5
+<p className="grey">Session layer</p>
+
+Provides mechanism for security, synchronisation, opening, closing and managing a session between end and user application process. <br />
+
+- L2TP
+- RPC
+
+<br />
+
+
+## Layer 6
+<p className="grey">Presentation layer</p>
+
+Responsible for data conversion, encryption/decryption and compression/decompression.  <br />
+- Protocols
+    - SSH
+    - LPP
+    - RDP
+ <br />
+
+<br />
+
+## Layer 7
+<p className="grey">Application Layer</p>
+
+Specifies the shared communications protocols and interference methods used by the hosts in a communication network. Acts as an interference between the application and underlying network. <br />
+  
+- Protocols
+    - HTTP
+        - Also known as Hypertext Transfer Protocol
+        - An application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.
+    - POP3
+    - SMTP
+    - DNS
+        - Known as Domain Name System
+        - A hierarchical and decentralised naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities
+    - IMAP
+    - FTP
+        - Known as File Transfer Protocol
+        - A standard communication protocol used for the transfer of computer files from a server to a client on a computer network
+
+<br />
+
+<details>
+  <summary>🧠 Click here to test your knowledge! </summary>
+
+<iframe src="https://quizlet.com/680589308/match/embed?i=3loczc&x=1jj1" height="500" width="100%"></iframe>
+
+</details>

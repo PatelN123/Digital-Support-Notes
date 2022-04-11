@@ -1,0 +1,97 @@
+---
+id: raid
+description: What is RAID?
+slug: /raid
+title: 🗄️ RAID
+---
+
+<p className="grey">Redundant Array of Inexpensive Disks Or Redundant Array of Independent Disks</p>
+
+The utilisation of multiple hard drives as to provide data redundancy and improvements in performance.
+
+Combines multiple physical disk components into one or more logical units for the purpose of data redundancy, performance improvement or both.
+
+RAID exists as many different levels. Each one providing benefits dependent on hardware setup, e.g.
+
+`-` RAID 0 <br />
+`-` RAID 1 <br />
+`-` RAID 5 <br />
+`-` RAID 10 <br />
+
+:::tip HARDWARE OR SOFTWARE?
+RAID can be implemented as hardware or as software. <br />
+Both setups still require multiple hard drives <br />
+Hardware RAID requires a built in RAID controller card, whereas software RAID requires an operating system or utility that provides the RAID functionality <br />
+:::
+
+## RAID 0
+`-` Often referred to as striping <br />
+`-` Uses two drives in conjunction with one other for speed <br />
+`-` Data is divided when it is written to both drives so that the workload is balanced, leading to it being more efficient <br />
+`-` There is no redundancy in this method <br />
+`-` Two identical drives should be used - Two different drives can be used, but at a cost. <br />
+`-` For example: If you have an 80GB and a 120GB drive, RAID 0 will have the machine treat them as two 80GB drives, ignoring the extra 40GB of space. <br />
+`-` A minimum of two drives are needed <br />
+
+RAID 0 is ideal for non-critical storage of data that have to be read/written to at high speed, such as on an image retouching or video editing station
+
+### Advantages
+`-` Great performance, both in read and write operations <br />
+`-` Easy to implement <br />
+
+### Disadvantages
+`-` If one of the drives fails, all data in the RAID 0 array are lost.
+
+## RAID 1
+`-` Often referred to as mirroring <br />
+`-` Essentially a failsafe set up for a hard drive <br />
+`-` Two drives are set up so in effect all data is written twice <br />
+`-` If one drive fails, all data is preserved on drive two and the system will remain up and running <br />
+`-` Minimum of two drives are needed <br />
+`-` Two 100GB drives will mean you have 100GB of storage only <br />
+`-` Ideal for mission citical storage, example: Accounting systems <br />
+
+### Advantages
+`-` Excellent read speed and a write-speed that is comarable to that of a single drive <br />
+`-` If a drive fails, data does not have to be rebuilt, they just have to be copied to the replacment drive <br />
+`-` RAID 1 is very simple <br />
+
+### Disadvantages
+`-` Effective storage capacity is only half the total drive <br />
+`-` Does not always allow for hot swap
+
+## RAID 5
+`-` This combines RAID 0 & RAID 1, however it does not use mirroring. <br />
+`-` A parity block across all drives is employed
+`-` If a drive fails the parity, information along with the remaining drive information can be used to rebuild the set
+`-` A minimum of 3 drives is required for RAID 5
+
+RAID 5 combines efficient storage with excellent security and decent performance <br />
+Ideal for fiel and application servers that have a limited number of data drives
+
+### Advantages
+`-` Read data transactions are very fast while write data transactions are somewhat slower <br />
+`-` If a drive fails, you still have access to all data, eben while the failed drive is being replaces and the storage controller rebuilds the data on the new drive
+
+### Disadvantages
+`-` Drive failures have an effect on throughput, although this is still acceptable <br />
+`-` Complex
+
+## RAID 10
+`-` Combines the advantages (and disadvantages) of RAID 0 and RAID 1 into a single system. <br />
+`-` It prvides security by mirroring all data on secondary drives, while using stripping across each set of drives to speed up data transfers <br />
+`-` Requires a minimum of 4 drives
+
+### Advantages
+`-` If something goes wrong with one disk, in a RAID 10 configuration, the rebuild time is very fast as all that is needed is to copy all data from the surviving mirror to the new drive <br />
+`-` This can take as little as 30 minutes for 1TB of data
+
+### Disadvantages
+`-` Half of the storage capacity goes to mirroring, so it's an expensive way to have redundancy
+
+<details>
+  <summary>🧠 Click here to test your knowledge! </summary>
+
+<iframe src="https://quizlet.com/680973904/match/embed?i=3loczc&x=1jj1" height="500" width="100%"></iframe>
+ 
+</details>

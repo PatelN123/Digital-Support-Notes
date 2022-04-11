@@ -1,52 +1,70 @@
 {
-  "name": "docs-docusaurus",
-  "version": "0.0.0",
+  "name": "digital-support-services-notes",
+  "version": "1.3.3",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "dev": "docusaurus start --host=0.0.0.0 --port=5000",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "dev": "docusaurus start",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "crowdin": "crowdin",
-    "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download",
-    "go": "yarn run build && npm run serve"
+    "lint": "eslint . --ext .ts --ext .js --ext .jsx --ext .tsx",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --write 'src/**/*.{js,jsx,css}'",
+    "prepare": "is-ci || husky install",
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@crowdin/cli": "^3.6.5",
-    "@docusaurus/core": "^2.0.0-beta.17",
-    "@docusaurus/plugin-client-redirects": "^2.0.0-beta.17",
-    "@docusaurus/plugin-google-analytics": "^2.0.0-beta.17",
-    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.17",
-    "@docusaurus/plugin-pwa": "^2.0.0-beta.17",
-    "@docusaurus/preset-classic": "^2.0.0-beta.17",
-    "@docusaurus/utils": "^2.0.0-beta.17",
+    "@docusaurus/core": "2.0.0-beta.6",
+    "@docusaurus/preset-classic": "2.0.0-beta.6",
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
     "@mdx-js/react": "^1.6.21",
-    "@popperjs/core": "^2.11.2",
-    "@svgr/webpack": "^6.1.2",
-    "animate.css": "^4.1.1",
-    "aos": "^2.3.4",
+    "@stoplight/elements": "^7.3.7",
+    "@styled-icons/boxicons-logos": "^10.38.0",
     "clsx": "^1.1.1",
-    "docusaurus-plugin-clarity": "^2.0.0",
-    "docusaurus-plugin-help-widget": "^2.0.0",
-    "docusaurus-plugin-sass": "^0.2.1",
-    "docusaurus-plugin-umami": "^2.0.0",
-    "file-loader": "^6.2.0",
-    "plugin-image-zoom": "github:ataft/plugin-image-zoom",
-    "prism-react-renderer": "^1.2.1",
-    "raw-loader": "^4.0.2",
+    "docusaurus-plugin-sass": "^0.2.2",
+    "font-awesome-icons": "^1.6.0",
+    "prop-types": "^15.8.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.3.1",
-    "react-popper": "^2.2.5",
     "remark-admonitions": "^1.2.1",
-    "sass": "^1.48.0",
-    "url-loader": "^4.1.1"
+    "sass": "^1.49.10",
+    "styled-components": "^5.3.1",
+    "unist-util-visit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "buffer": "^6.0.3",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.0",
+    "is-ci": "^3.0.1",
+    "jest": "^27.5.1",
+    "path-browserify": "^1.0.1",
+    "postcss-import": "^14.0.2",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.7",
+    "process": "^0.11.10",
+    "semantic-release": "^19.0.2",
+    "stream-browserify": "^3.0.0",
+    "tailwindcss": "^3.0.19"
   },
   "browserslist": {
     "production": [
@@ -60,9 +78,20 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@docusaurus/module-type-aliases": "0.0.0-4603",
-    "@tsconfig/docusaurus": "^1.0.4",
-    "typescript": "^4.5.4"
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

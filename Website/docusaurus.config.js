@@ -1,90 +1,164 @@
+/* eslint-disable */
+const {
+  tailwindPlugin,
+  webpackPlugin,
+} = require('./src/plugins');
+
 const isDev = process.env.NODE_ENV === 'development';
 const pageRef = require('./src/plugins/pageRef');
 
+const pageOptions = {
+  sidebarCollapsible: false,
+  editUrl: 'https://github.com/pateln123/digital-support-notes/tree/main',
+  showLastUpdateAuthor: true,
+  showLastUpdateTime: true,
+  beforeDefaultRemarkPlugins: [
+    pageRef,
+  ],
+};
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-const config = {
+module.exports = {
   scripts: [
     {
       src: "https://status.notes.nayanpatel.net/widget/script.js",
     },
-    {
-      src: 'https://apiv2.popupsmart.com/api/Bundle/382430',
-      async: true,
-      type: 'text/javascript'
-    },
   ],
-  i18n: {
-    defaultLocale: 'en-GB',
-    locales: ['en-GB']
-  },
-  title: 'Digital Support Services T-Level Notes',
-  tagline: 'An awesome textbook alternative, that you can contribute to!',
+  title: 'Digital Support Services Notes',
+  tagline: 'An awesome textbook alternative, that you can contribute to! 🚀',
   url: 'https://notes.nayanpatel.net',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Digital Support Notes',
-  projectName: 'notes',
-  trailingSlash: true,
+  favicon: 'favicon.ico',
+  organizationName: 'Digital Support Services notes', // Usually your GitHub org/user name.
+  projectName: 'Digital Support Services notes', // Usually your repo name.
+  clientModules: [require.resolve('./src/css/tailwind.css')],
   themeConfig: {
-    umami: {
-      websiteid: "67a6f4d2-2b85-4678-8972-d5d43a6216ab",
-      src: "https://analytics.notes.nayanpatel.net/umami.js",
-    },
-    clarity: {
-      ID: "9hfzg8mbot",
-    },
+    metadatas: [
+      {
+          name: 'og:image',
+          content: 'https://meta-image.vercel.app/Digital%20Support%20Services%20Notes!.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fnotes.nayanpatel.net%2Fsitelogo.svg&widths=250&heights=250'
+      },
+      {
+          name: 'theme-color',
+          content: '#5fa0ff'
+      },
+      {
+          name: 'twitter:card',
+          content: 'summary'
+      },
+  ],
     algolia: {
       appId: 'T2T780TWHU',
       apiKey: '99a14a43d86b4d0cb8f8608e65b3edaf',
       indexName: 'notes-nayanpatel',
       contextualSearch: true,
     },
+    announcementBar: {
+      id: 'beta', // Any value that will identify this message.
+      content:
+        "😲 We've reached over <strong>5.2K</strong> views for these notes over the last 90 days! 🙏",
+      backgroundColor: '#fafbfc', // Defaults to `#fff`.
+      textColor: '#091E42', // Defaults to `#000`.
+      isCloseable: true, // Defaults to `true`.
+    },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
     },
-     announcementBar: {
-       id: 'beta', // Any value that will identify this message.
-       content:
-         "😲 We've reached over <strong>5.2K</strong> views for these notes over the last 90 days! 🙏",
-       backgroundColor: '#fafbfc', // Defaults to `#fff`.
-       textColor: '#091E42', // Defaults to `#000`.
-       isCloseable: true, // Defaults to `true`.
-     },
-     metadata: [{name: 'Digital Support Services T-Level Textbook', content: 'notes, docs, textbook, alternative, learn'}],
     navbar: {
       title: 'Digital Support Services Notes',
+      hideOnScroll: false,
       logo: {
-        alt: 'Digital Support Notes',
-        src: 'img/logonobg.png',
-        href: '/',
-        width: 32,
-        height: 32,
+        alt: 'Digital Support Services notes',
+        src: '/img/logonobg.png',
       },
       items: [
         {
-          to: '/docs',
-          label: 'Notes',
-          position: 'left',
+          label: 'Home',
+          to: '/',
+          activeBaseRegex: '(^/docs)',
         },
         {
+          type: 'dropdown',
+          label: 'Notes',
+          position: 'left',
+          items: [
+            {
+              label: 'Business Context',
+              href: '/business/About-business',
+            },
+            {
+              label: 'Data',
+              href: '/data/About-data',
+            },
+            {
+              label: 'Digital Environments',
+              href: '/digital-environments/About-digital-environments',
+            },
+            {
+              label: 'Planning',
+              href: '/planning/About-planning',
+            },
+            {
+              label: 'Diversity and Inclusion',
+              href: '/divertisty-and-inclusion/About-divertisty-and-inclusion',
+            },
+            {
+              label: 'Legislation',
+              href: '/legislation/About-legislation',
+            },
+            {
+              label: 'Careers',
+              href: '/careers/About-careers',
+            },
+            {
+              label: 'Communication',
+              href: '/communication/About-communication',
+            },
+            {
+              label: 'Culture',
+              href: '/culture/About-culture',
+            },
+            {
+              label: 'Digital Analysis',
+              href: '/digital-analysis/About-digital-analysis',
+            },
+            {
+              label: 'Fault Analysis',
+              href: '/fault-analysis/About-fault-analysis',
+            },
+            {
+              label: 'Learning',
+              href: '/learning/About-learning',
+            },
+            {
+              label: 'Security',
+              href: '/security/About-security',
+            },
+            {
+              label: 'Testing',
+              href: '/testing/About-testing',
+            },
+            {
+              label: 'Tools',
+              href: '/tools/About-tools',
+            },
+          ],
+        },
+        {
+          type: 'dropdown',
           label: 'Tools',
           position: 'left',
           items: [
             {
               label: 'Backdrop Icons',
-              to: 'backdropicons',
+              to: '/backdropicons',
             },
             {
-              label: 'Analytics',
+              label:  'Analytics',
               to: 'https://analytics.notes.nayanpatel.net/share/NmRzIAly/Digital%20Support%20Notes',
-            },
-            {
-              label: '🚧 More comming soon!',
-              to: '#',
-              className: 'denied',
             },
           ],
         },
@@ -108,196 +182,194 @@ const config = {
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Sites',
-          items: [
-            {
-              label: 'Notes',
-              to: 'docs',
-            },
-            {
-              label: 'Analytics',
-              href: 'https://analytics.notes.nayanpatel.net/share/NmRzIAly/Digital%20Support%20Notes',
-            },
-            {
-              label: 'Status Page',
-              href: 'https://status.notes.nayanpatel.net',
-            },
-            {
-              label: 'Main Site',
-              href: 'https://nayanpatel.net',
-            },
-            
-          ],
-        },
-        {
-          title: 'Sponsors',
-          items: [
-            {
-              label: 'Sponsors',
-              to: 'sponsors',
-            },
-          ],
-        },
-        {
-          title: 'Code of Conduct',
-          items: [
-            {
-              label: 'Code of Conduct',
-              href: 'https://github.com/PatelN123/Digital-Support-Notes/blob/main/CODE_OF_CONDUCT.md',
-            },
-          ],
-        },
-      ],
-    logo: {
-      alt: 'Powered by Vercel',
-      src: 'powered-by-vercel.svg',
-      width: 160,
-      height: 51,
-      href: 'https://vercel.com/?utm_source=digital-support-notes&utm_campaign=oss',
-    },
-    copyright: ` Copyright © Coded with ❤️ by <a href="https://nayanpatel.net">Nayan Patel </a> & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
-  },
+    hideableSidebar: true,
     prism: {
-      theme: require('prism-react-renderer/themes/vsLight'),
-      darkTheme: require('prism-react-renderer/themes/vsDark'),
       additionalLanguages: [
-        'lua',
-        'toml',
+        'dart',
+        'ruby',
+        'groovy',
+        'kotlin',
+        'java',
+        'swift',
+        'objectivec',
       ],
+      theme: require('prism-react-renderer/themes/vsDark'),
     },
-    zoomSelector: '.markdown :not(.authority-availability) > img',
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
-        googleAnalytics: {
-          trackingID: 'UA-216503437-1',
-          anonymizeIP: true,
-        },
         docs: {
-          breadcrumbs: true,
-          sidebarPath: require.resolve('./sidebars.js'),
-
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-          editUrl: "https://github.com/PatelN123/Digital-Support-Notes/edit/main/Website/",
-          beforeDefaultRemarkPlugins: [
-            pageRef,
-        ],
+          path: 'docs/main',
+          id: 'default',
+          routeBasePath: 'docs',
+          sidebarPath: require.resolve('./sidebars/sidebars-docs.js'),
+          sidebarCollapsible: false,
+          ...pageOptions,
         },
-        blog: {
-          showReadingTime: true,
-          blogTitle: 'Nayan Notes Blog!',
-          blogDescription: 'All official news from Nayan notes!',
-          blogSidebarTitle: 'Nayan Notes news',
-          blogSidebarCount: 'ALL',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.scss'),
-        },
+        blog: false,
       },
     ],
   ],
   plugins: [
-    [
-      'docusaurus-plugin-umami',
-      {
-      },
-    ],
-    [
-      'docusaurus-plugin-clarity',
-      {
-      },
-    ],
-    [
-      'docusaurus-plugin-help-widget',
-      {
-      },
-    ],
+    require('./src/featureRequests/FeatureRequestsPlugin'),
+    tailwindPlugin,
+    webpackPlugin,
     [
       'docusaurus-plugin-sass',
       {
       },
     ],
     [
-      '@docusaurus/plugin-pwa',
+      '@docusaurus/plugin-content-docs',
       {
-        debug: true,
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-        ],
-        pwaHead: [
-          {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/logonobg.png',
-          },
-          {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json', // your PWA manifest
-          },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
-          },
-        ],
+        path: 'docs/business',
+        routeBasePath: 'business',
+        id: 'business',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
       },
     ],
     [
-      'ideal-image',
+      '@docusaurus/plugin-content-docs',
       {
-        quality: 70,
-        max: 1030, // max resized image's size.
-        min: 640, // min resized image's size. if original is lower, use that size.
-        steps: 2, // the max number of images generated between min and max (inclusive)
-        // disableInDev: false,
+        path: 'docs/data',
+        routeBasePath: 'data',
+        id: 'data',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
       },
     ],
     [
-      '@docusaurus/plugin-pwa',
+      '@docusaurus/plugin-content-docs',
       {
-        id: "pwa",
-        debug: true,
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-        ],
-        pwaHead: [
-          {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/logo.png',
-          },
-          {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json', // your PWA manifest
-          },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
-          },
-        ],
+        path: 'docs/digital-environments',
+        routeBasePath: 'digital-environments',
+        id: 'digital-environments',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/planning',
+        routeBasePath: 'planning',
+        id: 'planning',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/divertisty-and-inclusion',
+        routeBasePath: 'divertisty-and-inclusion',
+        id: 'divertisty-and-inclusion',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/legislation',
+        routeBasePath: 'legislation',
+        id: 'legislation',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/careers',
+        routeBasePath: 'careers',
+        id: 'careers',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/communication',
+        routeBasePath: 'communication',
+        id: 'communication',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/culture',
+        routeBasePath: 'culture',
+        id: 'culture',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/digital-analysis',
+        routeBasePath: 'digital-analysis',
+        id: 'digital-analysis',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/fault-analysis',
+        routeBasePath: 'fault-analysis',
+        id: 'fault-analysis',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs/learning',
+        routeBasePath: 'learning',
+        id: 'learning',
+        sidebarPath: require.resolve('./sidebars/autogen.js'),
+        ...pageOptions,
+      },
+    ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      path: 'docs/security',
+      routeBasePath: 'security',
+      id: 'security',
+      sidebarPath: require.resolve('./sidebars/autogen.js'),
+      ...pageOptions,
+    },
+  ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      path: 'docs/testing',
+      routeBasePath: 'testing',
+      id: 'testing',
+      sidebarPath: require.resolve('./sidebars/autogen.js'),
+      ...pageOptions,
+    },
+  ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      path: 'docs/tools',
+      routeBasePath: 'tools',
+      id: 'tools',
+      sidebarPath: require.resolve('./sidebars/autogen.js'),
+      ...pageOptions,
+    },
+  ],
 ],
 };
-
-async function createConfig() {
-  const FeatureRequestsPlugin = (await import('./src/featureRequests/FeatureRequestsPlugin.mjs')).default;
-  config.plugins?.push(FeatureRequestsPlugin);
-  return config;
-}
-
-module.exports = createConfig;

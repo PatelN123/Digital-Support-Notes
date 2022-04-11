@@ -1,0 +1,27 @@
+---
+id: Business Cycle and Growth
+description: All about business cycle and business growth.
+slug: /Business-Cycle-and-Growth
+title: 🔄 Business Cycle and Growth
+---
+
+An entrepreneur or a group of individuals come up with a business idea and start a venture. The business is successful in atrracting customers and gains foothold in the market.
+
+
+`-` The business then grows through increased custom - Manufacturing has to be scaled. Word of mouth leads to increased custom. <br />
+`-` The business continues to grow locally/nationally - They may need to create satellite units to save on logistics costs or recap benefit of local savings. <br />
+`-` If the products are suitable to be sold internationally, the business grows outside the country <br />
+    `-` Logistics partners to assist with shipping (internationally) <br />
+`-` The bsiness goes global and international sites are created in different countries/regions. <br />
+    `-`Some local customisation of the product attracts more localised customers. <br />
+
+:::info LOCAL customisation
+Change of colours or specifications to make it better suit the city/county
+:::
+
+<details>
+  <summary>🧠 Click here to test your knowledge! </summary>
+
+<iframe src="https://quizlet.com/656990378/match/embed?i=3loczc&x=1jj1" height="500" width="100%"></iframe>
+
+</details>

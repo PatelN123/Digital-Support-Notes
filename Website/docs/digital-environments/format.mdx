@@ -1,0 +1,42 @@
+---
+id: Format
+description: Different disk formats
+slug: /format
+title: 💾 Format
+---
+
+<p className="grey">Format is a pre-established layout for data. It prepares a disk for file storage.</p>
+
+Formatting sets up a file system on a disk. For example, NTFS.
+
+### NTFS
+A modern file system that windows uses. NTFS has deatures that FAT32 and exFAT doesn't have.
+
+:::info NTFS
+NTFS works best with the Windows operating system
+:::
+
+### File Allocation Table 32 (FAT32)
+This is the oldest file system available to Windows. It was introduced in Windows 95 to replace the older FAT16.
+
+:::info FAT32
+A FAT32 drive cannot be over 4GB
+:::
+
+### Extended File Allocation Table (exFAT)
+It was introduced in 2006, then added to later versions of Windows Vista and XP
+
+## High and Low level Formatting
+### High level
+Does not erase all data on the disk, instead, it prepares a disk for reasing and writing by "bookkeeping" information on the disk. It also does some simple testing to make sure all sectors are reliable and then creates internal addresses tables that it later uses to locate information.
+
+### Low level
+It is used to initiate a Hard Drive and prepare it for data by creating the acctual sectors and tracks on the drive, as well as the control structures needed to read and write data on the drive.
+
+
+<details>
+  <summary>🧠 Click here to test your knowledge! </summary>
+
+<iframe src="https://quizlet.com/680596736/match/embed?i=3loczc&x=1jj1" height="500" width="100%"></iframe>
+
+</details>

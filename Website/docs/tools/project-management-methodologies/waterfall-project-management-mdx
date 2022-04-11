@@ -1,0 +1,26 @@
+---
+id: waterfall project management
+description: What is waterfall project management
+slug: /waterfall
+title: 🌊 Waterfall project management
+---
+
+<p className="grey">The waterfall methodology emphasises a linear progression from beginning to end of a project. This methodology, often used by engineers is front loaded to rely on careful planning, detailed documentation and consecutive execution.</p>
+
+## The 5 stages
+`-` Requirments <br />
+`-` Design <br />
+`-` Implementation <br />
+`-` Verification or Testing <br />
+`-` Deployment & Maintenance
+
+## Design
+Software developers design a technical solution to the problems set out by the product requirements, including scenarios, layouts, and data models.
+
+## Implementation
+Once the design is complete, technical implementation starts. This is the shortest phase of the waterfall process, because thinking and design has already been done.
+
+In this phase, programmers code applications based on project requirements and specifications, which some testing and implementation taking place as well. If significant changes are needed in this stage, it may mean going back to the design stage.
+
+## Verification or Testing
+Before a product can be released to customers, testing needs to be done, to ensure the product has no errors and all of the requirements have been completed, ensuring a good user experience with the software. The testing team will turn to the design documents, personas, and user case scenarios supplied by the project manager to create their tests.
