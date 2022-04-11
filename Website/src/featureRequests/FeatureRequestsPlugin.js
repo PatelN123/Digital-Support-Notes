@@ -7,16 +7,16 @@
 
 /** @type {import('@docusaurus/types').Plugin} */
 function FeatureRequestsPlugin() {
-    return {
-      name: 'feature-requests-plugin',
-      contentLoaded({actions}) {
-        actions.addRoute({
-          path: '/feature-requests',
-          exact: false,
-          component: '@site/src/featureRequests/FeatureRequestsPage',
-        });
-      },
-    };
-  }
-  
-  module.exports = FeatureRequestsPlugin;
+  return {
+    name: 'feature-requests-plugin',
+    contentLoaded({ actions }) {
+      actions.addRoute({
+        path: '/feature-requests',
+        exact: false,
+        component: '@site/src/featureRequests/FeatureRequestsPage',
+      });
+    },
+  };
+}
+
+module.exports = FeatureRequestsPlugin;

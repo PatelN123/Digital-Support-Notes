@@ -6,7 +6,7 @@ const plugin = () => {
     visit(root, 'link', (node) => {
       if (node.title === 'pageRef') {
         transformed = true;
-        const {url, children} = node;
+        const { url, children } = node;
         for (const attr in node) {
           delete node[attr];
         }
@@ -17,8 +17,7 @@ const plugin = () => {
     if (transformed) {
       root.children.unshift({
         type: 'import',
-        value:
-          "import PageRef from '@site/src/components/PageRef';",
+        value: "import PageRef from '@site/src/components/PageRef';",
       });
     }
   };

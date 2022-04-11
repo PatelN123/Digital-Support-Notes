@@ -3,10 +3,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Home',
-      items: [
-        'home/introduction',
-        'home/contributing',
-      ],
+      items: ['home/introduction', 'home/contributing'],
     },
     {
       type: 'category',

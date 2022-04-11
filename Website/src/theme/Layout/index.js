@@ -23,13 +23,9 @@ function Layout(props) {
   return (
     <LayoutProviders>
       <LayoutHead {...props} />
-
       <SkipToContent />
-
       <AnnouncementBar />
-
       <Navbar /> <ThemeSwitcher />
-
       <div
         className={clsx(
           ThemeClassNames.wrapper.main,
@@ -39,7 +35,6 @@ function Layout(props) {
       >
         {children}
       </div>
-
       {!noFooter && <Footer />}
     </LayoutProviders>
   );
