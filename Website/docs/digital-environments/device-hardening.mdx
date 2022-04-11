@@ -1,0 +1,70 @@
+---
+id: device hardening
+description: What is device hardening?
+slug: /device-hardening
+title: 💪  Device Hardening
+---
+
+<p className="grey">The process of security by reducing its surface of vulnerability.</p>
+
+`-` Eliminating as many security risks/flaws as  <br />
+`-` Achieved by removing all non-essential software programs and utilities <br />
+`-` Removing default settings <br />
+`-` Applying advanced configurations to restrict access <br />
+
+Here are some ways to harden a system: <br />
+
+`1.` [BIOS/UEFI](/digital-environments/BIOS-UEFI "pageRef") <br />
+`2.` Built into Windows 10 <br />
+`3.` Group policy <br />
+`4.` Registry <br />
+
+These are explained below. <br />
+
+### BIOS/UEFI
+`-` Password protected <br />
+`-` Enable secure boot-UEFI only <br />
+`-` Disable ports such as front USB <br />
+`-` Enable chassis intrusion detection <br />
+`-` Install BIOS and UEFI firmware updates <br />
+
+### Built into Windows 10
+
+`-` Enable passwords for all accounts <br />
+`-` Set a password with your screensaver <br />
+`-` Enforce password policies <br />
+`-` Turn on Windows Firewall <br />
+`-` Disable remote access <br />
+`-` Enable or install antivirus protection tools <br />
+`-` Enable windows updates <br />
+`-` Encrypt storage media <br />
+`-` Switch off unused services and ports <br />
+`-` Remove old device drivers/unused hardware <br />
+`-` Apply principle of least priveledge <br />
+`-` Lock down features and tools such as gpedit.mdc <br />
+
+### Group Policy
+This is controlled by `gpedit.msc`
+
+`-` Restrict access to control <br />
+`-` Block Command Prompt <br />
+`-` Prevent software installations <br />
+`-` Disable forced restarts <br />
+`-` Disable automatic driver updates <br /> 
+`-` Disable removable media drives <br />
+`-` Hide balloon and toast notifications <br />
+`-` Remove onedrive <br />
+
+### Registry
+`-` This is a set of database settings and opeions installed on all versions of windows  <br /> 
+`-` Hives, leys, strings structire  <br />
+`-` The regedit allows values to be changed <br />
+`-` Windows features can be enabled and disabled <br />
+
+### SOP
+
+It can also help to have a Standard Operating Procedure
+
+:::tip PowerPoint
+Download the PowerPoint [here](/ppt/Hardening.pptx "pageRef")
+

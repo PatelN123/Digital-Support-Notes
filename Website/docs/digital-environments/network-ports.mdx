@@ -1,0 +1,35 @@
+---
+id: Network Ports
+description: What are network ports?
+slug: /network-ports
+title: 🔌 Network Ports
+---
+
+<p className="grey"> Ports are logical channels that the TCP/IP suite uses for communication purposes </p>
+
+Specific processes/applications have dedicated ports from numbers 0-65535, however, the common ones are:
+
+| Port                            | Tags     | Protocol | Description                            |
+|---------------------------------|----------|----------|----------------------------------------|
+| 21 - Control <br /> 20 - Data Transfer | `FTP`    | `TCP`    | File downloads                         |
+| 22                              | `SSH`    | `TCP`    | Encrypted data exchange                |
+| 23                              | `Telnet` | `TCP`    | Remote logging in for terminal servers |
+| 25                              | `SMTP`   | `TCP`    | Sending emails                         |
+| 53                              | `DNS`    | `UDP`    | Resolves host names to IP addresses    |
+| 67                              | `DHCP`   | `UDP`    | Automatic IP addresses assignment      |
+| 80                              | `HTTP`   | `TCP`    | Web traffic                            |
+| 110                             | `POP3`   | `TCP`    | Receiving emails                       |
+| 443                             | `HTTPS`  | `TCP`    | Insecure internet traffic              |
+| 3389                            | `RDP`    | `TCP`    | Remote access of clients               |
+
+When an [IP Address](/digital-environments/ip-addresses/about "pageRef") is combined with a network port it is called a socket.
+eg. `192.168.100.1:3389`
+
+Ports can be blocked by firewalls which will ultimately prevent devices using the ports designated process.
+
+<details>
+  <summary>🧠 Click here to test your knowledge! </summary>
+
+<iframe src="https://quizlet.com/641310367/match/embed?i=3loczc&amp;x=1jj1" height="500" width="100%"></iframe>
+
+</details>

@@ -1,0 +1,21 @@
+---
+id: Private and Public IP
+description: Private and Public IP addresses
+slug: /private-and-public-ip
+title: 🎐 Private and Public IP
+---
+
+<p className="grey">Addresses used on the internet such as for web servers and other network devices are known as public IP addresses.</p>
+
+Public IP addresses need to be purchased for example when hosting a website or provided by your Internet Service Provider (ISP). <br />
+
+With such a huge number of devices in private networks the use of public addresses would quickly extinguish the number of available IP addresses. <br />
+
+To overcome this, a range of Private IP addresses were nominated as non-routable (cannot be used on a public network i.e. the internet) they are: <br />
+
+| Class | IP address range                | Default subnet mask | Number of hosts |
+|-------|---------------------------------|---------------------|-----------------|
+| A     | `10.0.0.0 - 10.255.255.255`     | `255.0.0.0`         | 16.7 million    |
+| B     | <code className="greennumbercode">172.16.0.0 - 172.31.255.255</code>   | <code className="greennumbercode">255.255.0.0</code>       | 1 million       |
+| C     | <code className="pinknumbercode">192.168.0.0 - 192.169.255.255</code> | <code className="pinknumbercode">255.255.255.0</code>     | 65,535          |
+

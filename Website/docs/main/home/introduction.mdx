@@ -1,0 +1,129 @@
+---
+sidebar_position: 1
+title: 👋 Welcome!
+---
+
+All notes for Digital Support Services. Either start reading the notes, by clicking the button below, or contribute and help improve the notes!
+
+<br />
+
+This site is currently in beta! There may be some rough edges. 
+
+<!--truncate-->
+
+import Link from '@docusaurus/Link';
+import GridLink from '@site/src/components/GridLink';
+import GetStartedCard from '@site/src/components/GetStartedCard';
+import {
+  DeviceTabletIcon,
+  CodeIcon,
+  QuestionMarkCircleIcon,
+} from '@heroicons/react/solid';
+import {
+  Discord as DiscordIcon,
+} from '@styled-icons/boxicons-logos';
+import {
+  ReactIcon,
+  FlutterIcon,
+  JSIcon,
+  AndroidIcon,
+  AppleIcon,
+  SDKIcon,
+  APIIcon,
+  ReactRevolveIcon,
+  KotlinIcon,
+  SwiftIcon,
+  ReactNativeIcon,
+} from '@site/src/assets/icons';
+import { HashChange } from '@site/src/components/HashChange';
+
+<!-- Hack for highlighting menu links with anchor tags -->
+
+<HashChange
+  onLoad={() => {
+    const topLink = document.querySelector(
+      'a.menu__link[href="/docs/home/introduction"]'
+    );
+    if (topLink) {
+      topLink.onclick = (e) => {
+        document
+          .querySelectorAll('a.menu__link')
+          ?.forEach((link) => link?.classList.remove('menu__link--active'));
+        e.target.classList.add('menu__link--active');
+      };
+    }
+  }}
+  onChange={() => {
+    const { hash } = window.location;
+    if (hash < 2) return;
+    document
+      .querySelectorAll('a.menu__link')
+      ?.forEach((link) => link.classList.remove('menu__link--active'));
+    let link =
+      document.querySelector(`a.menu__link[href="${hash}"]`) ??
+      document.querySelector('a.menu__link[href="/docs/home/introduction"]');
+    link?.classList.add('menu__link--active');
+  }}
+/>
+
+
+## Quickstart
+
+<div className="grid xl:grid-cols-6 gap-4">
+
+<GetStartedCard
+  title="Business Context"
+  className="xl:col-span-2 from-[#4B6CB7] to-[#3d6e25]"
+  getStartedLink="/business/About-business"
+  repoLink="/business/About-business"
+  bgClassName="h-48 rotate-[-28deg] right-[-48px] bottom-[-6rem]"
+/>
+<GetStartedCard
+  title="Data"
+  className="xl:col-span-2 from-[#3b5694] to-[#7d3059]"
+  getStartedLink="/data/About-data"
+  repoLink="/data/About-data"
+  bgClassName="h-48 rotate-[-28deg] right-[-48px] bottom-[-6rem]"
+/>
+<GetStartedCard
+  title="Digital Environments"
+  className="xl:col-span-2 from-[#3b5694] to-[#296b69]"
+  getStartedLink="/digital-environments/About-digital-environments"
+  repoLink="/digital-environments/About-digital-environments"
+  bgClassName="h-48 rotate-[-28deg] right-[-48px] bottom-[-6rem]"
+/>
+</div>
+
+<!-- ### Pick a client SDK
+
+<div className="grid xl:grid-cols-6 gap-4">
+
+<GridLink
+  to="/react/quickstart"
+  className="xl:col-span-3 py-6"
+  title="Client SDK"
+  Icon={
+    <ReactIcon className="h-10 mr-4" />
+  }
+/>
+
+</div> -->
+
+## Recently added
+
+<div className="grid xl:grid-cols-6 gap-4">
+
+<GridLink
+  to="/testing/testing/white-box"
+  className="xl:col-span-2 py-4"
+  title="⬜ White Box"
+  subtitle="Added the white box testing page"
+/>
+
+<GridLink
+  to="/tools/mis-dashboard"
+  className="xl:col-span-2 py-4"
+  title="🖥️ MIS Dashboard"
+  subtitle="Added the MIS dashboard page"
+/>
+</div>

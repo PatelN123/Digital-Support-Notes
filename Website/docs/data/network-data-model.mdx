@@ -1,0 +1,29 @@
+---
+id: Network Data Model
+description: What is the Network Data Model?
+slug: /network-data-model
+title: 📶 Network Data Model
+---
+
+A database model conceived as a flexible way of representing objects and their relationships. 
+
+This model tries to overcome the [hierachcical data model](/data/hdm)
+
+A child none can link to many different parents. 
+
+Parent nodes are called owners and child nodes are called members. 
+
+This model does support M:M
+
+### Pros
+`-` Capability to handle more relationship types - Can handle the one to many and many to many relationship <br />
+`-` Easy of access data - The data access is easier and more flexible the hierachical data model - Because of the multiple connections, more ways to access data. <br />
+`-` Data integrity - The network model does not allow a member to exist without an owner <br />
+`-` Conceptually easy to design
+
+### Cons
+`-` System complecity - All the records are maintained using pointers and hence the whole database structure becomes very compelx <br />
+`-` Structure is not user friendly <br />
+
+## Example
+![](/img/ndmex.png)
