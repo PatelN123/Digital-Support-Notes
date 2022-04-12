@@ -220,6 +220,16 @@ module.exports = {
     ],
   ],
   plugins: [
+    [
+      'docusaurus-plugin-umami',
+      {
+      },
+    ],
+    [
+      'docusaurus-plugin-clarity',
+      {
+      },
+    ],
     require('./src/featureRequests/FeatureRequestsPlugin'),
     tailwindPlugin,
     webpackPlugin,
