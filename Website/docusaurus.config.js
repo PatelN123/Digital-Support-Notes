@@ -21,6 +21,10 @@ const pageOptions = {
 module.exports = {
   scripts: [
     {
+      async: true,
+      src: "https://cdn.splitbee.io/sb.js",
+    },
+    {
       src: "https://status.notes.nayanpatel.net/widget/script.js",
     },
   ],
@@ -35,10 +39,6 @@ module.exports = {
   projectName: 'Digital Support Services notes', // Usually your repo name.
   clientModules: [require.resolve('./src/css/tailwind.css')],
   themeConfig: {
-    umami: {
-      websiteid: "67a6f4d2-2b85-4678-8972-d5d43a6216ab",
-      src: "https://analytics.notes.nayanpatel.net/umami.js",
-    },
     clarity: {
       ID: "9hfzg8mbot",
     },
@@ -220,11 +220,6 @@ module.exports = {
     ],
   ],
   plugins: [
-    [
-      'docusaurus-plugin-umami',
-      {
-      },
-    ],
     [
       'docusaurus-plugin-clarity',
       {
