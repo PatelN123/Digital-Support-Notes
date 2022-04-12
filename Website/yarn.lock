@@ -5976,12 +5976,22 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+docusaurus-plugin-clarity@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-clarity/-/docusaurus-plugin-clarity-2.1.0.tgz#f9e30b51f15b0f973f4f7d7d66d94be33a4dc937"
+  integrity sha512-8BHjDC+69m3yQTqBHJ1xFhijHqbCjJJs19bEVySX8DpnGWlPBDbGiujEqEAyIba0sSjYaJNfg/4n61k1NOm0lw==
+
 docusaurus-plugin-sass@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.2.2.tgz#9b7f8c6fbe833677064ec05b09b98d90b50be324"
   integrity sha512-ZZBpj3PrhGpYE2kAnkZB9NRwy/CDi4rGun1oec6PYR8YvGzqxYGtXvLgHi6FFbu8/N483klk8udqyYMh6Ted+A==
   dependencies:
     sass-loader "^10.1.1"
+
+docusaurus-plugin-umami@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-umami/-/docusaurus-plugin-umami-2.0.0.tgz#c9918484423c6e5c342cbbb05b22448055b78560"
+  integrity sha512-SgkZZYuUMCZe0XeitTA2RPVJvb4fC3aiF3pHc1JxEoaeF9v5g34Yxr2YQb18eFhAMeVK4AjjCr62IwpnuOGyEg==
 
 dom-converter@^0.2.0:
   version "0.2.0"

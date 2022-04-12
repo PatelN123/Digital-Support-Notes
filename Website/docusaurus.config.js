@@ -35,6 +35,13 @@ module.exports = {
   projectName: 'Digital Support Services notes', // Usually your repo name.
   clientModules: [require.resolve('./src/css/tailwind.css')],
   themeConfig: {
+    umami: {
+      websiteid: "67a6f4d2-2b85-4678-8972-d5d43a6216ab",
+      src: "https://analytics.notes.nayanpatel.net/umami.js",
+    },
+    clarity: {
+      ID: "9hfzg8mbot",
+    },
     metadatas: [
       {
           name: 'og:image',
