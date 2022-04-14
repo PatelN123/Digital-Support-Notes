@@ -176,6 +176,13 @@ module.exports = {
           className: 'feature-req',
         },
         {
+          href: '#',
+          position: 'right',
+          label: "What's new?",
+          'data': 'data-canny-changelog',
+          'data-canny-changelog': 'true',
+        },
+        {
           href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
           position: 'right',
           className: 'header-github-link',
