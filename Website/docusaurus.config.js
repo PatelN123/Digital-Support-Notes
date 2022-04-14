@@ -178,7 +178,7 @@ module.exports = {
         {
           href: '#',
           position: 'right',
-          className: 'header-github-link',
+          label: "What's new?",
           'data': 'data-canny-changelog',
           'data-canny-changelog': 'true',
         },
