@@ -95,62 +95,77 @@ module.exports = {
             {
               label: 'Business Context',
               href: '/business/About-business',
+              activeBasePath: '/business-context',
             },
             {
               label: 'Data',
               href: '/data/About-data',
+              activeBasePath: '/data',
             },
             {
               label: 'Digital Environments',
               href: '/digital-environments/About-digital-environments',
+              activeBasePath: '/digital-environments',
             },
             {
               label: 'Planning',
               href: '/planning/About-planning',
+              activeBasePath: '/planning',
             },
             {
               label: 'Diversity and Inclusion',
               href: '/divertisty-and-inclusion/About-divertisty-and-inclusion',
+              activeBasePath: '/divertisty-and-inclusion',
             },
             {
               label: 'Legislation',
               href: '/legislation/About-legislation',
+              activeBasePath: '/legislation',
             },
             {
               label: 'Careers',
               href: '/careers/About-careers',
+              activeBasePath: '/careers',
             },
             {
               label: 'Communication',
               href: '/communication/About-communication',
+              activeBasePath: '/communication',
             },
             {
               label: 'Culture',
               href: '/culture/About-culture',
+              activeBasePath: '/culture',
             },
             {
               label: 'Digital Analysis',
               href: '/digital-analysis/About-digital-analysis',
+              activeBasePath: '/digital-analysis',
             },
             {
               label: 'Fault Analysis',
               href: '/fault-analysis/About-fault-analysis',
+              activeBasePath: '/fault-analysis',
             },
             {
               label: 'Learning',
               href: '/learning/About-learning',
+              activeBasePath: '/learning',
             },
             {
               label: 'Security',
               href: '/security/About-security',
+              activeBasePath: '/security',
             },
             {
               label: 'Testing',
               href: '/testing/About-testing',
+              activeBasePath: '/testing',
             },
             {
               label: 'Tools',
               href: '/tools/About-tools',
+              activeBasePath: '/tools',
             },
           ],
         },
@@ -162,6 +177,7 @@ module.exports = {
             {
               label: 'Backdrop Icons',
               to: '/backdropicons',
+              activeBasePath: '/backdropicons',
             },
             {
               label:  'Analytics',
