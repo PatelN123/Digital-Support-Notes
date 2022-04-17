@@ -9,7 +9,7 @@ const pageRef = require('./src/plugins/pageRef');
 
 const pageOptions = {
   sidebarCollapsible: false,
-  editUrl: 'https://github.com/pateln123/digital-support-notes/tree/main',
+  editUrl: 'https://github.com/PatelN123/Digital-Support-Notes/edit/main/Website/',
   showLastUpdateAuthor: true,
   showLastUpdateTime: true,
   beforeDefaultRemarkPlugins: [
@@ -65,7 +65,7 @@ module.exports = {
     announcementBar: {
       id: 'beta', // Any value that will identify this message.
       content:
-        "😲 We've reached over <strong>5.4K</strong> views for these notes over the last 90 days! 🙏",
+        "😲 We've reached over <strong>5.8K</strong> views for these notes over the last 90 days! 🙏",
       backgroundColor: '#fafbfc', // Defaults to `#fff`.
       textColor: '#091E42', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
