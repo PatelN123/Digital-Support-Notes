@@ -65,7 +65,7 @@ module.exports = {
     announcementBar: {
       id: 'beta', // Any value that will identify this message.
       content:
-        "😲 We've reached over <strong>5.9K</strong> views for these notes over the last 90 days! 🙏",
+        "😲 We've reached over <strong>6.1K</strong> views for these notes over the last 90 days! 🙏",
       backgroundColor: '#fafbfc', // Defaults to `#fff`.
       textColor: '#091E42', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
