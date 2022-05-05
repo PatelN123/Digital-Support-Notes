@@ -167,6 +167,11 @@ module.exports = {
               to: '/tools/About-tools',
               activeBasePath: '/tools',
             },
+            {
+              label: 'ESP',
+              to: '/esp/About-esp',
+              activeBasePath: '/esp',
+            },
           ],
         },
         {
@@ -407,6 +412,16 @@ module.exports = {
       path: 'docs/tools',
       routeBasePath: 'tools',
       id: 'tools',
+      sidebarPath: require.resolve('./sidebars/autogen.js'),
+      ...pageOptions,
+    },
+  ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      path: 'docs/esp',
+      routeBasePath: 'esp',
+      id: 'esp',
       sidebarPath: require.resolve('./sidebars/autogen.js'),
       ...pageOptions,
     },

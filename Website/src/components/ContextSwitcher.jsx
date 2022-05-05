@@ -21,6 +21,7 @@ import {
   FcSupport,
   FcAcceptDatabase,
   FcBusiness,
+  FcManager,
 } from 'react-icons/fc';
 /* import {
   BriefcaseIcon,
@@ -105,6 +106,11 @@ const CONTEXTS = [
     id: 'tools',
     name: 'Tools',
     icon: FcSupport,
+  },
+  {
+    id: 'esp',
+    name: 'ESP',
+    icon: FcManager,
   },
 ];
 
