@@ -178,10 +178,10 @@ export default function Nav() {
           Home
         </NavLink>
         <NavLink href="/learn" isActive={section === 'learn'}>
-          Learn
+          Year 1
         </NavLink>
         <NavLink href="/apis" isActive={section === 'apis'}>
-          API
+          Year 2
         </NavLink>
       </div>
       <div className="flex my-4 h-10 mx-0 w-full lg:hidden justify-end lg:max-w-sm">

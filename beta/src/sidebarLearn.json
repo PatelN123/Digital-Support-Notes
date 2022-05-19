@@ -1,5 +1,5 @@
 {
-  "title": "Learn React",
+  "title": "Year 1",
   "heading": true,
   "path": "/learn",
   "routes": [
@@ -8,7 +8,7 @@
       "path": "",
       "routes": [
         {
-          "title": "Installation",
+          "title": "Business",
           "path": "/learn/installation",
           "routes": [
             {
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "title": "Quick Start",
+          "title": "Data",
           "path": "/learn",
           "routes": [{
             "title": "Thinking in React",
@@ -77,7 +77,7 @@
           ]
         },
         {
-          "title": "Adding Interactivity",
+          "title": "Digital Environments",
           "path": "/learn/adding-interactivity",
           "tags": [],
           "routes": [
@@ -112,7 +112,7 @@
           ]
         },
         {
-          "title": "Managing State",
+          "title": "Planning",
           "path": "/learn/managing-state",
           "tags": [
             "intermediate"
@@ -149,7 +149,177 @@
           ]
         },
         {
-          "title": "Escape Hatches",
+          "title": "Divertisty and Inclusion",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Legislation",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Careers",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Communication",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Culture",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Digital Analysis",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Fault Analysis",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Learning",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Security",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Testing",
+          "path": "/learn/escape-hatches",
+          "tags": [
+            "advanced"
+          ],
+          "routes": [
+            {
+              "title": "Referencing Values with Refs",
+              "path": "/learn/referencing-values-with-refs"
+            },
+            {
+              "title": "Manipulating the DOM with Refs",
+              "path": "/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "title": "Tools",
           "path": "/learn/escape-hatches",
           "tags": [
             "advanced"
