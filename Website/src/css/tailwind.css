@@ -807,3 +807,7 @@ html[data-theme='dark'] .header-github-link:before {
 html[data-theme='dark'] .header-prod-link:before {
   background: no-repeat center/24px url("/social/phsizewhite.svg");
 }
+
+div[class^='backToTopButton_'] {
+  border-radius: 10px!important
+}
