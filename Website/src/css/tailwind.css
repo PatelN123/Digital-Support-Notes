@@ -808,6 +808,22 @@ html[data-theme='dark'] .header-prod-link:before {
   background: no-repeat center/24px url("/social/phsizewhite.svg");
 }
 
-div[class^='backToTopButton_'] {
-  border-radius: .375rem!important
+
+button[class^='backToTopButton_'] {
+    align-items: center;
+    background: var(--docusaurus-btt-background);
+    border-radius: .375rem!important;
+    bottom: 1.3rem;
+    box-shadow: 0 .125rem .3125rem 0 rgba(0,0,0,.3);
+    color: var(--docusaurus-btt-color);
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    opacity: 0;
+    position: fixed;
+    right: 1.3rem;
+    transform: scale(0);
+    transition: all var(--ifm-transition-fast) ease-in-out;
+    width: 3rem;
+    z-index: var(--ifm-z-index-fixed);
 }
