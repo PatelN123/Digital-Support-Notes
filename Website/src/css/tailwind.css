@@ -809,5 +809,5 @@ html[data-theme='dark'] .header-prod-link:before {
 }
 
 div[class^='backToTopButton_'] {
-  border-radius: 10px!important
+  border-radius: .375rem!important
 }
