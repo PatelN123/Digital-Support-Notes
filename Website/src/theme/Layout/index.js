@@ -16,6 +16,7 @@ import ThemeSwitcher from '@site/src/components/ThemeSwitcher';
 import LayoutHead from '@theme/LayoutHead';
 import useKeyboardNavigation from '@theme/hooks/useKeyboardNavigation';
 import { ThemeClassNames } from '@docusaurus/theme-common';
+import { Analytics } from '@vercel/analytics/react';
 import './styles.css';
 import { func } from 'prop-types';
 
@@ -69,6 +70,7 @@ function Layout(props) {
         {children}
       </div>
       {!noFooter && <Footer />}
+      <Analytics />
     </LayoutProviders>
   );
 }

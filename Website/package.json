@@ -27,6 +27,7 @@
     "@mdx-js/react": "^1.6.21",
     "@stoplight/elements": "^7.3.7",
     "@styled-icons/boxicons-logos": "^10.38.0",
+    "@vercel/analytics": "^1.5.0",
     "clsx": "^1.1.1",
     "docusaurus-plugin-clarity": "^2.1.0",
     "docusaurus-plugin-sass": "^0.2.2",
